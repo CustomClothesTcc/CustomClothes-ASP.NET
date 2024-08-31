@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CustomClothing</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/teste.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CustomClothing.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+        <header>
+            <div class="pesquisa">
+                <img src="~/lib/Imagens/CustomClothes.png" alt="Logo" />
+            <div class="autocomplete-container">
+                <input id="search-bar" type="search" class="form-control" placeholder="Pesquise a sua Roupa...">
+               <button id="search-button">
+                <i class="bi bi-search"></i>
+               </button>
+            </div>
+                <a asp-area="" asp-controller="Login" asp-action="Login">
+                    <i class="bi bi-person-circle"></i>
+                </a>
+                <a asp-area="" asp-controller="#" asp-action="#">
+                    <i class="bi bi-heart-fill"></i>
+                </a>
+                <a asp-area="" asp-controller="#" asp-action="#">
+                    <i class="bi bi-cart3"></i>
+                </a>
+            </div>
+            <nav>
+                <a asp-area="" asp-controller="Home" asp-action="Index">INÍCIO</a>
+                <a asp-area="" asp-controller="Home" asp-action="Sobrenos">SOBRE-NÓS</a>
+                <a asp-area="" asp-controller="#" asp-action="#">PROMOÇÕES</a>
+                <a asp-area="" asp-controller="Personalizar" asp-action="Personalizar">PERSONALIZAR</a>
+            </nav>
+        </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-custom footer text-center">
+        <div class="container p-4">
+            <p>Conheça Nossas Redes Sociais:</p>
+            <section class="mb-4 d-flex justify-content-center">
+                <a class="btn btn-floating social-btn whatsapp" href="https://api.whatsapp.com/send?phone=5511973072356&text=Ol%C3%A1.%20Seja%20bem%20vindo(a)%20ao%20contato%20da%20Custom%20Clothes.%20Aqui%20voc%C3%AA%20pode%20saber%20mais%20sobre%20nossos%20produtos!">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+                <a class="btn btn-floating social-btn instagram" href="https://www.instagram.com/custom_clothes10/">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a class="btn btn-floating social-btn linkedin" href="https://www.linkedin.com/in/custom-clothes-385171303">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </section>
+            <section class="mb-4">
+                <p>Custom Clothes, Loja de Roupas Personalizadas</p>
+            </section>
+            <section class="">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a class="text-white text-decoration-none" href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-decoration-none" href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-decoration-none" href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-decoration-none" href="#!">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a class="text-white text-decoration-none" href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-decoration-none" href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-decoration-none" href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-decoration-none" href="#!">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a class="text-white text-decoration-none" href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-decoration-none" href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-decoration-none" href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-decoration-none" href="#!">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a class="text-white text-decoration-none" href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-decoration-none" href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-decoration-none" href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a class="text-white text-decoration-none" href="#!">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright:
+            <a class="text-reset fw-bold text-decoration-none" href="https://mdbootstrap.com/">Custom Clothes, todos os direitos reservados.</a>
+        </div>
+    </footer>
+    <script src="~/js/site.js"></script>
+    <script src="~/js/sugestoes.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

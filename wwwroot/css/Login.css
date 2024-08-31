@@ -1,0 +1,117 @@
+﻿body {
+    margin-bottom: 60px;
+    background-color: #D9D9D9;
+}
+/* Reset  para a página se adaptar com cada tipo de navegador*/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/*Estilização do Container da tela de Login*/
+.Container {
+    display: flex;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+}
+/*O método before serve para colocar a cor roxa no entre com a sua conta de Redes Sociais*/
+.Container:before {
+   content: "";
+   position: absolute;
+   background-color: #1C003F;
+   width: 50%;
+   height: 100%;
+   border-top-left-radius: 15px;
+   border-bottom-left-radius:15px;
+}
+/*Estilização da Primeira Coluna da tela de Login*/
+.Login-Redes {
+    position: relative;
+    z-index:2;
+    text-align:center;
+    flex: 1 0 auto;
+}
+ /*Estilização dos icones das redes sociais*/
+.lista-redes {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    margin-left:89px;
+}
+
+/*Estilização da segunda coluna da tela de Login*/
+.segunda-coluna {
+    position: relative;
+    align-items:center;
+    text-align: center;
+    flex: 2 0 auto;
+}
+/*O título é o de Entre com a sua Conta de Redes Sociais*/
+.título {
+    margin-left: 115px;
+}
+/*Estilizando o título entre com o seu Email*/
+.título-2 {
+    color: #9F9F9F;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 115px;
+    margin-bottom: 15px;
+}
+
+/*Estilização do formulário de Login*/
+.Formulário{
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:center;
+   margin-left:110px;
+}
+
+/*Comportamento de Esqueceu a Senha quando for clicado*/
+.Senha {
+    text-decoration: none;
+    color: #9F9F9F;
+}
+
+.Senha:hover {
+   color: #979797;
+}
+
+/*Input são os campos para preencher o formulário de Login*/
+input {
+    height: 45px;
+    border-radius: 10px;
+    width: 320px;
+    background-color: #D9D9D9;
+    border: none;
+}
+/*Estilização do botão entrar  e comportamento do botão ao ser clicado*/
+.botão {
+    background-color: #1C003F;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 115px;
+    height: 5vh;
+    margin-top: 10px;
+    color: white;
+}
+.botão:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #1C003F;
+    border-radius: 10px;
+    width: 115px;
+    height: 5vh;
+    margin-top: 10px;
+    color: #1C003F;
+}
+

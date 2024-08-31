@@ -1,0 +1,187 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color:#fff;
+    /*padding-top: 1em;*/
+}
+
+header .pesquisa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:1vw;
+  padding: 0 1em;
+}
+
+div.pesquisa img {
+   width:150px;
+   height:100px;
+}
+
+div.pesquisa input {
+    padding: 1em;
+    width: 60vw;
+    height: 5vh;
+    border-radius: 3px;
+}
+
+div.pesquisa i {
+    font-size: clamp(0.7em, 3em, 2em);
+    color: #000;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 10em;
+    background-color: #1C003F;
+}
+
+nav a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+/* Footer Custom Styles */
+.footer-custom {
+    background-color: #1c003f;
+    color: #e0e0e0;
+    padding: 1em 0em;
+    font-size: 20px;
+}
+
+.footer-custom .social-btn {
+   color: #e0e0e0;
+   gap: 5vw;
+   border: 2px solid #e0e0e0;
+   border-radius: 50%;
+   width: clamp(3.9em, 4em, 5em);
+   height: clamp(2.6em, 4em, 5em);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 2.9rem;
+   transition: all 0.3s ease;
+ }
+
+.footer-custom .social-btn i {
+   font-size: 2.0rem;
+}
+
+.footer-custom .social-btn:hover {
+   color: #fff;
+   background-color: transparent;
+   transform: scale(1.1);
+}
+
+.footer-custom .social-btn.facebook:hover {
+   background-color: #3b5998;
+   border-color: #3b5998;
+}
+
+.footer-custom .social-btn.twitter:hover {
+   background-color: #1da1f2;
+   border-color: #1da1f2;
+}
+        
+
+.footer-custom .social-btn.whatsapp:hover {
+   background-color: #00ff90;
+   border-color: #00ff90;
+}
+
+.footer-custom .social-btn.instagram:hover {
+   background-color: #e1306c;
+   border-color: #e1306c;
+}
+
+.footer-custom .social-btn.linkedin:hover {
+   background-color: #0077b5;
+   border-color: #0077b5;
+}
+
+.footer-custom .social-btn.github:hover {
+  background-color: #333;
+  border-color: #333;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .footer-custom .social-btn {
+        margin: 0.25rem;
+    }
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .footer-custom .col-md-6 {
+        text-align: center;
+        margin-bottom: 1em;
+    }
+}
+
+
+/*Barra de Pesquisa*/
+.autocomplete-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/*input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #ccc;
+    height: 46px;
+}*/
+
+button {
+    /*padding: 10px;*/
+    border: none;
+    background-color: #9F9F9F;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+/*button:hover {
+  background-color: #9F9F9F;
+}*/
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #ccc;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #9f9f9f;
+    color: #fff;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.autocomplete-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+.autocomplete-item:hover {
+  background-color: #9F9F9F;
+   color: #fff;
+}
+
+.autocomplete-container i {
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+}

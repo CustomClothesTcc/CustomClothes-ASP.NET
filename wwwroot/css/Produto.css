@@ -1,0 +1,46 @@
+﻿/* Reset  para a página se adaptar com cada tipo de navegador*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Estilização do Container da tela de Produto*/
+.Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+/*Estilização da Classe Produtos*/
+.Produto {
+    background-color: #D9D9D9;
+    height: 36em;
+    width: 25em;
+    border-radius: 10px;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    /*padding-left:10px;*/
+}
+
+img {
+    padding-top: 1em;
+    height: 23em;
+    width: 22em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.botão {
+    /*padding-top: 10px;*/
+    background-color: #220F3A;
+    border-radius: 20px;
+}
+
+.Teste-1 {
+    margin-left: 20px;
+}
+
+.teste {
+    width: 50px;
+    text-align: center;
+}

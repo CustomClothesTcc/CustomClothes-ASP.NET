@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Custom Clothes"] = "Login";
+}
+<link rel="stylesheet" href="~/css/Cadastro.css" />
+
+<body>
+    <div class="container">
+        <div class="content first-content">
+
+            <div class="primeira-coluna">
+                <h2 class="title">Bem-vindo de volta!</h2>
+                <p class="descricao">Para se manter conectado conosco,</p>
+                <p class="descricao"> faça login com suas informações pessoais</p>
+              <a asp-area="" asp-controller="Login" asp-action="Login">Entrar</a>
+
+            </div>
+            <div class="segunda-coluna">
+                <h2 class="title-primeira-coluna">Crie sua conta</h2>
+                <div class="icones">
+                    <a href="https://www.facebook.com/"><img src="~/css/img/logo-do-facebook (1).png" /></a>
+                    <a href="https://accounts.google.com/"><img src="~/css/img/google.png" /></a>
+                    <a href="https://br.linkedin.com/"><img src="~/css/img/linkedin (2).png" /></a>
+                </div>
+
+                <form class="inputs">
+                    <input class="input-form" type="text" id="nome" placeholder="Nome" />
+                    <input class="input-form" type="email" id="email" placeholder="Email" />
+                    <input class="input-form" type="password" id="senha" placeholder="Crie sua senha" />
+                    <input class="input-form" type="password" id="confsenha" placeholder="Confirme sua senha" />
+                    <button class="btn" onclick=""> Inscrever-se </button>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+</body>

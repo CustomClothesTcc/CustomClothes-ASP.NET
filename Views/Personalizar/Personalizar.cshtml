@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Personalizar";
+}
+<!--Link do CSS para estilizar a página Personalizar Roupa-->
+<link rel="stylesheet" href="~/css/Personalizar.css" />
+<!--Título Principal-->
+<h1 class="text-center fs-1">Personalizar a sua aqui:</h1>
+<!--A div Container vai ser todo o contéudo da Tela de Personalizar-->
+<div class="Container">
+    <!--A Div Custom vai ser a roupa personalizada conforme o cliente pediu-->
+    <div class="Custom">
+        <!--Adicionando a Camiseta Personalizada para o usuário ver-->
+        <img class="rounded mx-auto d-block" src="~/lib/Imagens/Camiseta.jpg" />
+        <!--A Classe Roupa é aonde o usuário irá personalizar a descrição da roupa, tamanho da estampa e tamanho-->
+        <form>
+            <label for="text">Descrição da Roupa:</label>
+            <input class="descricao" type="text" id="descricao" required/>
+            <br />
+            <label for="text">Tamanho da Imagem:</label>
+            <input class="Roupa" type="text" id="Tamanho-1" required/>
+            <br />
+            <label for="text">Tamanho:</label>
+            <input class="Roupa" type="text" id="tamanho" required/>
+            <br/>
+            <label class="Total" for="text">Total:</label>
+            <input class="Roupa" type="text" id="Txtotal" disabled/>
+            <br/>
+            <!--O Botão Ver utiliza Classes CSS e Boostrap-->
+            <Button class="botão text-white btn d-grid gap-2 col-4 mx-auto" onclick="Ver()">Ver</Button>
+        </form>
+    </div>
+    <div class="Coluna">
+        <!---A Classe Picture terá as estampas que o usuário pedir--->
+        <label class="picture" for="picture__input" tabIndex="0">
+            <span class="picture__image"></span>
+            <input type="file" name="picture__input" id="picture__input">
+        </label>
+        <!--Label Descição é a descrição da estampa-->
+        <label for="text">Descrição:</label>
+        <input class="w-90" type="text" id="descricao-2" required />
+        <br />
+        <label class="labels">Tecido da Roupa:</label>
+        <label class="labels">Tamanho:</label>
+        <br />
+        <!--Opções de Tecido de Roupas para o Usuário escolher-->
+        <select>
+            <option class="text-center">Algodão</option>
+            <option class="text-center">Viscose</option>
+            <option class="text-center">Poliéster</option>
+            <option class="text-center">Seda</option>
+        </select>
+        <!--Opções de Tamanho de Roupas para o Usuário escolher-->
+        <select>
+            <option class="text-center">P</option>
+            <option class="text-center">M</option>
+            <option class="text-center">G</option>
+            <option class="text-center">GG</option>
+        </select>
+        <br/>
+        <br/>
+        <button class="botão-2 text-white text-center btn d-grid gap-2 col-4 mx-auto" onclick="Personalizar()">Personalizar</button>
+    </div>
+</div>
+<script src="~/js/personalizar.js"></script>
+    

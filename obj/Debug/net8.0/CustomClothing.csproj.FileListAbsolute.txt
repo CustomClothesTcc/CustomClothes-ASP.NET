@@ -1,0 +1,367 @@
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\appsettings.json
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.staticwebassets.runtime.json
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.exe
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.deps.json
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.runtimeconfig.json
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.AssemblyInfoInputs.cache
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.AssemblyInfo.cs
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.csproj.CoreCompileInputs.cache
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cache
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cs
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets\msbuild.CustomClothing.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets\msbuild.build.CustomClothing.props
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CustomClothing.props
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CustomClothing.props
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\scopedcss\bundle\CustomClothing.styles.css
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\scopedcss\projectbundle\CustomClothing.bundle.scp.css
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\refint\CustomClothing.dll
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.genruntimeconfig.cache
+C:\Users\Gih\Documents\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\ref\CustomClothing.dll
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\appsettings.json
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.staticwebassets.runtime.json
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.exe
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.deps.json
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.runtimeconfig.json
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.AssemblyInfoInputs.cache
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.AssemblyInfo.cs
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.csproj.CoreCompileInputs.cache
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cache
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cs
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets\msbuild.CustomClothing.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets\msbuild.build.CustomClothing.props
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CustomClothing.props
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CustomClothing.props
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\scopedcss\bundle\CustomClothing.styles.css
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\scopedcss\projectbundle\CustomClothing.bundle.scp.css
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\refint\CustomClothing.dll
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.genruntimeconfig.cache
+C:\Users\Gih\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\ref\CustomClothing.dll
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\appsettings.json
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.staticwebassets.runtime.json
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.exe
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.deps.json
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.runtimeconfig.json
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.dll
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\bin\Debug\net8.0\CustomClothing.pdb
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.AssemblyInfoInputs.cache
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.AssemblyInfo.cs
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.csproj.CoreCompileInputs.cache
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cache
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cs
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets\msbuild.CustomClothing.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets\msbuild.build.CustomClothing.props
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CustomClothing.props
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CustomClothing.props
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\scopedcss\bundle\CustomClothing.styles.css
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\scopedcss\projectbundle\CustomClothing.bundle.scp.css
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.dll
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\refint\CustomClothing.dll
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.pdb
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\CustomClothing.genruntimeconfig.cache
+C:\Users\2mod\OneDrive - Etec Centro Paula Souza\TCC\CustomClothing\CustomClothing\obj\Debug\net8.0\ref\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\bin\Debug\net8.0\appsettings.json
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\bin\Debug\net8.0\CustomClothing.staticwebassets.runtime.json
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\bin\Debug\net8.0\CustomClothing.exe
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\bin\Debug\net8.0\CustomClothing.deps.json
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\bin\Debug\net8.0\CustomClothing.runtimeconfig.json
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\bin\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\bin\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\CustomClothing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\CustomClothing.AssemblyInfoInputs.cache
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\CustomClothing.AssemblyInfo.cs
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\CustomClothing.csproj.CoreCompileInputs.cache
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\CustomClothing.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cache
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cs
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\CustomClothing.sourcelink.json
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\staticwebassets\msbuild.CustomClothing.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\staticwebassets\msbuild.build.CustomClothing.props
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CustomClothing.props
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CustomClothing.props
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\scopedcss\bundle\CustomClothing.styles.css
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\scopedcss\projectbundle\CustomClothing.bundle.scp.css
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\refint\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\CustomClothing.genruntimeconfig.cache
+C:\Users\Gih\Desktop\TCC\Custom-Clothes\miguel\obj\Debug\net8.0\ref\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\appsettings.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.staticwebassets.runtime.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.exe
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.deps.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.runtimeconfig.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.AssemblyInfoInputs.cache
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.AssemblyInfo.cs
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.csproj.CoreCompileInputs.cache
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cache
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cs
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.sourcelink.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.CustomClothing.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.build.CustomClothing.props
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CustomClothing.props
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CustomClothing.props
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\bundle\CustomClothing.styles.css
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\projectbundle\CustomClothing.bundle.scp.css
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\refint\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.genruntimeconfig.cache
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2smTCM\siteTCM\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\ref\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\appsettings.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.staticwebassets.runtime.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.exe
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.deps.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.runtimeconfig.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.AssemblyInfoInputs.cache
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.AssemblyInfo.cs
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.csproj.CoreCompileInputs.cache
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cache
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cs
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.sourcelink.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.CustomClothing.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.build.CustomClothing.props
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CustomClothing.props
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CustomClothing.props
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\bundle\CustomClothing.styles.css
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\projectbundle\CustomClothing.bundle.scp.css
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\refint\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.genruntimeconfig.cache
+C:\Users\Gih\Desktop\TCC-ETEC\TCC-ETEC\2 semestre\Sites\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\ref\CustomClothing.dll
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\appsettings.json
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.staticwebassets.runtime.json
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.exe
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.deps.json
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.runtimeconfig.json
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.AssemblyInfoInputs.cache
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.AssemblyInfo.cs
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.csproj.CoreCompileInputs.cache
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cache
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cs
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.sourcelink.json
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.CustomClothing.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.build.CustomClothing.props
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CustomClothing.props
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CustomClothing.props
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\bundle\CustomClothing.styles.css
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\projectbundle\CustomClothing.bundle.scp.css
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\refint\CustomClothing.dll
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.genruntimeconfig.cache
+C:\Users\Gih\Desktop\Teste\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\ref\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\appsettings.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.staticwebassets.runtime.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.exe
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.deps.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.runtimeconfig.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.AssemblyInfoInputs.cache
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.AssemblyInfo.cs
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.csproj.CoreCompileInputs.cache
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cache
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cs
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.sourcelink.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.CustomClothing.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.build.CustomClothing.props
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CustomClothing.props
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CustomClothing.props
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\bundle\CustomClothing.styles.css
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\projectbundle\CustomClothing.bundle.scp.css
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\refint\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.genruntimeconfig.cache
+C:\Users\Gih\Desktop\TCC-ETEC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\ref\CustomClothing.dll
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\appsettings.Development.json
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\appsettings.json
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.staticwebassets.runtime.json
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.exe
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.deps.json
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.runtimeconfig.json
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.dll
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.pdb
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.GeneratedMSBuildEditorConfig.editorconfig
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.AssemblyInfoInputs.cache
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.AssemblyInfo.cs
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.csproj.CoreCompileInputs.cache
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.MvcApplicationPartsAssemblyInfo.cache
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cache
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cs
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.sourcelink.json
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.build.json
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.development.json
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.CustomClothing.Microsoft.AspNetCore.StaticWebAssets.props
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.build.CustomClothing.props
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CustomClothing.props
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CustomClothing.props
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.pack.json
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\bundle\CustomClothing.styles.css
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\projectbundle\CustomClothing.bundle.scp.css
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.dll
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\refint\CustomClothing.dll
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.pdb
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.genruntimeconfig.cache
+F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\ref\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\appsettings.json
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.staticwebassets.runtime.json
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.exe
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.deps.json
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.runtimeconfig.json
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\bin\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.AssemblyInfoInputs.cache
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.AssemblyInfo.cs
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.csproj.CoreCompileInputs.cache
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cache
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cs
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.sourcelink.json
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.CustomClothing.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.build.CustomClothing.props
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CustomClothing.props
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CustomClothing.props
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\bundle\CustomClothing.styles.css
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\scopedcss\projectbundle\CustomClothing.bundle.scp.css
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\refint\CustomClothing.dll
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\CustomClothing.genruntimeconfig.cache
+C:\Users\Gih\Desktop\TCC\TCC_ETEC\Custom-Clothes (ASP.NET)\miguel\obj\Debug\net8.0\ref\CustomClothing.dll
+C:\Users\Gih\Desktop\CustomClothes\miguel\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gih\Desktop\CustomClothes\miguel\bin\Debug\net8.0\appsettings.json
+C:\Users\Gih\Desktop\CustomClothes\miguel\bin\Debug\net8.0\CustomClothing.staticwebassets.runtime.json
+C:\Users\Gih\Desktop\CustomClothes\miguel\bin\Debug\net8.0\CustomClothing.exe
+C:\Users\Gih\Desktop\CustomClothes\miguel\bin\Debug\net8.0\CustomClothing.deps.json
+C:\Users\Gih\Desktop\CustomClothes\miguel\bin\Debug\net8.0\CustomClothing.runtimeconfig.json
+C:\Users\Gih\Desktop\CustomClothes\miguel\bin\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Desktop\CustomClothes\miguel\bin\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\CustomClothing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\CustomClothing.AssemblyInfoInputs.cache
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\CustomClothing.AssemblyInfo.cs
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\CustomClothing.csproj.CoreCompileInputs.cache
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\CustomClothing.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cache
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cs
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\staticwebassets\msbuild.CustomClothing.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\staticwebassets\msbuild.build.CustomClothing.props
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CustomClothing.props
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CustomClothing.props
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\scopedcss\bundle\CustomClothing.styles.css
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\scopedcss\projectbundle\CustomClothing.bundle.scp.css
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\refint\CustomClothing.dll
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\CustomClothing.genruntimeconfig.cache
+C:\Users\Gih\Desktop\CustomClothes\miguel\obj\Debug\net8.0\ref\CustomClothing.dll
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\bin\Debug\net8.0\appsettings.json
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\bin\Debug\net8.0\CustomClothing.staticwebassets.runtime.json
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\bin\Debug\net8.0\CustomClothing.exe
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\bin\Debug\net8.0\CustomClothing.deps.json
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\bin\Debug\net8.0\CustomClothing.runtimeconfig.json
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\bin\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\bin\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\CustomClothing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\CustomClothing.AssemblyInfoInputs.cache
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\CustomClothing.AssemblyInfo.cs
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\CustomClothing.csproj.CoreCompileInputs.cache
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\CustomClothing.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cache
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cs
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\staticwebassets\msbuild.CustomClothing.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\staticwebassets\msbuild.build.CustomClothing.props
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CustomClothing.props
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CustomClothing.props
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\scopedcss\bundle\CustomClothing.styles.css
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\scopedcss\projectbundle\CustomClothing.bundle.scp.css
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\CustomClothing.dll
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\refint\CustomClothing.dll
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\CustomClothing.pdb
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\CustomClothing.genruntimeconfig.cache
+C:\Users\Gih\Desktop\CustomClothes\CustomClothes(ASP.NET)\obj\Debug\net8.0\ref\CustomClothing.dll

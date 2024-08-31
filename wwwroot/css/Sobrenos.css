@@ -1,0 +1,28 @@
+﻿/* Reset  para a página se adaptar com cada tipo de navegador*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-bottom:20px;
+}
+/*Estilização da Coluna da tela de Sobre-Nós*/
+.Coluna {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10vw;
+    margin-bottom: 30px;
+    margin-top: 50px
+}
+/*Ajustando a Imagem de Estamparia*/
+img {
+    height: 35em;
+    width: 40em;
+}
+/*Ajustando a margem do Container*/
+.Container {
+    margin-bottom: 30px;
+    margin-top: 50px;
+}

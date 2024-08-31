@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<!--Link do CSS para estilizar a página HTML-->
+<link rel="stylesheet" href="~/css/Login.css" />
+<!--div class Container vai ser todo a estrutura da Tela de Login-->
+<div class="Container">
+    <div class="Login-Redes">
+        <!--Login-Redes é a primeira coluna da tela de Login-->
+        <div class="primeira-coluna">
+            <!--Primeira-Coluna é o Contéudo da outra metade da tela de Login-->
+            <h3 class="título text-white">Entre com a sua conta</h3>
+            <!--Redes Sociais são os icones das Redes Sociais-->
+            <div class="Redes-Sociais">
+                <!--Lista-Redes são os ícones das Redes Sociais-->
+                <ul class="lista-redes">
+                    <li><a href="https://www.facebook.com/"><img src="/lib/Imagens/icons8-facebook-48.png" /></a></li>
+                    <li><a href="https://accounts.google.com"><img src="/lib/Imagens/icons8-google-logo-48.png" /></a></li>
+                    <li><a href="https://br.linkedin.com/"><img src="/lib/Imagens/icons8-linkedin-48.png" /></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--Segunda-Coluna é o Contéudo da outra metade da tela de Login-->
+    <div class="segunda-coluna">
+        <h2 class="título-2">Ou use o seu email para entrar</h2>
+        <!--Classe Formulário para estilizar o formulário-->
+        <form method="post" action="Index" class="Formulário">
+            <input type="email" name="Email" placeholder="Email" required />
+            <br />
+            <input type="password" name="Senha" placeholder="Senha" required />
+            <br />
+            <a class="Senha" asp-area="" asp-controller="Home" asp-action="Index">Esqueceu a senha?</a>
+            <br />
+            <input type="submit" class="botão" asp-area="" asp-controller="Home" asp-action="Index" value="Entrar" />
+        </form>
+    </div>
+</div>
