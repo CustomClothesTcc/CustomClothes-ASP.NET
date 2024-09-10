@@ -140,3 +140,18 @@ select {
     margin-top: 10px;
     width: 22em;
 }
+
+/*Responsividade tela personalizar*/
+@media (max-width: 844px)
+{
+    #Container{
+        justify-content: center;
+        align-items: center;
+        width: 100%
+    }
+
+    .Coluna{
+        margin-top: 520px;
+        margin-left: -320px
+    }
+}

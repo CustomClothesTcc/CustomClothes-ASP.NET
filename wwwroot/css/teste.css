@@ -43,16 +43,28 @@ div.pesquisa i {
 header nav {
     display: flex;
     justify-content: space-between;
-    padding: 1em 25em;
+    padding: 1.5em 21em;
     background-color: #1C003F;
+ 
 }
 
 nav a {
-    color: #fff;
+   
+    color: white;
     font-weight: 600;
     font-size: 1em;
     text-decoration: none;
+    
 }
+
+a:hover{
+   font-size:1.1em;
+   transition:0.4s;
+   color:white;
+   
+}
+
+
 
 /* Footer Custom Styles */
 .footer-custom {
