@@ -427,3 +427,34 @@ F:\3A-MODULAR\Lucas e Suzana\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\refint\
 F:\3A-MODULAR\Lucas e Suzana\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\CustomClothing.pdb
 F:\3A-MODULAR\Lucas e Suzana\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\CustomClothing.genruntimeconfig.cache
 F:\3A-MODULAR\Lucas e Suzana\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\ref\CustomClothing.dll
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\bin\Debug\net8.0\appsettings.json
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\bin\Debug\net8.0\CustomClothing.staticwebassets.runtime.json
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\bin\Debug\net8.0\CustomClothing.exe
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\bin\Debug\net8.0\CustomClothing.deps.json
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\bin\Debug\net8.0\CustomClothing.runtimeconfig.json
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\bin\Debug\net8.0\CustomClothing.dll
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\bin\Debug\net8.0\CustomClothing.pdb
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\CustomClothing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\CustomClothing.AssemblyInfoInputs.cache
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\CustomClothing.AssemblyInfo.cs
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\CustomClothing.csproj.CoreCompileInputs.cache
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\CustomClothing.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cache
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\CustomClothing.RazorAssemblyInfo.cs
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\CustomClothing.sourcelink.json
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\staticwebassets\msbuild.CustomClothing.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\staticwebassets\msbuild.build.CustomClothing.props
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CustomClothing.props
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CustomClothing.props
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\scopedcss\bundle\CustomClothing.styles.css
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\scopedcss\projectbundle\CustomClothing.bundle.scp.css
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\CustomClothing.dll
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\refint\CustomClothing.dll
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\CustomClothing.pdb
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\CustomClothing.genruntimeconfig.cache
+C:\Users\CPUCASA\Desktop\TCC\CustomClothes-ASP.NET-\obj\Debug\net8.0\ref\CustomClothing.dll
