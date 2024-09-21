@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\CPUCASA\\Desktop\\TCC\\CustomClothes-ASP.NET-\\wwwroot\\js\\carousel.js",
+      "PackagePath": "staticwebassets\\js\\carousel.js"
+    },
+    {
       "Id": "C:\\Users\\CPUCASA\\Desktop\\TCC\\CustomClothes-ASP.NET-\\wwwroot\\js\\personalizar.js",
       "PackagePath": "staticwebassets\\js\\personalizar.js"
     },
@@ -107,6 +111,18 @@
     {
       "Id": "C:\\Users\\CPUCASA\\Desktop\\TCC\\CustomClothes-ASP.NET-\\wwwroot\\lib\\Imagens\\icons8-linkedin-48.png",
       "PackagePath": "staticwebassets\\lib\\Imagens\\icons8-linkedin-48.png"
+    },
+    {
+      "Id": "C:\\Users\\CPUCASA\\Desktop\\TCC\\CustomClothes-ASP.NET-\\wwwroot\\lib\\Imagens\\imagem1.jpeg",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\imagem1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CPUCASA\\Desktop\\TCC\\CustomClothes-ASP.NET-\\wwwroot\\lib\\Imagens\\imagem2.jpeg",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\imagem2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CPUCASA\\Desktop\\TCC\\CustomClothes-ASP.NET-\\wwwroot\\lib\\Imagens\\imagem3.jpeg",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\imagem3.jpeg"
     },
     {
       "Id": "C:\\Users\\CPUCASA\\Desktop\\TCC\\CustomClothes-ASP.NET-\\wwwroot\\lib\\Imagens\\logoCC.jpeg",
