@@ -5,10 +5,15 @@
 }
 
 img{
-    height:35em;
+    height:78vh;
+    width: 95vw;
 }
 
-.teste , .carousel slide{
-   margin-bottom: 100vw;
+.Container {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-top: 5vh;
+    margin-bottom: 120vh;
 }
 

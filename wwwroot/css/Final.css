@@ -1,0 +1,21 @@
+﻿.Container {
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+}
+
+h1, h3 {
+    color: #220F3A;
+}
+
+div.Container i {
+    font-size: clamp(0.10em, 10em, 10em);
+    color: green;
+}
+
+.botao {
+    background-color: #220F3A;
+    border-radius: 20px;
+    width: 15vw;
+    height: 4vh;
+    border: none;
+}

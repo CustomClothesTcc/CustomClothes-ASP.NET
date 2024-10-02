@@ -23,6 +23,16 @@ namespace CustomClothing.Controllers
             return View();
         }
 
+        public IActionResult Finalizada()
+        {
+            return View();
+        }
+
+        public IActionResult Problema()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
