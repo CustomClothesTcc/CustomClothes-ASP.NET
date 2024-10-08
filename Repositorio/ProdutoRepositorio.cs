@@ -1,6 +1,8 @@
 ﻿using CustomClothing.Models;
 using CustomClothing.Repositorio.Contract;
 using MySql.Data.MySqlClient;
+using System.Data;
+using System.Runtime.ConstrainedExecution;
 
 namespace CustomClothing.Repositorio
 {
@@ -20,7 +22,7 @@ namespace CustomClothing.Repositorio
 
         public void Cadastrar(Produto produto)
         {
-            using(var conexao = new MySqlConnection(_conexaoMySQL))
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
                 MySqlCommand cmd = new MySqlCommand("insert into tbProduto values(default,@ImagemProduto, @Descricao, @Categoria, @Cor, @Estampa, @Quantidade, @Tamanho, @Valor)", conexao);
@@ -28,7 +30,7 @@ namespace CustomClothing.Repositorio
                 cmd.Parameters.Add("@Descricao", MySqlDbType.VarChar).Value = produto.Descricao;
                 cmd.Parameters.Add("@Categoria", MySqlDbType.VarChar).Value = produto.Categoria;
                 cmd.Parameters.Add("@Cor", MySqlDbType.VarChar).Value = produto.Cor;
-                cmd.Parameters.Add("@Estampa", MySqlDbType.VarChar).Value = produto.Estampa; 
+                cmd.Parameters.Add("@Estampa", MySqlDbType.VarChar).Value = produto.Estampa;
                 cmd.Parameters.Add("@Quantidade", MySqlDbType.VarChar).Value = produto.Quantidade;
                 cmd.Parameters.Add("@Tamanho", MySqlDbType.VarChar).Value = produto.Tamanho;
                 cmd.Parameters.Add("@Valor", MySqlDbType.VarChar).Value = produto.Valor;
@@ -44,8 +46,8 @@ namespace CustomClothing.Repositorio
 
         public Produto ObterProdutos(int Id)
         {
-          using(var conexao = new MySqlConnection(_conexaoMySQL))
-          {
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
+            {
                 conexao.Open();
                 MySqlCommand cmd = new MySqlCommand("select * from tbProduto where CodProduto = @CodProduto", conexao);
                 cmd.Parameters.Add("@CodProduto", MySqlDbType.VarChar).Value = Id;
@@ -54,7 +56,7 @@ namespace CustomClothing.Repositorio
 
                 Produto produto = new Produto();
                 dr = cmd.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
-                while (dr.Read()) 
+                while (dr.Read())
                 {
                     produto.CodProduto = Convert.ToInt32(dr["CodProduto"]);
                     produto.ImagemProduto = (String)(dr["ImagemProduto"]);
@@ -66,12 +68,38 @@ namespace CustomClothing.Repositorio
                     produto.Valor = Convert.ToDecimal(dr["Valor"]);
                 }
                 return produto;
-          }
+            }
         }
 
         public IEnumerable<Produto> ObterTodosProdutos()
         {
-            throw new NotImplementedException();
+            List<Produto> ProdutoList = new List<Produto>();
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
+            {
+                conexao.Open();
+                MySqlCommand cmd = new MySqlCommand("select * from tbProduto", conexao);
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+
+                da.Fill(dt);
+                conexao.Close();
+                foreach (DataRow dr in dt.Rows)
+                {
+                    ProdutoList.Add(
+                        new Produto
+                        {
+                            CodProduto = Convert.ToInt32(dr["CodProduto"]),
+                            ImagemProduto = (String)(dr["ImagemProduto"]),
+                            Descricao = (String)(dr["Descricao"]),
+                            Cor = (String)(dr["Cor"]),
+                            Estampa = (String)(dr["Estampa"]),
+                            Quantidade = Convert.ToInt32(dr["Quantidade"]),
+                            Tamanho = (String)(dr["Tamanho"]),
+                            Valor = Convert.ToDecimal(dr["Valor"]),
+                        });
+                }
+                return ProdutoList;
+            }
         }
     }
 }
