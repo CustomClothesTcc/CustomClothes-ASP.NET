@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gih\\Desktop\\TCC\\CustomClothes-ASP.NET-\\CustomClothing.csproj": {}
+    "C:\\Users\\CPUCASA\\Documents\\DSTCC\\CustomClothes-ASP.NET-\\CustomClothing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gih\\Desktop\\TCC\\CustomClothes-ASP.NET-\\CustomClothing.csproj": {
+    "C:\\Users\\CPUCASA\\Documents\\DSTCC\\CustomClothes-ASP.NET-\\CustomClothing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gih\\Desktop\\TCC\\CustomClothes-ASP.NET-\\CustomClothing.csproj",
+        "projectUniqueName": "C:\\Users\\CPUCASA\\Documents\\DSTCC\\CustomClothes-ASP.NET-\\CustomClothing.csproj",
         "projectName": "CustomClothing",
-        "projectPath": "C:\\Users\\Gih\\Desktop\\TCC\\CustomClothes-ASP.NET-\\CustomClothing.csproj",
-        "packagesPath": "C:\\Users\\Gih\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gih\\Desktop\\TCC\\CustomClothes-ASP.NET-\\obj\\",
+        "projectPath": "C:\\Users\\CPUCASA\\Documents\\DSTCC\\CustomClothes-ASP.NET-\\CustomClothing.csproj",
+        "packagesPath": "C:\\Users\\CPUCASA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CPUCASA\\Documents\\DSTCC\\CustomClothes-ASP.NET-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CPUCASA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

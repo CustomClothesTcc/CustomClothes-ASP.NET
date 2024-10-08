@@ -7,12 +7,15 @@
 header {
     width: 100%;
     background-color:#fff;
+
     /*padding-top: 1em;*/
 }
-#search-button{
-    background-color: white;
-    margin-right:30px;
-    border: solid black;
+#search-button {
+    display: flex;
+    background-color: #d9d9d9;
+    margin-right: 30px;
+    border-radius: 0px 9px 9px 0px;
+    height: 46px
 }
 
 header .pesquisa {
@@ -32,7 +35,9 @@ div.pesquisa input {
     padding: 1em;
     width: 60vw;
     height: 5vh;
-    border-radius: 3px;
+    border-radius: 9px 0px 0px 9px;
+    border: none;
+    background-color: #D9D9D9
 }
 
 div.pesquisa i {
@@ -57,11 +62,9 @@ nav a {
     
 }
 
-a:hover{
-   font-size:1.1em;
-   transition:0.4s;
-   color:white;
-   
+a:hover {
+    color: white;
+    text-shadow: 0.1em 0.1em 0.6em white;
 }
 
 

@@ -1,12 +1,105 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gih\\Desktop\\TCC\\CustomClothes-ASP.NET-\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\CPUCASA\\Documents\\DSTCC\\CustomClothes-ASP.NET-\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\cpucasa\\documents\\dstcc\\customclothes-asp.net-\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\cpucasa\\documents\\dstcc\\customclothes-asp.net-\\wwwroot\\css\\teste.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\css\\teste.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\cpucasa\\documents\\dstcc\\customclothes-asp.net-\\wwwroot\\js\\carousel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\js\\carousel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\cpucasa\\documents\\dstcc\\customclothes-asp.net-\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\cpucasa\\documents\\dstcc\\customclothes-asp.net-\\views\\home\\finalizada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\home\\finalizada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "teste.css",
+              "DocumentMoniker": "C:\\Users\\CPUCASA\\Documents\\DSTCC\\CustomClothes-ASP.NET-\\wwwroot\\css\\teste.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\teste.css",
+              "ToolTip": "C:\\Users\\CPUCASA\\Documents\\DSTCC\\CustomClothes-ASP.NET-\\wwwroot\\css\\teste.css",
+              "RelativeToolTip": "wwwroot\\css\\teste.css",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-03T01:31:51.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "carousel.js",
+              "DocumentMoniker": "C:\\Users\\CPUCASA\\Documents\\DSTCC\\CustomClothes-ASP.NET-\\wwwroot\\js\\carousel.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\carousel.js",
+              "ToolTip": "C:\\Users\\CPUCASA\\Documents\\DSTCC\\CustomClothes-ASP.NET-\\wwwroot\\js\\carousel.js",
+              "RelativeToolTip": "wwwroot\\js\\carousel.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-03T01:31:20.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.css",
+              "DocumentMoniker": "C:\\Users\\CPUCASA\\Documents\\DSTCC\\CustomClothes-ASP.NET-\\wwwroot\\css\\Home.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Home.css",
+              "ToolTip": "C:\\Users\\CPUCASA\\Documents\\DSTCC\\CustomClothes-ASP.NET-\\wwwroot\\css\\Home.css",
+              "RelativeToolTip": "wwwroot\\css\\Home.css",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-03T01:27:49.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CPUCASA\\Documents\\DSTCC\\CustomClothes-ASP.NET-\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CPUCASA\\Documents\\DSTCC\\CustomClothes-ASP.NET-\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAD0AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T00:53:42.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Finalizada.cshtml",
+              "DocumentMoniker": "C:\\Users\\CPUCASA\\Documents\\DSTCC\\CustomClothes-ASP.NET-\\Views\\Home\\Finalizada.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Finalizada.cshtml",
+              "ToolTip": "C:\\Users\\CPUCASA\\Documents\\DSTCC\\CustomClothes-ASP.NET-\\Views\\Home\\Finalizada.cshtml",
+              "RelativeToolTip": "Views\\Home\\Finalizada.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T00:51:46.412Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
