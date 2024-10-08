@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gih\\Desktop\\TCC\\CustomClothes-ASP.NET-\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET-\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\gih\\onedrive\\desktop\\tcc\\customclothes-asp.net-\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET-\\Repositorio\\ProdutoRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\ProdutoRepositorio.cs",
+              "ToolTip": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET-\\Repositorio\\ProdutoRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\ProdutoRepositorio.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwv0MAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T13:10:49.635Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
