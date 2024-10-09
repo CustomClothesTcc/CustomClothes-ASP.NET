@@ -44,25 +44,7 @@ namespace CustomClothing.Repositorio
 
         public Pedido ObterPedidos(int Id)
         {
-            using (var conexao = new MySqlConnection(_conexaoMySQL))
-            {
-                conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("select * from tbPedido where IdPedido = @IdPedido", conexao);
-                cmd.Parameters.Add("@IdPedido", MySqlDbType.VarChar).Value = Id;
-                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
-                MySqlDataReader dr;
-
-                Pedido pedido = new Pedido();
-                dr = cmd.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
-                while (dr.Read())
-                {
-                    pedido.IdPedido = Convert.ToInt32(dr["IdPedido"]);
-                    pedido.DataPedido = Convert.ToDateTime(dr["DataPedido"]);
-                    pedido.CodCliente = Convert.ToInt32(dr["CodCli"]);
-                    pedido.Status = (string)(dr["Status"]);
-                }
-                return pedido;
-            }
+            throw new NotImplementedException();
         }
 
         public IEnumerable<Pedido> ObterTodosPedidos()

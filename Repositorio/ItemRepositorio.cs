@@ -35,12 +35,12 @@ namespace CustomClothing.Repositorio
             throw new NotImplementedException();
         }
 
-        public Item ObterProdutos(int Id)
+        public Item ObterItens(int Id)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Item> ObterTodosPedidos()
+        public IEnumerable<Item> ObterTodosItens()
         {
             throw new NotImplementedException();
         }

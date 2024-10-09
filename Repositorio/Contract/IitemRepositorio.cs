@@ -6,10 +6,10 @@ namespace CustomClothing.Repositorio.Contract
     {
 
         //CRUD do nosso Sistema
-        IEnumerable<Item> ObterTodosPedidos();
+        IEnumerable<Item> ObterTodosItens();
         void Cadastrar(Item item);
         void Atualizar(Item item);
-        Item ObterProdutos(int Id);
+        Item ObterItens(int Id);
         void Excluir(int Id);
     }
 }
