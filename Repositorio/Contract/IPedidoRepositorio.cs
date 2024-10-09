@@ -8,7 +8,7 @@ namespace CustomClothing.Repositorio.Contract
         IEnumerable<Pedido> ObterTodosPedidos();
         void Cadastrar(Pedido pedido);
         void Atualizar(Pedido pedido);
-        Pedido ObterProdutos(int Id);
+        Pedido ObterPedidos(int Id);
         void Excluir(int Id);
     }
 }

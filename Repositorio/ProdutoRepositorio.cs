@@ -59,12 +59,12 @@ namespace CustomClothing.Repositorio
                 while (dr.Read())
                 {
                     produto.CodProduto = Convert.ToInt32(dr["CodProduto"]);
-                    produto.ImagemProduto = (String)(dr["ImagemProduto"]);
-                    produto.Descricao = (String)(dr["Descricao"]);
-                    produto.Cor = (String)(dr["Cor"]);
-                    produto.Estampa = (String)(dr["Estampa"]);
+                    produto.ImagemProduto = (string)(dr["ImagemProduto"]);
+                    produto.Descricao = (string)(dr["Descricao"]);
+                    produto.Cor = (string)(dr["Cor"]);
+                    produto.Estampa = (string)(dr["Estampa"]);
                     produto.Quantidade = Convert.ToInt32(dr["Quantidade"]);
-                    produto.Tamanho = (String)(dr["Tamanho"]);
+                    produto.Tamanho = (string)(dr["Tamanho"]);
                     produto.Valor = Convert.ToDecimal(dr["Valor"]);
                 }
                 return produto;
@@ -89,12 +89,12 @@ namespace CustomClothing.Repositorio
                         new Produto
                         {
                             CodProduto = Convert.ToInt32(dr["CodProduto"]),
-                            ImagemProduto = (String)(dr["ImagemProduto"]),
-                            Descricao = (String)(dr["Descricao"]),
-                            Cor = (String)(dr["Cor"]),
-                            Estampa = (String)(dr["Estampa"]),
+                            ImagemProduto = (string)(dr["ImagemProduto"]),
+                            Descricao = (string)(dr["Descricao"]),
+                            Cor = (string)(dr["Cor"]),
+                            Estampa = (string)(dr["Estampa"]),
                             Quantidade = Convert.ToInt32(dr["Quantidade"]),
-                            Tamanho = (String)(dr["Tamanho"]),
+                            Tamanho = (string)(dr["Tamanho"]),
                             Valor = Convert.ToDecimal(dr["Valor"]),
                         });
                 }
