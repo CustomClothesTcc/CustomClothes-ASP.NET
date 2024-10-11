@@ -1,17 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET-\\",
+  "WorkspaceRootPath": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\gih\\onedrive\\desktop\\tcc\\customclothes-asp.net-\\carrinhocompra\\cookiescarrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|f:\\3a-modular\\miguel_e_kaue\\dtcc\\tcc-miguel\\customclothes-asp.net-\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|f:\\3a-modular\\miguel_e_kaue\\dtcc\\tcc-miguel\\customclothes-asp.net-\\wwwroot\\js\\carousel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\js\\carousel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|f:\\3a-modular\\miguel_e_kaue\\dtcc\\tcc-miguel\\customclothes-asp.net-\\repositorio\\pedidorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:repositorio\\pedidorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|f:\\3a-modular\\miguel_e_kaue\\dtcc\\tcc-miguel\\customclothes-asp.net-\\carrinhocompra\\cookiescarrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:carrinhocompra\\cookiescarrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\gih\\onedrive\\desktop\\tcc\\customclothes-asp.net-\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|f:\\3a-modular\\miguel_e_kaue\\dtcc\\tcc-miguel\\customclothes-asp.net-\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\gih\\onedrive\\desktop\\tcc\\customclothes-asp.net-\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|f:\\3a-modular\\miguel_e_kaue\\dtcc\\tcc-miguel\\customclothes-asp.net-\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,46 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET-\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET-\\Models\\Produto.cs",
-              "RelativeToolTip": "Models\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T13:29:18.496Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T17:11:45.53Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "carousel.js",
+              "DocumentMoniker": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\wwwroot\\js\\carousel.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\carousel.js",
+              "ToolTip": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\wwwroot\\js\\carousel.js",
+              "RelativeToolTip": "wwwroot\\js\\carousel.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-09T17:09:06.397Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET-\\Models\\Item.cs",
-              "RelativeDocumentMoniker": "Models\\Item.cs",
-              "ToolTip": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET-\\Models\\Item.cs",
-              "RelativeToolTip": "Models\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PedidoRepositorio.cs",
+              "DocumentMoniker": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\Repositorio\\PedidoRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\PedidoRepositorio.cs",
+              "ToolTip": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\Repositorio\\PedidoRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\PedidoRepositorio.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T13:28:31.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T16:49:43.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "Models\\Produto.cs",
+              "ToolTip": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\Models\\Produto.cs",
+              "RelativeToolTip": "Models\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:29:18.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Item.cs",
+              "DocumentMoniker": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Models\\Item.cs",
+              "ToolTip": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\Models\\Item.cs",
+              "RelativeToolTip": "Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:28:31.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CookiesCarrinhoCompra.cs",
-              "DocumentMoniker": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET-\\CarrinhoCompra\\CookiesCarrinhoCompra.cs",
+              "DocumentMoniker": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\CarrinhoCompra\\CookiesCarrinhoCompra.cs",
               "RelativeDocumentMoniker": "CarrinhoCompra\\CookiesCarrinhoCompra.cs",
-              "ToolTip": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET-\\CarrinhoCompra\\CookiesCarrinhoCompra.cs",
+              "ToolTip": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\CarrinhoCompra\\CookiesCarrinhoCompra.cs",
               "RelativeToolTip": "CarrinhoCompra\\CookiesCarrinhoCompra.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T13:22:50.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T13:22:50.449Z"
             }
           ]
         }
