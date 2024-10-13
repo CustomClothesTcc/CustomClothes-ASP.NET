@@ -2,13 +2,14 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+   
 }
 
 .Container {
     display: flex;
     flex-direction:row;
     justify-content:center;
-    margin-bottom: 4vh;
+    margin-bottom: 7vh;
   
 }
 
@@ -17,10 +18,19 @@ img{
     width: 99vw;
 }
 
+h1 {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+
+}
 .flex-Container{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 75px
+    margin-bottom: 75px;
+    margin-left: 32vh;
+    margin-right: 32vh;
+
 
 }
 
@@ -28,34 +38,35 @@ img{
     width: 15vh;
     height: 15vh;
     border-radius: 30%;
-    justify-content: center
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+   color: red
 }
 
 label {
-    display: flex;
-    justify-content: center;
-    font-size: 4vh;
+        display: flex;
+        justify-content: center;
+        font-size: 4vh;
 }
 
 .Container-roxa {
     display: flex;
-    justify-content:center;
-    flex-direction:row-reverse;
-    margin-bottom: 4vh;
-    background-color: #1c003f;
     align-items: center;
-    width:80vw;
-}
-
-
-.roxo {
-    height: 70vh;
-    width: 99vw;
-}
-.img-roxo {
-    width: 15vw;
-    height: 30vh;
     justify-content: center;
-    display:flex;
-   align-items: flex-end;
+    width: 100%;
+    height: 65vh;
+    background-color: #1c003f;
+    gap: 70px
 }
+
+.Container-roxa img{
+    width: 100%;
+   height:35vh;
+}
+
