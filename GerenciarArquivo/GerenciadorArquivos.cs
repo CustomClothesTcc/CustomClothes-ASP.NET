@@ -1,7 +1,12 @@
-﻿namespace CustomClothing.GerenciarArquivo
+﻿/*
+
+namespace CustomClothing.GerenciarArquivo
+
 {
+     
     public class GerenciadorArquivos
     {
+       
         public static string CadastrarImagemProduto(IFormFile file)
         {
             var NomeArquivo = Path.GetFileName(file.FileName);
@@ -22,4 +27,7 @@
             return Path.Combine("/Img", NomeArquivo).Replace("\\", "/");
         }
     }
+      
 }
+
+   */

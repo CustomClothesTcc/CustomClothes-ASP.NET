@@ -46,7 +46,7 @@ namespace CustomClothing.CarrinhoCompra
                 }
                 else
                 {
-                    ItemLocalizado.Quantidade = ItemLocalizado.Quantidade + 1;
+                   // ItemLocalizado.Quantidade = ItemLocalizado.Quantidade + 1;
                 }
             }
             else
@@ -64,7 +64,7 @@ namespace CustomClothing.CarrinhoCompra
 
             if (ItemLocalizado != null)
             {
-                ItemLocalizado.Quantidade = ItemLocalizado.Quantidade + 1;
+                //ItemLocalizado.Quantidade = ItemLocalizado.Quantidade + 1;
                 Salvar(Lista);
             }
         }

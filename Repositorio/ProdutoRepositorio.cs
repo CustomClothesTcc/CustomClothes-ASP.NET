@@ -25,12 +25,12 @@ namespace CustomClothing.Repositorio
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("insert into tbProduto values(default, @Descricao, @Categoria, @Cor, @Estampa, @Quantidade, @Tamanho, @Valor)", conexao);
+                MySqlCommand cmd = new MySqlCommand("insert into tbProduto values(default, @Descricao,@Estampa, @Tamanho, @Valor)", conexao);
                 cmd.Parameters.Add("@Descricao", MySqlDbType.VarChar).Value = produto.Descricao;
-                cmd.Parameters.Add("@Categoria", MySqlDbType.VarChar).Value = produto.Categoria;
-                cmd.Parameters.Add("@Cor", MySqlDbType.VarChar).Value = produto.Cor;
+               // cmd.Parameters.Add("@Categoria", MySqlDbType.VarChar).Value = produto.Categoria;
+            //   cmd.Parameters.Add("@Cor", MySqlDbType.VarChar).Value = produto.Cor;
                 cmd.Parameters.Add("@Estampa", MySqlDbType.VarChar).Value = produto.Estampa;
-                cmd.Parameters.Add("@Quantidade", MySqlDbType.VarChar).Value = produto.Quantidade;
+               // cmd.Parameters.Add("@Quantidade", MySqlDbType.VarChar).Value = produto.Quantidade;
                 cmd.Parameters.Add("@Tamanho", MySqlDbType.VarChar).Value = produto.Tamanho;
                 cmd.Parameters.Add("@Valor", MySqlDbType.VarChar).Value = produto.Valor;
                 cmd.ExecuteNonQuery();
@@ -59,9 +59,9 @@ namespace CustomClothing.Repositorio
                 {
                     produto.CodProduto = Convert.ToInt32(dr["CodProduto"]);
                     produto.Descricao = (string)(dr["Descricao"]);
-                    produto.Cor = (string)(dr["Cor"]);
+                   // produto.Cor = (string)(dr["Cor"]);
                     produto.Estampa = (string)(dr["Estampa"]);
-                    produto.Quantidade = Convert.ToInt32(dr["Quantidade"]);
+                   // produto.Quantidade = Convert.ToInt32(dr["Quantidade"]);
                     produto.Tamanho = (string)(dr["Tamanho"]);
                     produto.Valor = Convert.ToDecimal(dr["Valor"]);
                 }
@@ -88,9 +88,9 @@ namespace CustomClothing.Repositorio
                         {
                             CodProduto = Convert.ToInt32(dr["CodProduto"]),
                             Descricao = (string)(dr["Descricao"]),
-                            Cor = (string)(dr["Cor"]),
+                           // Cor = (string)(dr["Cor"]),
                             Estampa = (string)(dr["Estampa"]),
-                            Quantidade = Convert.ToInt32(dr["Quantidade"]),
+                           // Quantidade = Convert.ToInt32(dr["Quantidade"]),
                             Tamanho = (string)(dr["Tamanho"]),
                             Valor = Convert.ToDecimal(dr["Valor"]),
                         });

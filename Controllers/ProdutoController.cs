@@ -1,4 +1,4 @@
-﻿using CustomClothing.GerenciarArquivo;
+﻿//using CustomClothing.GerenciarArquivo;
 using CustomClothing.Models;
 using CustomClothing.Repositorio.Contract;
 using Microsoft.AspNetCore.Mvc;
@@ -28,8 +28,8 @@ namespace CustomClothing.Controllers
            
             var listProdutos = _produtoRepositorio.ObterTodosProdutos();
             ViewBag.Produtos = new SelectList(listProdutos, "Descricao", "Estampa", "Tamanho", "Valor");
-            var Caminho = GerenciadorArquivos.CadastrarImagemProduto(file);
-            produto.Estampa = Caminho;
+            //var Caminho = GerenciadorArquivos.CadastrarImagemProduto(file);
+            //produto.Estampa = Caminho;
             _produtoRepositorio.Cadastrar(produto);
             ViewBag.msg = "Estampa Adicionado com Sucesso!";
             return View();
