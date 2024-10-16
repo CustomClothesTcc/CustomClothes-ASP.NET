@@ -25,8 +25,7 @@ namespace CustomClothing.Repositorio
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("insert into tbProduto values(default,@ImagemProduto, @Descricao, @Categoria, @Cor, @Estampa, @Quantidade, @Tamanho, @Valor)", conexao);
-                cmd.Parameters.Add("@ImagemProduto", MySqlDbType.VarChar).Value = produto.ImagemProduto;
+                MySqlCommand cmd = new MySqlCommand("insert into tbProduto values(default, @Descricao, @Categoria, @Cor, @Estampa, @Quantidade, @Tamanho, @Valor)", conexao);
                 cmd.Parameters.Add("@Descricao", MySqlDbType.VarChar).Value = produto.Descricao;
                 cmd.Parameters.Add("@Categoria", MySqlDbType.VarChar).Value = produto.Categoria;
                 cmd.Parameters.Add("@Cor", MySqlDbType.VarChar).Value = produto.Cor;
@@ -59,7 +58,6 @@ namespace CustomClothing.Repositorio
                 while (dr.Read())
                 {
                     produto.CodProduto = Convert.ToInt32(dr["CodProduto"]);
-                    produto.ImagemProduto = (string)(dr["ImagemProduto"]);
                     produto.Descricao = (string)(dr["Descricao"]);
                     produto.Cor = (string)(dr["Cor"]);
                     produto.Estampa = (string)(dr["Estampa"]);
@@ -89,7 +87,6 @@ namespace CustomClothing.Repositorio
                         new Produto
                         {
                             CodProduto = Convert.ToInt32(dr["CodProduto"]),
-                            ImagemProduto = (string)(dr["ImagemProduto"]),
                             Descricao = (string)(dr["Descricao"]),
                             Cor = (string)(dr["Cor"]),
                             Estampa = (string)(dr["Estampa"]),

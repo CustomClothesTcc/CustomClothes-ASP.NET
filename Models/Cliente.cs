@@ -9,6 +9,7 @@
         public DateTime DataNascimento { get; set; }
         public decimal Celular { get; set; }
         public string Sexo  { get; set; }
+        public string Email { get; set; }
         public string Senha { get; set; }
 
     }

@@ -1,30 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\",
+  "WorkspaceRootPath": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|f:\\3a-modular\\miguel_e_kaue\\dtcc\\tcc-miguel\\customclothes-asp.net-\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\gih\\onedrive\\desktop\\tcc\\customclothes-asp.net-\\views\\produto\\personalizar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\produto\\personalizar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|f:\\3a-modular\\miguel_e_kaue\\dtcc\\tcc-miguel\\customclothes-asp.net-\\wwwroot\\js\\carousel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\js\\carousel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\gih\\onedrive\\desktop\\tcc\\customclothes-asp.net-\\gerenciararquivo\\gerenciadorarquivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:gerenciararquivo\\gerenciadorarquivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|f:\\3a-modular\\miguel_e_kaue\\dtcc\\tcc-miguel\\customclothes-asp.net-\\repositorio\\pedidorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:repositorio\\pedidorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|f:\\3a-modular\\miguel_e_kaue\\dtcc\\tcc-miguel\\customclothes-asp.net-\\carrinhocompra\\cookiescarrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:carrinhocompra\\cookiescarrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|f:\\3a-modular\\miguel_e_kaue\\dtcc\\tcc-miguel\\customclothes-asp.net-\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|f:\\3a-modular\\miguel_e_kaue\\dtcc\\tcc-miguel\\customclothes-asp.net-\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\gih\\onedrive\\desktop\\tcc\\customclothes-asp.net-\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,77 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAAA7AAAAAAAAAA==",
+              "Title": "Personalizar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET-\\Views\\Produto\\Personalizar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Produto\\Personalizar.cshtml",
+              "ToolTip": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET-\\Views\\Produto\\Personalizar.cshtml*",
+              "RelativeToolTip": "Views\\Produto\\Personalizar.cshtml*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-09T17:11:45.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "carousel.js",
-              "DocumentMoniker": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\wwwroot\\js\\carousel.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\carousel.js",
-              "ToolTip": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\wwwroot\\js\\carousel.js",
-              "RelativeToolTip": "wwwroot\\js\\carousel.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-09T17:09:06.397Z",
+              "WhenOpened": "2024-10-15T20:46:36.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PedidoRepositorio.cs",
-              "DocumentMoniker": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\Repositorio\\PedidoRepositorio.cs",
-              "RelativeDocumentMoniker": "Repositorio\\PedidoRepositorio.cs",
-              "ToolTip": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\Repositorio\\PedidoRepositorio.cs",
-              "RelativeToolTip": "Repositorio\\PedidoRepositorio.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET-\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET-\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "Controllers\\ProdutoController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T16:49:43.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T20:52:58.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "Models\\Produto.cs",
-              "ToolTip": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\Models\\Produto.cs",
-              "RelativeToolTip": "Models\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "GerenciadorArquivos.cs",
+              "DocumentMoniker": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET-\\GerenciarArquivo\\GerenciadorArquivos.cs",
+              "RelativeDocumentMoniker": "GerenciarArquivo\\GerenciadorArquivos.cs",
+              "ToolTip": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET-\\GerenciarArquivo\\GerenciadorArquivos.cs",
+              "RelativeToolTip": "GerenciarArquivo\\GerenciadorArquivos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T13:29:18.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Item.cs",
-              "DocumentMoniker": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\Models\\Item.cs",
-              "RelativeDocumentMoniker": "Models\\Item.cs",
-              "ToolTip": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\Models\\Item.cs",
-              "RelativeToolTip": "Models\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T13:28:31.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CookiesCarrinhoCompra.cs",
-              "DocumentMoniker": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\CarrinhoCompra\\CookiesCarrinhoCompra.cs",
-              "RelativeDocumentMoniker": "CarrinhoCompra\\CookiesCarrinhoCompra.cs",
-              "ToolTip": "F:\\3A-MODULAR\\MIGUEL_E_KAUE\\DTCC\\TCC-MIGUEL\\CustomClothes-ASP.NET-\\CarrinhoCompra\\CookiesCarrinhoCompra.cs",
-              "RelativeToolTip": "CarrinhoCompra\\CookiesCarrinhoCompra.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T13:22:50.449Z",
+              "WhenOpened": "2024-10-15T20:21:49.723Z",
               "EditorCaption": ""
             }
           ]

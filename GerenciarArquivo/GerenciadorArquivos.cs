@@ -5,12 +5,21 @@
         public static string CadastrarImagemProduto(IFormFile file)
         {
             var NomeArquivo = Path.GetFileName(file.FileName);
-            var Caminho= Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Imagens", NomeArquivo);
-            using(var stream = new FileStream(Caminho, FileMode.Create))
+            var Caminho = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Img", NomeArquivo);
+            try
             {
-                file.CopyTo(stream);
+                using (var stream = new FileStream(Caminho, FileMode.Create))
+                {
+                    file.CopyTo(stream);
+                }
             }
-            return Path.Combine("/Imagens", NomeArquivo).Replace("\\", "/");
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException("Erro ao salvar o arquivo.", ex);
+            }
+
+
+            return Path.Combine("/Img", NomeArquivo).Replace("\\", "/");
         }
     }
 }
