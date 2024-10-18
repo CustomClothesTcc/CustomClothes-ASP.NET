@@ -3,7 +3,7 @@ using CustomClothing.Models;
 using CustomClothing.Repositorio.Contract;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CustomClothing.Controllers
+/*namespace CustomClothing.Controllers
 {
     public class CompraController : Controller
     {
@@ -43,4 +43,4 @@ namespace CustomClothing.Controllers
             return View(_cookiesCarrinhoCompra.Consultar());
         }
     }
-}
+}*/

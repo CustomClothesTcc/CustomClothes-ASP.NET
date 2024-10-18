@@ -1,20 +1,18 @@
-﻿*{
-    padding:0;
-    margin:0;
+﻿* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-   
 }
 
 .Container {
     display: flex;
-    flex-direction:row;
-    justify-content:center;
+    flex-direction: row;
+    justify-content: center;
     margin-bottom: 7vh;
-  
 }
 
-img{
-     height:100vh;
+img {
+    height: 100vh;
     width: 99vw;
 }
 
@@ -22,37 +20,38 @@ h1 {
     font-size: 100px;
     display: flex;
     justify-content: center;
-
 }
-.flex-Container{
+
+.flex-Container {
     display: flex;
     justify-content: space-between;
     margin-bottom: 75px;
     margin-left: 32vh;
     margin-right: 32vh;
-
-
 }
 
-.imgroupas{
+.imgroupas {
     width: 15vh;
     height: 15vh;
     border-radius: 30%;
     justify-content: center;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
-a:hover{
-   color: red
+
+.flex-Container a:hover {
+    color: black;
+    background-color: black;
+    text-decoration: underline
 }
 
 label {
-        display: flex;
-        justify-content: center;
-        font-size: 4vh;
+    display: flex;
+    justify-content: center;
+    font-size: 4vh;
 }
 
 .Container-roxa {
@@ -65,8 +64,34 @@ label {
     gap: 70px
 }
 
-.Container-roxa img{
-    width: 100%;
-   height:35vh;
+    .Container-roxa img {
+        width: 260px;
+        height: 45vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+.Container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32vh;
+    margin-right: 32vh;
+    height: 65vh;
+    gap: 70px;
 }
 
+    .Container2 img {
+        width: 100%;
+        height: 40vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+.bloco-roxo {
+    background-color: #1c003f;
+    display: flex;
+    height: 12vh;
+    margin-left: 32vh;
+    margin-right: 32vh;
+}
