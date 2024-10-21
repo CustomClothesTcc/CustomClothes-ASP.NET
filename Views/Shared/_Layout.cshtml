@@ -23,15 +23,27 @@
 <body>
         <header>
             <div class="divLogo">
-                <img src="~/lib/Imagens/LogosCC/CustomClothesSemNome.png" alt="Logo" />
+                <div class="divImg">
+                    <img src="~/lib/Imagens/LogosCC/CustomClothesSemNome.png" alt="Logo" />
+                </div>
+                
+                <div class="divP">
+                    <p>Custom</p>
+                    <p>Clothes</p>
+                </div>
+       
             </div>
-            <div class="autocomplete-container">
-                <input id="search-bar" type="search" class="form-control" placeholder="Pesquise a sua Roupa..." /> 
-                <button id="search-button">
-                    <i class="bi bi-search"></i>
-                </button>
-
-            </div>
+        <div class="autocomplete-container">
+            <input id="search-bar"
+                   type="search"
+                   class="form-control"
+                   placeholder="Pesquise a sua Roupa..."
+                   aria-label="Barra de Pesquisa" />
+            <button id="search-button" aria-label="Botão de Pesquisa">
+                <i class="bi bi-search"></i>
+            </button>
+        </div>
+       <div class="divGuia">
                 <a asp-area="" asp-controller="Login" asp-action="Login">
                     <i class="bi bi-person-circle"></i>
                 </a>

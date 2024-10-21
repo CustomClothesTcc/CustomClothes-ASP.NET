@@ -5,12 +5,6 @@
     box-sizing: border-box;
 }
 
-header {
-    width: 100%;
-    background-color:#fff;
-
-    /*padding-top: 1em;*/
-}
 #search-button {
     display: flex;
     background-color: #d9d9d9;
@@ -18,8 +12,45 @@ header {
     border-radius: 0px 9px 9px 0px;
     height: 46px
 }
-img{
-    width: 10px;
+.divLogo {
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+    .divLogo p {
+        margin: 0.1px;
+        padding: 0.1px;
+    }
+    .divImg {
+        flex: 0;
+    }
+
+.divP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Estiliza o primeiro <p> */
+div.divLogo p:first-of-type {
+    font-family: Inconsolata;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 42px;
+    color: #000;
+}
+/* Estiliza o segundo <p> */
+div.divLogo p:last-of-type{
+    font-family: Inconsolata;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 42px;
+    color: #7779A0;
+}
+
+div.divLogo img{
+    width: 5vw;
+    height: auto;
 }
 header .pesquisa {
   display: flex;
@@ -153,30 +184,52 @@ a:hover {
 
 /*Barra de Pesquisa*/
 .autocomplete-container {
-    position: relative;
     display: flex;
     align-items: center;
-}
-
-/*input[type="text"] {
-    width: 300px;
-    padding: 10px;
-    border-radius: 4px 0 0 4px;
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
     border: 1px solid #ccc;
-    height: 46px;
-}*/
-
-button {
-    /*padding: 10px;*/
-    border: none;
-    background-color: #9F9F9F;
-    cursor: pointer;
-    border-radius: 0 4px 4px 0;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/*button:hover {
-  background-color: #9F9F9F;
-}*/
+#search-bar {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 25px 0 0 25px;
+}
+
+    #search-bar::placeholder {
+        color: #888;
+    }
+
+#search-button {
+    background-color: #ffe600;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 25px 25px 0;
+    transition: background-color 0.3s ease;
+}
+
+    #search-button i {
+        font-size: 20px;
+        color: #333;
+    }
+
+    #search-button:hover {
+        background-color: #f5d200;
+    }
+
+
 
 .autocomplete-items {
     position: absolute;

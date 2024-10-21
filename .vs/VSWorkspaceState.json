@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\wwwroot",
+    "\\wwwroot\\css"
   ],
-  "SelectedNode": "\\CustomClothing.csproj.user",
+  "SelectedNode": "\\wwwroot\\css\\Home.css",
   "PreviewInSolutionExplorer": false
 }
