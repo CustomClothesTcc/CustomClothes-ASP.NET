@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Personalizar\**" />
+    <Compile Remove="wwwroot\Img\**" />
+    <Content Remove="Views\Personalizar\**" />
+    <Content Remove="wwwroot\Img\**" />
+    <EmbeddedResource Remove="Views\Personalizar\**" />
+    <EmbeddedResource Remove="wwwroot\Img\**" />
+    <None Remove="Views\Personalizar\**" />
+    <None Remove="wwwroot\Img\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="wwwroot\css\Finalizada.css" />
   </ItemGroup>
 
@@ -14,11 +25,6 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.6" />
     <PackageReference Include="MySql.Data" Version="9.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Views\Personalizar\" />
-    <Folder Include="wwwroot\Img\" />
   </ItemGroup>
 
 </Project>
