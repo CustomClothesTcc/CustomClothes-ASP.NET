@@ -61,144 +61,116 @@
       "PackagePath": "staticwebassets\\js\\sugestoes.js"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Beatles.jpg",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\Beatles.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Beatles2.jpg",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\Beatles2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Blusa.png",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\Blusa.png"
-    },
-    {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Blusa1.jpg",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\Blusa1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Camiseta Feminina.jpg",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\Camiseta Feminina.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Camiseta Preta.jpg",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\Camiseta Preta.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Camiseta.jpg",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\Camiseta.jpg"
-    },
-    {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Camiseta_Preta.png",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\Camiseta_Preta.png"
-    },
-    {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Car1.jfif",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\Car1.jfif"
-    },
-    {
       "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Car1_waifu2x_photo_noise2.png",
       "PackagePath": "staticwebassets\\lib\\Imagens\\Car1_waifu2x_photo_noise2.png"
-    },
-    {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Car2.jfif",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\Car2.jfif"
-    },
-    {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Car2_waifu2x_photo_noise2.png",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\Car2_waifu2x_photo_noise2.png"
-    },
-    {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Car3.jfif",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\Car3.jfif"
     },
     {
       "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Car3_waifu2x_photo_noise2.png",
       "PackagePath": "staticwebassets\\lib\\Imagens\\Car3_waifu2x_photo_noise2.png"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\CustomClothes.png",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\CustomClothes.png"
-    },
-    {
       "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Estamparia.jpg",
       "PackagePath": "staticwebassets\\lib\\Imagens\\Estamparia.jpg"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Mamonas.jpg",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\Mamonas.jpg"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosCC\\CustomClothes.png",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\LogosCC\\CustomClothes.png"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\SuaLogo.jpg",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\SuaLogo.jpg"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosCC\\CustomClothesSemNome.png",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\LogosCC\\CustomClothesSemNome.png"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Thumbs.db",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\Thumbs.db"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosCC\\logoCC.jpeg",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\LogosCC\\logoCC.jpeg"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\calça1.png",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\calça1.png"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosRedesSociais\\facebook.png",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\LogosRedesSociais\\facebook.png"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\camisa-sociaL.png",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\camisa-sociaL.png"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosRedesSociais\\google.png",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\LogosRedesSociais\\google.png"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\camisa-social.jpg",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\camisa-social.jpg"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosRedesSociais\\linkedin.png",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\LogosRedesSociais\\linkedin.png"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\carosel.jpg",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\carosel.jpg"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Beatles.jpg",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteCima\\Beatles.jpg"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\icons8-facebook-48.png",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\icons8-facebook-48.png"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Beatles2.jpg",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteCima\\Beatles2.jpg"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\icons8-google-logo-48.png",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\icons8-google-logo-48.png"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Blusa.png",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteCima\\Blusa.png"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\icons8-linkedin-48.png",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\icons8-linkedin-48.png"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Blusa1.jpg",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteCima\\Blusa1.jpg"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\imagem1.jpeg",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\imagem1.jpeg"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta Feminina.jpg",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteCima\\Camiseta Feminina.jpg"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\imagem2.jpeg",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\imagem2.jpeg"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta Preta.jpg",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteCima\\Camiseta Preta.jpg"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\imagem3.jpeg",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\imagem3.jpeg"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta.jpg",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteCima\\Camiseta.jpg"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\logoCC.jpeg",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\logoCC.jpeg"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta_Preta.png",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteCima\\Camiseta_Preta.png"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\saias1.png",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\saias1.png"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Car2_waifu2x_photo_noise2.png",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteCima\\Car2_waifu2x_photo_noise2.png"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\shorts.png",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\shorts.png"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Mamonas.jpg",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteCima\\Mamonas.jpg"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\tenis.png",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\tenis.png"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\SuaLogo.jpg",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteCima\\SuaLogo.jpg"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\top.png",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\top.png"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\camisa-sociaL.png",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteCima\\camisa-sociaL.png"
     },
     {
-      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\vestido-branco.png",
-      "PackagePath": "staticwebassets\\lib\\Imagens\\vestido-branco.png"
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\camisa-social.jpg",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteCima\\camisa-social.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\top.png",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteCima\\top.png"
+    },
+    {
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\calça1.png",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteDebaixo\\calça1.png"
+    },
+    {
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\saias1.png",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteDebaixo\\saias1.png"
+    },
+    {
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\shorts.png",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteDebaixo\\shorts.png"
+    },
+    {
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\tenis.png",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteDebaixo\\tenis.png"
+    },
+    {
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\vestido-branco.png",
+      "PackagePath": "staticwebassets\\lib\\Imagens\\RoupasParteDebaixo\\vestido-branco.png"
     },
     {
       "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\tcc\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\LICENSE",

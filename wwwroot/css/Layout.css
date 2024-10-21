@@ -18,7 +18,9 @@ header {
     border-radius: 0px 9px 9px 0px;
     height: 46px
 }
-
+img{
+    width: 10px;
+}
 header .pesquisa {
   display: flex;
   justify-content: space-between;
