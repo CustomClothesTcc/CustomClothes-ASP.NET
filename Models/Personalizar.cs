@@ -1,6 +1,6 @@
 ﻿namespace CustomClothing.Models
 {
-    public class Produto
+    public class Personalizar
     {
         //Criando encapsulamento do objeto com get e set
         public int CodProduto { get; set; }

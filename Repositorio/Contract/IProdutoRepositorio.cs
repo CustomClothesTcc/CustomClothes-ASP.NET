@@ -5,10 +5,10 @@ namespace CustomClothing.Repositorio.Contract
     public interface IProdutoRepositorio
     {
         //CRUD do nosso Sistema
-        IEnumerable<Produto> ObterTodosProdutos();
-        void Cadastrar(Produto produto);
-        void Atualizar(Produto produto);
-        Produto ObterProdutos(int Id);
+        IEnumerable<Personalizar> ObterTodosProdutos();
+        void Cadastrar(Personalizar produto);
+        void Atualizar(Personalizar produto);
+        Personalizar ObterProdutos(int Id);
         void Excluir(int Id);
     }
 }

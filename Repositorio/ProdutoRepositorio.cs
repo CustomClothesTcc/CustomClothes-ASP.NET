@@ -15,17 +15,18 @@ namespace CustomClothing.Repositorio
             _conexaoMySQL = conf.GetConnectionString("ConexaoMySQL");
         }
 
-        public void Atualizar(Produto produto)
+        public void Atualizar(Personalizar produto)
         {
             throw new NotImplementedException();
         }
 
-        public void Cadastrar(Produto produto)
+        public void Cadastrar(Personalizar produto)
         {
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("insert into tbProduto values(default, @Descricao, @DescricaoImg,@Estampa, @Cor,@Tamanho, @Valor)", conexao);
+                MySqlCommand cmd = new MySqlCommand("insert into tbProduto values(default,@Tecido, @Descricao, @DescricaoImg,@Estampa, @Cor, @Quantidade,@Tamanho, @Valor)", conexao);
+                cmd.Parameters.Add("@Tecido", MySqlDbType.VarChar).Value = produto.Tecido;
                 cmd.Parameters.Add("@Descricao", MySqlDbType.VarChar).Value = produto.Descricao;
                 cmd.Parameters.Add("@DescricaoImg", MySqlDbType.VarChar).Value = produto.DescricaoImg;
                 cmd.Parameters.Add("@Estampa", MySqlDbType.VarChar).Value = produto.Estampa;
@@ -43,7 +44,7 @@ namespace CustomClothing.Repositorio
             throw new NotImplementedException();
         }
 
-        public Produto ObterProdutos(int Id)
+        public Personalizar ObterProdutos(int Id)
         {
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
@@ -53,11 +54,12 @@ namespace CustomClothing.Repositorio
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 MySqlDataReader dr;
 
-                Produto produto = new Produto();
+                Personalizar produto = new Personalizar();
                 dr = cmd.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
                 while (dr.Read())
                 {
                     produto.CodProduto = Convert.ToInt32(dr["CodProduto"]);
+                    produto.Tecido = (string)(dr["Descricao"]);
                     produto.Descricao = (string)(dr["Descricao"]);
                     produto.DescricaoImg = (string)(dr["DescricaoImg"]);
                     produto.Estampa = (string)(dr["Estampa"]);
@@ -70,9 +72,9 @@ namespace CustomClothing.Repositorio
             }
         }
 
-        public IEnumerable<Produto> ObterTodosProdutos()
+        public IEnumerable<Personalizar> ObterTodosProdutos()
         {
-            List<Produto> ProdutoList = new List<Produto>();
+            List<Personalizar> ProdutoList = new List<Personalizar>();
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
@@ -85,9 +87,10 @@ namespace CustomClothing.Repositorio
                 foreach (DataRow dr in dt.Rows)
                 {
                     ProdutoList.Add(
-                        new Produto
+                        new Personalizar
                         {
                             CodProduto = Convert.ToInt32(dr["CodProduto"]),
+                            Tecido = (string)(dr["Tecido"]),
                             Descricao = (string)(dr["Descricao"]),
                             DescricaoImg = (string)(dr["DescricaoImg"]),
                             Estampa = (string)(dr["Estampa"]),

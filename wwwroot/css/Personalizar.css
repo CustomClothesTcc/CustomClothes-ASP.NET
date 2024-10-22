@@ -6,27 +6,30 @@
 }
 
 /*Estilização do Container da tela de Login*/
-.Container{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
+.Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+
 /*Estilizando o H1 da tela de Personalizar*/
 h1 {
     font-family: Inria Sans,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     padding-top: 2em;
-    margin-bottom:2em;
+    margin-bottom: 2em;
     color: #220F3A;
 }
+
 /*Estilização da Classe Custom*/
 .Custom {
     background-color: #D9D9D9;
-    height: 38em;
-    width: 25em;
+    height: 20em;
+    width: 26em;
     border-radius: 10px;
     margin-bottom: 10em;
 }
+
 /*Estilização do formulário Roupa*/
 .Roupa {
     height: 2em;
@@ -36,16 +39,18 @@ h1 {
     margin-left: 10px;
     margin-bottom: 1px;
 }
+
 /*Estilização do Campo Descrição*/
 .descricao {
-    margin-left:12px;
+    margin-left: 12px;
     margin-bottom: 10px;
     background-color: #D9D9D9;
     border: none;
 }
+
 /*Estilizando as labels do formulário*/
 label {
-    margin-left:5px;
+    margin-left: 5px;
     font-family: Inter,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -54,104 +59,13 @@ label {
     margin-left: 12em;
 }
 
-
-/*Estilização da Imagem da Camiseta Personalizada*/
-img {
-    padding-top: 1em;
-    height: 20em;
-    width: 23em;
-    border-radius: 10px;
-    margin-bottom: 1em;
-}
 /*Deixando o botão Ver com Cor Roxa*/
 .botão {
     /*padding-top: 10px;*/
     background-color: #220F3A;
-    border-radius:20px;
-    width:12em;
-}
-/*Deixando o botão Ver com Cor Roxa*/
-.botão-2 {
-    /*padding-top: 10px;*/
-    background-color: #220F3A;
     border-radius: 20px;
-    width: 18em;
+    width: 12em;
 }
 
-/*Ajustando a Coluna em que o Usuário colocar a estampa para a esquerda*/
-.Coluna {
-    margin-left: 10em;
-}
 
-/*A classe input serve para retirar uma mensagem do input*/
-#picture__input {
-    display: none;
-}
-/*Estilização da Classe Picture e comportamento dela com hover e active*/
-.picture {
-    height: 18em;
-    width: 30em;
-    aspect-ratio: 16/9;
-    background: #D9D9D9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #220F3A;
-    border: 10px currentcolor;
-    cursor: pointer;
-    font-family: sans-serif;
-    transition: color 300ms ease-in-out, 300ms ease-in-out;
-    outline: none;
-    overflow: hidden;
-}
-.picture:hover {
-        color: #D9D9D9;
-        background: #220F3A;
-}
-.picture:active {
-        color: #D9D9D9;
-        background: #220F3A;
-}
-/*Comportamento de Picture com o Focus*/
-.picture:focus {
-        color: #D9D9D9;
-        background: #220F3A;
-        box-shadow: #220F3A;
-}
-/*Quando o usuário colocar a Imagem ela irá preencher provavelmente toda a largura do campo Picture*/
-.picture__img {
-    max-width: 100%;
-}
 
-/*Ajustando o select para esquerda*/
-select {
-    margin-left: 7em;
-    width: 6em;
-}
-/*Ajustando o select para a esquerda*/
-.labels {
-    margin-left: 7em;
-}
-/*Ajustando a Caixa de Texto da Descrição*/
-#descricao-2 {
-    margin-left: 20px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    margin-top: 10px;
-    width: 22em;
-}
-
-/*Responsividade tela personalizar*/
-@media (max-width: 844px)
-{
-    #Container{
-        justify-content: center;
-        align-items: center;
-        width: 100%
-    }
-
-    .Coluna{
-        margin-top: 520px;
-        margin-left: -320px
-    }
-}

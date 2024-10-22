@@ -13,27 +13,27 @@ namespace CustomClothing.CarrinhoCompra
             _cookies = cookies; 
         }
 
-        public void Salvar(List<Produto> Lista)
+        public void Salvar(List<Personalizar> Lista)
         {
           string Valor = JsonConvert.SerializeObject(Lista);
           _cookies.Cadastrar(Key, Valor);
         }
-        public List<Produto> Consultar()
+        public List<Personalizar> Consultar()
         {
             if (_cookies.Existe(Key))
             {
                 string valor = _cookies.Consultar(Key);
-                return JsonConvert.DeserializeObject<List<Produto>>(valor);
+                return JsonConvert.DeserializeObject<List<Personalizar>>(valor);
             }
             else
             {
-                return new List<Produto>();
+                return new List<Personalizar>();
             }
         }
 
-        public void Cadastrar(Produto item)
+        public void Cadastrar(Personalizar item)
         {
-            List<Produto> Lista;
+            List<Personalizar> Lista;
 
             if (_cookies.Existe(Key))
             {
@@ -51,24 +51,24 @@ namespace CustomClothing.CarrinhoCompra
             }
             else
             {
-                Lista = new List<Produto>();
+                Lista = new List<Personalizar>();
                 Lista.Add(item);
             }
             Salvar(Lista);
         }
 
-        public void Atualizar(Produto item)
+        public void Atualizar(Personalizar item)
         {
             var Lista = Consultar();
             var ItemLocalizado = Lista.SingleOrDefault(a => a.CodProduto == item.CodProduto);
 
             if (ItemLocalizado != null)
             {
-                //ItemLocalizado.Quantidade = ItemLocalizado.Quantidade + 1;
+                ItemLocalizado.Quantidade = ItemLocalizado.Quantidade + 1;
                 Salvar(Lista);
             }
         }
-        public void Remover(Produto item)
+        public void Remover(Personalizar item)
         {
             var Lista = Consultar();
             var ItemLocalizado = Lista.SingleOrDefault(a => a.CodProduto == item.CodProduto);

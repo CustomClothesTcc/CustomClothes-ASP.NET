@@ -1,4 +1,4 @@
-﻿//using CustomClothing.GerenciarArquivo;
+﻿using CustomClothing.GerenciarArquivo;
 using CustomClothing.Models;
 using CustomClothing.Repositorio.Contract;
 using Microsoft.AspNetCore.Mvc;
@@ -18,21 +18,33 @@ namespace CustomClothing.Controllers
         public IActionResult Personalizar()
         {
             var listProdutos = _produtoRepositorio.ObterTodosProdutos();
-            ViewBag.Produtos = new SelectList(listProdutos, "Descricao", "Estampa", "Tamanho", "Valor");
             return View();
         }
 
         [HttpPost]
-        public IActionResult Personalizar(Produto produto, IFormFile file)
+        public ActionResult Personalizar(Personalizar produto, IFormFile file)
         {
-           
-            var listProdutos = _produtoRepositorio.ObterTodosProdutos();
-            ViewBag.Produtos = new SelectList(listProdutos, "Descricao", "Estampa", "Tamanho", "Valor");
-            //var Caminho = GerenciadorArquivos.CadastrarImagemProduto(file);
-            //produto.Estampa = Caminho;
+            // Obter lista de produtos
+            var ListProdutos = _produtoRepositorio.ObterTodosProdutos();
+
+            // Verificar se o arquivo foi enviado
+            if (file != null && file.Length > 0)
+            {
+                // Cadastrar a imagem e obter o caminho
+                var Caminho = GerenciadorArquivos.CadastrarImagemProduto(file);
+                produto.Estampa = Caminho;  // Salvar o caminho da imagem no produto
+            }
+            else
+            {
+                ViewBag.msg = "Nenhuma imagem foi selecionada.";
+                return View();
+            }
+
+            // Salvar o produto no banco de dados
             _produtoRepositorio.Cadastrar(produto);
-            ViewBag.msg = "Estampa Adicionado com Sucesso!";
-            return View();
+
+            ViewBag.msg = "Produto personalizado com sucesso!";
+            return RedirectToAction("Personalizar");
         }
 
         public IActionResult Produto()
