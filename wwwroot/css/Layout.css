@@ -1,37 +1,30 @@
-﻿
+﻿/* Reset */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-#search-button {
-    display: flex;
-    background-color: #d9d9d9;
-    margin-right: 30px;
-    border-radius: 0px 9px 9px 0px;
-    height: 46px
-}
+/* Header */
 .divLogo {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 1em;
 }
     .divLogo p {
         margin: 0.1px;
         padding: 0.1px;
     }
-    .divImg {
-        flex: 0;
-    }
 
-.divP {
+div.divP{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 0.1em;
 }
 
-/* Estiliza o primeiro <p> */
+/*Estilização do Custom*/
 div.divLogo p:first-of-type {
     font-family: Inconsolata;
     font-weight: 500;
@@ -39,160 +32,28 @@ div.divLogo p:first-of-type {
     line-height: 42px;
     color: #000;
 }
-/* Estiliza o segundo <p> */
-div.divLogo p:last-of-type{
+/*Estilização do Clothes*/
+div.divLogo p:last-of-type {
     font-family: Inconsolata;
     font-weight: 500;
     font-size: 1.2em;
     line-height: 42px;
     color: #7779A0;
 }
-
-div.divLogo img{
-    width: 5vw;
-    height: auto;
+.divImg{
+    flex: 0 1 auto;
 }
+img#logoNavCC {
+    width: auto;
+    height: 3em;
+}
+
 header .pesquisa {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap:1vw;
-  padding: 0 1em;
-}
-
-div.pesquisa img {
-   width:150px;
-   height:100px;
-}
-
-div.pesquisa input {
-    padding: 1em;
-    width: 60vw;
-    height: 5vh;
-    border-radius: 9px 0px 0px 9px;
-    border: none;
-    background-color: #D9D9D9
-}
-
-div.pesquisa i {
-    font-size: clamp(0.7em, 3em, 2em);
-    color: #000;
-}
-
-header nav {
     display: flex;
     justify-content: space-between;
-    padding: 1.5em 21em;
-    background-color: #1C003F;
- 
-}
-
-nav a {
-    color: white;
-    font-weight: 600;
-    font-size: 1em;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: white;
-    color: black;
-    border-radius: 5px;
-}
-
-
-
-/* Footer Custom Styles */
-.footer-custom {
-    background-color: #1c003f;
-    color: #e0e0e0;
-    padding: 1em 0em;
-    font-size: 20px;
-}
-
-.footer-custom .social-btn {
-   color: #e0e0e0;
-   gap: 5vw;
-   border: 2px solid #e0e0e0;
-   border-radius: 50%;
-   width: clamp(3.9em, 4em, 5em);
-   height: clamp(2.6em, 4em, 5em);
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin: 2.9rem;
-   transition: all 0.3s ease;
- }
-
-.footer-custom .social-btn i {
-   font-size: 2.0rem;
-}
-
-.footer-custom .social-btn:hover {
-   color: #fff;
-   background-color: transparent;
-   transform: scale(1.1);
-}
-
-.footer-custom .social-btn.facebook:hover {
-   background-color: #3b5998;
-   border-color: #3b5998;
-}
-
-.footer-custom .social-btn.twitter:hover {
-   background-color: #1da1f2;
-   border-color: #1da1f2;
-}
-        
-
-.footer-custom .social-btn.whatsapp:hover {
-   background-color: #00ff90;
-   border-color: #00ff90;
-}
-
-    .footer-custom .social-btn.instagram:hover {
-        background: linear-gradient(to right, #cc00ff, #e90078, #ffed00);
-        border-color: #e1306c;
-    }
-
-.footer-custom .social-btn.linkedin:hover {
-   background-color: #0077b5;
-   border-color: #0077b5;
-}
-
-.footer-custom .social-btn.github:hover {
-  background-color: #333;
-  border-color: #333;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .footer-custom .social-btn {
-        margin: 0.25rem;
-    }
-}
-
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .footer-custom .col-md-6 {
-        text-align: center;
-        margin-bottom: 1em;
-    }
-}
-
-
-/*Barra de Pesquisa*/
-.autocomplete-container {
-    display: flex;
     align-items: center;
-    width: 100%;
-    max-width: 600px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 1vw;
+    padding: 0 1em;
 }
 
 #search-bar {
@@ -209,27 +70,133 @@ a:hover {
     }
 
 #search-button {
-    background-color: #ffe600;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
     display: flex;
+    border-radius: 0px 9px 9px 0px;
+    height: 46px;
+    cursor: pointer;
+    padding: 10px 15px;
     align-items: center;
     justify-content: center;
-    border-radius: 0 25px 25px 0;
-    transition: background-color 0.3s ease;
+}
+    button i{
+        color: #000;
+    }
+    div.pesquisa img {
+        width: 150px;
+        height: 100px;
+    }
+div.divGuia{
+    display: flex;
+    gap: 0.3em;
+}
+div.pesquisa input {
+    padding: 1em;
+    width: 60vw;
+    height: 5vh;
+    border-radius: 9px 0px 0px 9px;
+    border: none;
+    background-color: #D9D9D9;
 }
 
-    #search-button i {
-        font-size: 20px;
-        color: #333;
+div.pesquisa i {
+    font-size: 1.2em;
+    color: #000;
+}
+
+/* Navigation */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 21em;
+    background-color: #1C003F;
+}
+
+nav a {
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer-custom {
+    background-color: #1c003f;
+    color: #e0e0e0;
+    padding: 1em 0em;
+    font-size: 20px;
+}
+
+    .footer-custom .social-btn {
+        color: #e0e0e0;
+        gap: 5vw;
+        border: 2px solid #e0e0e0;
+        border-radius: 50%;
+        width: clamp(3.9em, 4em, 5em);
+        height: clamp(2.6em, 4em, 5em);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2.9rem;
+        transition: all 0.3s ease;
     }
 
-    #search-button:hover {
-        background-color: #f5d200;
-    }
+        .footer-custom .social-btn i {
+            font-size: 2.0rem;
+        }
 
+        .footer-custom .social-btn:hover {
+            color: #fff;
+            background-color: transparent;
+            transform: scale(1.1);
+        }
 
+        .footer-custom .social-btn.facebook:hover {
+            background-color: #3b5998;
+            border-color: #3b5998;
+        }
+
+        .footer-custom .social-btn.twitter:hover {
+            background-color: #1da1f2;
+            border-color: #1da1f2;
+        }
+        .footer-custom .social-btn.whatsapp:hover {
+            background-color: #00ff90;
+            border-color: #00ff90;
+        }
+
+        .footer-custom .social-btn.instagram:hover {
+            background: linear-gradient(to right, #cc00ff, #e90078, #ffed00);
+            border-color: #e1306c;
+        }
+
+        .footer-custom .social-btn.linkedin:hover {
+            background-color: #0077b5;
+            border-color: #0077b5;
+        }
+
+        .footer-custom .social-btn.github:hover {
+            background-color: #333;
+            border-color: #333;
+        }
+
+/* Autocomplete */
+.autocomplete-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 .autocomplete-items {
     position: absolute;
@@ -250,13 +217,7 @@ a:hover {
     border-bottom: 1px solid #ccc;
 }
 
-.autocomplete-item:hover {
-  background-color: #9F9F9F;
-   color: #fff;
-}
-
-.autocomplete-container i {
-   /* width: 25px;
-    height: 20px;
-    cursor: pointer;*/
+.autocomplete-item:hover {   
+    background-color: #9F9F9F;
+    color: #fff;
 }
