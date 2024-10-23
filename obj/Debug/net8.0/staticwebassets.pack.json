@@ -9,12 +9,20 @@
       "PackagePath": "staticwebassets\\Img\\DC.jpg"
     },
     {
+      "Id": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\Estamparia.jpg",
+      "PackagePath": "staticwebassets\\Img\\Estamparia.jpg"
+    },
+    {
       "Id": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\TCC.png",
       "PackagePath": "staticwebassets\\Img\\TCC.png"
     },
     {
       "Id": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\Teste.png",
       "PackagePath": "staticwebassets\\Img\\Teste.png"
+    },
+    {
+      "Id": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\oppen.png",
+      "PackagePath": "staticwebassets\\Img\\oppen.png"
     },
     {
       "Id": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\vingadores.jpg",
@@ -63,10 +71,6 @@
     {
       "Id": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\js\\carousel.js",
       "PackagePath": "staticwebassets\\js\\carousel.js"
-    },
-    {
-      "Id": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\js\\personalizar.js",
-      "PackagePath": "staticwebassets\\js\\personalizar.js"
     },
     {
       "Id": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\js\\site.js",

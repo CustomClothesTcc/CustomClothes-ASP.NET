@@ -8,9 +8,9 @@ namespace CustomClothing.Controllers
 {
     public class ProdutoController : Controller
     {
-        private IProdutoRepositorio _produtoRepositorio;
+        private IPersonalizarRepositorio _produtoRepositorio;
 
-        public ProdutoController(IProdutoRepositorio produtoRepositorio)
+        public ProdutoController(IPersonalizarRepositorio produtoRepositorio)
         {
             _produtoRepositorio = produtoRepositorio;
         }

@@ -38,7 +38,7 @@ namespace CustomClothing.CarrinhoCompra
             if (_cookies.Existe(Key))
             {
                 Lista = Consultar();
-                var ItemLocalizado = Lista.SingleOrDefault(a => a.CodProduto == item.CodProduto);
+                var ItemLocalizado = Lista.SingleOrDefault(a => a.IdProduto == item.IdProduto);
 
                 if (ItemLocalizado == null)
                 {
@@ -60,7 +60,7 @@ namespace CustomClothing.CarrinhoCompra
         public void Atualizar(Personalizar item)
         {
             var Lista = Consultar();
-            var ItemLocalizado = Lista.SingleOrDefault(a => a.CodProduto == item.CodProduto);
+            var ItemLocalizado = Lista.SingleOrDefault(a => a.IdProduto == item.IdProduto);
 
             if (ItemLocalizado != null)
             {
@@ -71,7 +71,7 @@ namespace CustomClothing.CarrinhoCompra
         public void Remover(Personalizar item)
         {
             var Lista = Consultar();
-            var ItemLocalizado = Lista.SingleOrDefault(a => a.CodProduto == item.CodProduto);
+            var ItemLocalizado = Lista.SingleOrDefault(a => a.IdProduto == item.IdProduto);
 
             if (ItemLocalizado != null)
             {

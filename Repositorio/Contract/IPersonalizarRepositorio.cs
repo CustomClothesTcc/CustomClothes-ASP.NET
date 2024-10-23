@@ -2,7 +2,7 @@
 
 namespace CustomClothing.Repositorio.Contract
 {
-    public interface IProdutoRepositorio
+    public interface IPersonalizarRepositorio
     {
         //CRUD do nosso Sistema
         IEnumerable<Personalizar> ObterTodosProdutos();
