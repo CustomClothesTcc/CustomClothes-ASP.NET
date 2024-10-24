@@ -1,6 +1,6 @@
 using CustomClothing.Repositorio.Contract;
 using CustomClothing.Repositorio;
-//using CustomClothing.GerenciarArquivo;
+using CustomClothing.GerenciarArquivo;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,10 +9,10 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddHttpContextAccessor();
 //Injetando os repositórios na Controller
-builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
+builder.Services.AddScoped<IPersonalizarRepositorio, PersonalizarRepositorio>();
 builder.Services.AddScoped<IitemRepositorio, ItemRepositorio>();
 
-//builder.Services.AddScoped<GerenciadorArquivos>();
+builder.Services.AddScoped<GerenciadorArquivos>();
 builder.Services.AddScoped<CustomClothing.Cookie.Cookies>();
 builder.Services.AddScoped<CustomClothing.CarrinhoCompra.CookiesCarrinhoCompra>();
 
