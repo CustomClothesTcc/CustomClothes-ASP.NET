@@ -1,0 +1,31 @@
+# Visual Studio
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build Results
+bin/
+obj/
+out/
+
+# NuGet Packages
+packages/
+
+# Logs, Caches, and Temporary Files
+*.log
+*.cache
+*.pdb
+*.tmp
+*.bak
+*~
+
+# Environment and User Files
+*.env
+appsettings.Development.json
+secrets.json
+
+# IDEs
+.idea/
