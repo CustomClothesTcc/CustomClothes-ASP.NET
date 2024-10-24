@@ -9,7 +9,7 @@
 .divLogo {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 1em;
 }
     .divLogo p {
@@ -18,10 +18,10 @@
     }
 
 div.divP{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 0.1em;
+    display: grid;
+    margin-left: 0.1em;
+    grid-template-rows: auto auto;
+    row-gap: 1px;
 }
 
 /*Estilização do Custom*/
@@ -29,15 +29,13 @@ div.divLogo p:first-of-type {
     font-family: Inconsolata;
     font-weight: 500;
     font-size: 1.2em;
-    line-height: 42px;
     color: #000;
 }
 /*Estilização do Clothes*/
 div.divLogo p:last-of-type {
     font-family: Inconsolata;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.2em;
-    line-height: 42px;
     color: #7779A0;
 }
 .divImg{
@@ -58,7 +56,8 @@ header .pesquisa {
 
 #search-bar {
     flex: 1;
-    padding: 10px 15px;
+    width: 100%;
+    height: 100%;
     border: none;
     outline: none;
     font-size: 16px;
@@ -71,8 +70,9 @@ header .pesquisa {
 
 #search-button {
     display: flex;
+    border: none;
     border-radius: 0px 9px 9px 0px;
-    height: 46px;
+    height: auto;
     cursor: pointer;
     padding: 10px 15px;
     align-items: center;
@@ -87,7 +87,9 @@ header .pesquisa {
     }
 div.divGuia{
     display: flex;
-    gap: 0.3em;
+    justify-content: space-evenly;
+    gap: 0.6em;
+    font-size: 1.5em;
 }
 div.pesquisa input {
     padding: 1em;
