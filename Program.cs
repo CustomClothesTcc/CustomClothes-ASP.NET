@@ -17,7 +17,21 @@ builder.Services.AddScoped<GerenciadorArquivos>();
 builder.Services.AddScoped<CustomClothing.Cookie.Cookies>();
 builder.Services.AddScoped<CustomClothing.CarrinhoCompra.CookiesCarrinhoCompra>();
 
+
+
 builder.Services.AddScoped<CustomClothing.Libraries.Sessao.Sessao>();
+
+//Corrigir problema com TEMPDATA
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
+{
+    //Definir um tempo para duração.
+    options.IdleTimeout = TimeSpan.FromSeconds(60);
+    options.Cookie.HttpOnly = true;
+    //Mostrar para o navegador que o cookie é essencial
+    options.Cookie.IsEssential = true;
+});
+builder.Services.AddMvc().AddSessionStateTempDataProvider();
 
 var app = builder.Build();
 
@@ -31,7 +45,10 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+app.UseHttpsRedirection();
+app.UseDefaultFiles();
+app.UseCookiePolicy();
+app.UseSession();
 app.UseRouting();
 
 app.UseAuthorization();

@@ -15,9 +15,9 @@
             _context.HttpContext.Session.SetString(Key, Valor);
         }
 
-        public void Consultar(string Key)
+        public string Consultar(string Key)
         {
-            _context.HttpContext.Session.GetString(Key);
+          return  _context.HttpContext.Session.GetString(Key);
         }
 
         //Verificar se existe a sessão criada
@@ -29,13 +29,14 @@
             }
             return true;
         }
-        
+
+        //Remover sessão
         public void Remover(string Key)
         {
             _context.HttpContext.Session.Remove(Key);
         }
-
-        public void RemoverTodos(string Key)
+        //Remover todas as sessões
+        public void RemoverTodos()
         {
             _context.HttpContext.Session.Clear();
         }
