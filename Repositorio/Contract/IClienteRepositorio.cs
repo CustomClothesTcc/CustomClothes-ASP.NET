@@ -9,7 +9,8 @@ namespace CustomClothing.Repositorio.Contract
         IEnumerable<Cliente> ObterTodosClientes();
         void Cadastrar(Cliente cliente);
         void Atualizar(Cliente cliente);
-        Cliente ObterClientes(int Id);
-        void Excluir(int Id);
+        Cliente ObterClientes(string CPF);
+        Cliente ObterNomeCliente(string Nome);
+        void Excluir(string CPF);
     }
 }

@@ -4,12 +4,9 @@ namespace CustomClothing.Models
 {
     public class Cliente
     {
-        //Criando encapsulamento do objeto com get e set
-        /*[Display(Name ="Código", Description="Código.")]
-        public int CodCliente { get; set; }*/
         [Display(Name ="CPF")]
         [Required(ErrorMessage = "O CPF é obrigatório")]
-        public int CPF { get; set; }
+        public string CPF { get; set; }
 
         [Display(Name = "RG")]
         [Required(ErrorMessage = "O RG é obrigatório")]
@@ -21,7 +18,7 @@ namespace CustomClothing.Models
 
         [Display(Name = "Nascimento")]
         [Required(ErrorMessage = "A data é obrigatoria")]
-        public DateTime DataNasc { get; set; }
+        public DateTime DataNans { get; set; }
 
         [Display(Name = "Celular")]
         [Required(ErrorMessage = "O Celular é obrigatorio")]

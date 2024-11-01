@@ -2,7 +2,6 @@
 using CustomClothing.Models;
 using CustomClothing.Repositorio.Contract;
 using Microsoft.AspNetCore.Mvc;
-using MySqlX.XDevAPI;
 
 namespace CustomClothing.Controllers
 {
@@ -21,13 +20,13 @@ namespace CustomClothing.Controllers
             return View();
         }
 
-        /*[HttpPost]
+        [HttpPost]
         public IActionResult Login([FromForm] Cliente cliente)
         {
             Cliente clienteDB = _clienteRepositorio.Login(cliente.Email, cliente.Senha);
             if (clienteDB.Email != null && clienteDB.Senha != null)
             {
-                _login.Login(clienteDB);
+               _login.LoginCliente(clienteDB);
                 return new RedirectResult(Url.Action(nameof(PerfilCliente)));
             }
             else
@@ -39,8 +38,17 @@ namespace CustomClothing.Controllers
         }
         public IActionResult PerfilCliente()
         {
-            ViewBag.Nome = _login.Getr
-        }*/
+            ViewBag.Nome = _login.GetCliente().Nome;
+            ViewBag.Celular = _login.GetCliente().Celular;
+            ViewBag.Email = _login.GetCliente().Email;
+            return View();
+        }
+        public IActionResult LogoutCliente()
+        {
+            _login.Logout();
+            return RedirectToAction(nameof(Index));
+        }
+
         public IActionResult Cadastro()
         {
             return View();

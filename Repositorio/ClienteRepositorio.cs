@@ -20,29 +20,33 @@ namespace CustomClothing.Repositorio
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("insert into tbCliente(CPF, RG,Nome,DataNasc,Celular,Sexo,Email,Senha) values(@CPF,@RG,@Nome,@DataNasc,@Celular,@Sexo,@Email,@Senha)", conexao);
-                cmd.Parameters.Add("@CPF", MySqlDbType.Int64).Value = cliente.CPF;
+                MySqlCommand cmd = new MySqlCommand("CALL pcd_AtualizarCliente(@CPF, @RG, @Nome, @DataNans, @Celular, @Sexo, @Email, @Senha)", conexao);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@CPF", MySqlDbType.VarChar).Value = cliente.CPF;
                 cmd.Parameters.Add("@RG", MySqlDbType.VarChar).Value = cliente.RG;
                 cmd.Parameters.Add("@Nome", MySqlDbType.VarChar).Value = cliente.Nome;
-                cmd.Parameters.Add("@DataNasc", MySqlDbType.Date).Value = cliente.DataNasc.ToString("yyyy/MM/dd");
+                cmd.Parameters.Add("@DataNans", MySqlDbType.Date).Value = cliente.DataNans.ToString("yyyy-MM-dd");
                 cmd.Parameters.Add("@Celular", MySqlDbType.VarChar).Value = cliente.Celular;
+                cmd.Parameters.Add("@Sexo", MySqlDbType.VarChar).Value = cliente.Sexo;
                 cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = cliente.Email;
                 cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = cliente.Senha;
                 cmd.ExecuteNonQuery();
                 conexao.Close();
             }
         }
+
 
         public void Cadastrar(Cliente cliente)
         {
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("insert into tbCliente(CPF, RG,Nome,DataNasc,Celular,Sexo,Email,Senha) values(@CPF,@RG,@Nome,@DataNasc,@Celular,@Sexo,@Email,@Senha)", conexao);
-                cmd.Parameters.Add("@CPF", MySqlDbType.Int64).Value = cliente.CPF;
+                MySqlCommand cmd = new MySqlCommand("CALL pcd_CadastrarCliente(@CPF,@RG,@Nome,@DataNans,@Celular,@Sexo,@Email,@Senha)", conexao);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@CPF", MySqlDbType.VarChar).Value = cliente.CPF;
                 cmd.Parameters.Add("@RG", MySqlDbType.VarChar).Value = cliente.RG;
                 cmd.Parameters.Add("@Nome", MySqlDbType.VarChar).Value = cliente.Nome;
-                cmd.Parameters.Add("@DataNasc", MySqlDbType.Date).Value = cliente.DataNasc.ToString("yyyy/MM/dd");
+                cmd.Parameters.Add("@DataNans", MySqlDbType.Date).Value = cliente.DataNans.ToString("yyyy/MM/dd");
                 cmd.Parameters.Add("@Celular", MySqlDbType.VarChar).Value = cliente.Celular;
                 cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = cliente.Email;
                 cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = cliente.Senha;
@@ -51,13 +55,14 @@ namespace CustomClothing.Repositorio
             }
         }
 
-        public void Excluir(int Id)
+        public void Excluir(string CPF)
         {
             using(var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("delete * from Cliente where Id=@Id", conexao);
-                cmd.Parameters.AddWithValue("@Id", Id);
+                MySqlCommand cmd = new MySqlCommand("CALL pcd_DeletarClientepcd_LoginCliente(@CPF)", conexao);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@CPF", CPF);
                 int i = cmd.ExecuteNonQuery();
                 conexao.Close();
             }
@@ -68,7 +73,8 @@ namespace CustomClothing.Repositorio
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("Select * from tbCliente where Email= @Email and Senha =@Senha", conexao);
+                MySqlCommand cmd = new MySqlCommand("CALL pcd_LoginCliente(@Email, @Senha)", conexao);
+                cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = Email;
                 cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = Senha;
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
@@ -78,10 +84,10 @@ namespace CustomClothing.Repositorio
 
                 while (dr.Read())
                 {
-                    cliente.CPF = Convert.ToInt32(dr["CPF"]);
+                    cliente.CPF = Convert.ToString(dr["CPF"]);
                     cliente.RG = Convert.ToString(dr["RG"]);
                     cliente.Nome = Convert.ToString(dr["Nome"]);
-                    cliente.DataNasc = Convert.ToDateTime(dr["Nascimento"]);
+                    cliente.DataNans = Convert.ToDateTime(dr["Nascimento"]);
                     cliente.Celular = Convert.ToString(dr["Celular"]);
                     cliente.Sexo = Convert.ToString(dr["Sexo"]);
                     cliente.Email = Convert.ToString(dr["Email"]);
@@ -91,13 +97,14 @@ namespace CustomClothing.Repositorio
             }
         }
 
-        public Cliente ObterClientes(int Id)
+        public Cliente ObterClientes(string CPF)
         {
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("Select * from tbCliente where CPF =@CPF", conexao);
-                cmd.Parameters.AddWithValue("@CPF", Id);
+                MySqlCommand cmd = new MySqlCommand("CALL pcd_ExibirCliente(@CPF)", conexao);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@CPF", CPF);
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 MySqlDataReader dr;
                 Cliente cliente = new Cliente();
@@ -105,10 +112,38 @@ namespace CustomClothing.Repositorio
 
                 while (dr.Read())
                 {
-                    cliente.CPF = Convert.ToInt32(dr["CPF"]);
+                    cliente.CPF = Convert.ToString(dr["CPF"]);
                     cliente.RG = Convert.ToString(dr["RG"]);
                     cliente.Nome = Convert.ToString(dr["Nome"]);
-                    cliente.DataNasc = Convert.ToDateTime(dr["Nascimento"]);
+                    cliente.DataNans = Convert.ToDateTime(dr["Nascimento"]);
+                    cliente.Celular = Convert.ToString(dr["Celular"]);
+                    cliente.Sexo = Convert.ToString(dr["Sexo"]);
+                    cliente.Email = Convert.ToString(dr["Email"]);
+                    cliente.Senha = Convert.ToString(dr["Senha"]);
+                }
+                return cliente;
+            }
+        }
+
+        public Cliente ObterNomeCliente(string Nome)
+        {
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
+            {
+                conexao.Open();
+                MySqlCommand cmd = new MySqlCommand("CALL pcd_ExibirCliente_Nome(@Nome)", conexao);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Nome", Nome);
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                MySqlDataReader dr;
+                Cliente cliente = new Cliente();
+                dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+
+                while (dr.Read())
+                {
+                    cliente.CPF = Convert.ToString(dr["CPF"]);
+                    cliente.RG = Convert.ToString(dr["RG"]);
+                    cliente.Nome = Convert.ToString(dr["Nome"]);
+                    cliente.DataNans = Convert.ToDateTime(dr["Nascimento"]);
                     cliente.Celular = Convert.ToString(dr["Celular"]);
                     cliente.Sexo = Convert.ToString(dr["Sexo"]);
                     cliente.Email = Convert.ToString(dr["Email"]);
@@ -125,6 +160,7 @@ namespace CustomClothing.Repositorio
             {
                 conexao.Open();
                 MySqlCommand cmd = new MySqlCommand("select * from tbCliente", conexao);
+                cmd.CommandType = CommandType.StoredProcedure;
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
 
@@ -135,10 +171,10 @@ namespace CustomClothing.Repositorio
                     clienteList.Add(
                         new Cliente
                         {
-                            CPF = Convert.ToInt32(dr["CPF"]),
+                            CPF = Convert.ToString(dr["CPF"]),
                             RG = (string)(dr["RG"]),
                             Nome = (string)(dr["Nome"]),
-                            DataNasc = Convert.ToDateTime(dr["Nascimento"]),
+                            DataNans = Convert.ToDateTime(dr["Nascimento"]),
                             Celular = (string)(dr["Celular"]),
                             Sexo = (string)(dr["Sexo"]),
                             Email = (string)(dr["Email"]),

@@ -17,63 +17,63 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CustomClothing
 build_property.RootNamespace = CustomClothing
-build_property.ProjectDir = F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\CustomClothes-ASP.NET\
+build_property.ProjectDir = C:\Users\Gih\OneDrive\Desktop\TCC\CustomClothes-ASP.NET\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\3A-MODULAR\MIGUEL_E_KAUE\DTCC\TCC-MIGUEL\CustomClothes-ASP.NET
+build_property.MSBuildProjectDirectory = C:\Users\Gih\OneDrive\Desktop\TCC\CustomClothes-ASP.NET
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/3A-MODULAR/MIGUEL_E_KAUE/DTCC/TCC-MIGUEL/CustomClothes-ASP.NET/Views/Home/Finalizada.cshtml]
+[C:/Users/Gih/OneDrive/Desktop/TCC/CustomClothes-ASP.NET/Views/Home/Finalizada.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW5hbGl6YWRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/3A-MODULAR/MIGUEL_E_KAUE/DTCC/TCC-MIGUEL/CustomClothes-ASP.NET/Views/Home/Index.cshtml]
+[C:/Users/Gih/OneDrive/Desktop/TCC/CustomClothes-ASP.NET/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/3A-MODULAR/MIGUEL_E_KAUE/DTCC/TCC-MIGUEL/CustomClothes-ASP.NET/Views/Home/Problema.cshtml]
+[C:/Users/Gih/OneDrive/Desktop/TCC/CustomClothes-ASP.NET/Views/Home/Problema.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9ibGVtYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/3A-MODULAR/MIGUEL_E_KAUE/DTCC/TCC-MIGUEL/CustomClothes-ASP.NET/Views/Home/Sobrenos.cshtml]
+[C:/Users/Gih/OneDrive/Desktop/TCC/CustomClothes-ASP.NET/Views/Home/Sobrenos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZW5vcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/3A-MODULAR/MIGUEL_E_KAUE/DTCC/TCC-MIGUEL/CustomClothes-ASP.NET/Views/Login/Cadastro.cshtml]
+[C:/Users/Gih/OneDrive/Desktop/TCC/CustomClothes-ASP.NET/Views/Login/Cadastro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQ2FkYXN0cm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/3A-MODULAR/MIGUEL_E_KAUE/DTCC/TCC-MIGUEL/CustomClothes-ASP.NET/Views/Login/Login.cshtml]
+[C:/Users/Gih/OneDrive/Desktop/TCC/CustomClothes-ASP.NET/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/3A-MODULAR/MIGUEL_E_KAUE/DTCC/TCC-MIGUEL/CustomClothes-ASP.NET/Views/Produto/Personalizar.cshtml]
+[C:/Users/Gih/OneDrive/Desktop/TCC/CustomClothes-ASP.NET/Views/Produto/Personalizar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xQZXJzb25hbGl6YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/3A-MODULAR/MIGUEL_E_KAUE/DTCC/TCC-MIGUEL/CustomClothes-ASP.NET/Views/Produto/Produto.cshtml]
+[C:/Users/Gih/OneDrive/Desktop/TCC/CustomClothes-ASP.NET/Views/Produto/Produto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xQcm9kdXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/3A-MODULAR/MIGUEL_E_KAUE/DTCC/TCC-MIGUEL/CustomClothes-ASP.NET/Views/Shared/Error.cshtml]
+[C:/Users/Gih/OneDrive/Desktop/TCC/CustomClothes-ASP.NET/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/3A-MODULAR/MIGUEL_E_KAUE/DTCC/TCC-MIGUEL/CustomClothes-ASP.NET/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Gih/OneDrive/Desktop/TCC/CustomClothes-ASP.NET/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/3A-MODULAR/MIGUEL_E_KAUE/DTCC/TCC-MIGUEL/CustomClothes-ASP.NET/Views/_ViewImports.cshtml]
+[C:/Users/Gih/OneDrive/Desktop/TCC/CustomClothes-ASP.NET/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/3A-MODULAR/MIGUEL_E_KAUE/DTCC/TCC-MIGUEL/CustomClothes-ASP.NET/Views/_ViewStart.cshtml]
+[C:/Users/Gih/OneDrive/Desktop/TCC/CustomClothes-ASP.NET/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/3A-MODULAR/MIGUEL_E_KAUE/DTCC/TCC-MIGUEL/CustomClothes-ASP.NET/Views/Shared/_Layout.cshtml]
+[C:/Users/Gih/OneDrive/Desktop/TCC/CustomClothes-ASP.NET/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-21myo2jbts

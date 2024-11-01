@@ -1,6 +1,7 @@
 using CustomClothing.Repositorio.Contract;
 using CustomClothing.Repositorio;
 using CustomClothing.GerenciarArquivo;
+using CustomClothing.Libraries.Login;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,9 +18,8 @@ builder.Services.AddScoped<GerenciadorArquivos>();
 builder.Services.AddScoped<CustomClothing.Cookie.Cookies>();
 builder.Services.AddScoped<CustomClothing.CarrinhoCompra.CookiesCarrinhoCompra>();
 
-
-
 builder.Services.AddScoped<CustomClothing.Libraries.Sessao.Sessao>();
+builder.Services.AddScoped<Login>();
 
 //Corrigir problema com TEMPDATA
 builder.Services.AddDistributedMemoryCache();
