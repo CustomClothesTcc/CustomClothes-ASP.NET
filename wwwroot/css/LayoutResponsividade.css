@@ -1,0 +1,16 @@
+﻿@media screen and (max-width: 770px){
+    img#logoNavCC{
+        width: 6vw;
+        height: auto;
+    }
+    div.divImg img{
+        width: 3vw;
+    }
+    div.divGuia i{
+        font-size: 0.8em;
+    }
+    div.autocomplete-container{
+        width: 65%;
+        height: auto;
+    }
+}
