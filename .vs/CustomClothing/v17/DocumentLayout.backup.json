@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\",
+  "WorkspaceRootPath": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\gih\\onedrive\\desktop\\tcc\\customclothes-asp.net\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\kaiqu\\onedrive\\\u00E1rea de trabalho\\customclothes-asp.net\\wwwroot\\css\\layoutresponsividade.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\css\\layoutresponsividade.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\gih\\onedrive\\desktop\\tcc\\customclothes-asp.net\\views\\produto\\personalizar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\produto\\personalizar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\kaiqu\\onedrive\\\u00E1rea de trabalho\\customclothes-asp.net\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\kaiqu\\onedrive\\\u00E1rea de trabalho\\customclothes-asp.net\\wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Layout.css",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\css\\Layout.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Layout.css",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\css\\Layout.css",
+              "RelativeToolTip": "wwwroot\\css\\Layout.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-04T18:07:36.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Personalizar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Produto\\Personalizar.cshtml",
-              "RelativeDocumentMoniker": "Views\\Produto\\Personalizar.cshtml",
-              "ToolTip": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Produto\\Personalizar.cshtml",
-              "RelativeToolTip": "Views\\Produto\\Personalizar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T18:42:08.029Z",
+              "WhenOpened": "2024-11-04T17:51:36.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Login\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Login\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Gih\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Login\\Login.cshtml*",
-              "RelativeToolTip": "Views\\Login\\Login.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T18:39:59.103Z",
+              "Title": "LayoutResponsividade.css",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\css\\LayoutResponsividade.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\LayoutResponsividade.css",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\css\\LayoutResponsividade.css",
+              "RelativeToolTip": "wwwroot\\css\\LayoutResponsividade.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-04T17:30:52.79Z",
               "EditorCaption": ""
             }
           ]

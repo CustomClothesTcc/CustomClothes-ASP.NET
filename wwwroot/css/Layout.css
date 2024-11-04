@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 /* Header */
@@ -109,7 +110,8 @@ div.pesquisa i {
 header nav {
     display: flex;
     justify-content: space-between;
-    padding: 1.5em 21em;
+    flex-wrap: nowrap;
+    padding: 1.5em 2.1em;
     background-color: #1C003F;
 }
 
