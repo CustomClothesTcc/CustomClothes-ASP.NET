@@ -27,14 +27,15 @@
     <div class="segunda-coluna">
         <h2 class="título-2">Ou use o seu email para entrar</h2>
         <!--Classe Formulário para estilizar o formulário-->
-        <form asp-controller="Home" asp-action="Index" class="Formulário" method="post" enctype="multipart/form-data">
+        <form asp-controller="Login" asp-action="Login" class="Formulário" method="post" enctype="multipart/form-data">
             <input type="email" name="Email" asp-for="Email" placeholder="Email" required />
             <br />
             <input type="password" name="Senha" asp-for="Senha" placeholder="Senha" required />
             <br />
-            <a class="Senha" asp-area="" asp-controller="Home" asp-action="Index">Esqueceu a senha?</a>
+            <a class="IrCadastro" asp-action="Cadastro">Cadastrar-se</a>
             <br />
-            <input type="submit" class="botão" value="Entrar" />
+            <input type="submit" class="botão" value="Entrar"/>
         </form>
     </div>
 </div>
+

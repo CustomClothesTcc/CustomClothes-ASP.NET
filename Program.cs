@@ -19,7 +19,7 @@ builder.Services.AddScoped<CustomClothing.Cookie.Cookies>();
 builder.Services.AddScoped<CustomClothing.CarrinhoCompra.CookiesCarrinhoCompra>();
 
 builder.Services.AddScoped<CustomClothing.Libraries.Sessao.Sessao>();
-builder.Services.AddScoped<Login>();
+builder.Services.AddScoped<LoginCliente>();
 
 //Corrigir problema com TEMPDATA
 builder.Services.AddDistributedMemoryCache();

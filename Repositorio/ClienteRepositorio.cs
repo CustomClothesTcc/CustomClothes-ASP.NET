@@ -42,12 +42,13 @@ namespace CustomClothing.Repositorio
             {
                 conexao.Open();
                 MySqlCommand cmd = new MySqlCommand("CALL pcd_CadastrarCliente(@CPF,@RG,@Nome,@DataNans,@Celular,@Sexo,@Email,@Senha)", conexao);
-                cmd.CommandType = CommandType.StoredProcedure;
+                //cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.Add("@CPF", MySqlDbType.VarChar).Value = cliente.CPF;
                 cmd.Parameters.Add("@RG", MySqlDbType.VarChar).Value = cliente.RG;
                 cmd.Parameters.Add("@Nome", MySqlDbType.VarChar).Value = cliente.Nome;
                 cmd.Parameters.Add("@DataNans", MySqlDbType.Date).Value = cliente.DataNans.ToString("yyyy/MM/dd");
                 cmd.Parameters.Add("@Celular", MySqlDbType.VarChar).Value = cliente.Celular;
+                cmd.Parameters.Add("@Sexo", MySqlDbType.VarChar).Value = cliente.Sexo;
                 cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = cliente.Email;
                 cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = cliente.Senha;
                 cmd.ExecuteNonQuery();
@@ -73,8 +74,9 @@ namespace CustomClothing.Repositorio
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("CALL pcd_LoginCliente(@Email, @Senha)", conexao);
-                cmd.CommandType = CommandType.StoredProcedure;
+                MySqlCommand cmd = new MySqlCommand("SELECT * FROM tbCliente WHERE Email = @Email AND Senha = @Senha", conexao);
+                //MySqlCommand cmd = new MySqlCommand("CALL pcd_LoginCliente(@Email, @Senha)", conexao);
+                //cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = Email;
                 cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = Senha;
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
@@ -87,7 +89,7 @@ namespace CustomClothing.Repositorio
                     cliente.CPF = Convert.ToString(dr["CPF"]);
                     cliente.RG = Convert.ToString(dr["RG"]);
                     cliente.Nome = Convert.ToString(dr["Nome"]);
-                    cliente.DataNans = Convert.ToDateTime(dr["Nascimento"]);
+                    cliente.DataNans = (DateOnly)(dr["DataNans"]);
                     cliente.Celular = Convert.ToString(dr["Celular"]);
                     cliente.Sexo = Convert.ToString(dr["Sexo"]);
                     cliente.Email = Convert.ToString(dr["Email"]);
@@ -115,7 +117,7 @@ namespace CustomClothing.Repositorio
                     cliente.CPF = Convert.ToString(dr["CPF"]);
                     cliente.RG = Convert.ToString(dr["RG"]);
                     cliente.Nome = Convert.ToString(dr["Nome"]);
-                    cliente.DataNans = Convert.ToDateTime(dr["Nascimento"]);
+                    cliente.DataNans = (DateOnly)(dr["DataNans"]);
                     cliente.Celular = Convert.ToString(dr["Celular"]);
                     cliente.Sexo = Convert.ToString(dr["Sexo"]);
                     cliente.Email = Convert.ToString(dr["Email"]);
@@ -143,7 +145,7 @@ namespace CustomClothing.Repositorio
                     cliente.CPF = Convert.ToString(dr["CPF"]);
                     cliente.RG = Convert.ToString(dr["RG"]);
                     cliente.Nome = Convert.ToString(dr["Nome"]);
-                    cliente.DataNans = Convert.ToDateTime(dr["Nascimento"]);
+                    cliente.DataNans = (DateOnly)(dr["DataNans"]);
                     cliente.Celular = Convert.ToString(dr["Celular"]);
                     cliente.Sexo = Convert.ToString(dr["Sexo"]);
                     cliente.Email = Convert.ToString(dr["Email"]);
@@ -174,12 +176,12 @@ namespace CustomClothing.Repositorio
                             CPF = Convert.ToString(dr["CPF"]),
                             RG = (string)(dr["RG"]),
                             Nome = (string)(dr["Nome"]),
-                            DataNans = Convert.ToDateTime(dr["Nascimento"]),
+                            DataNans = (DateOnly)(dr["DataNans"]),
                             Celular = (string)(dr["Celular"]),
                             Sexo = (string)(dr["Sexo"]),
                             Email = (string)(dr["Email"]),
                             Senha = (string)(dr["Senha"])
-                        });
+                        }) ;
                 }
                 return clienteList;
             }

@@ -1,4 +1,5 @@
-﻿using CustomClothing.Libraries.Login;
+﻿using CustomClothing.Libraries.Filtro;
+using CustomClothing.Libraries.Login;
 using CustomClothing.Models;
 using CustomClothing.Repositorio.Contract;
 using Microsoft.AspNetCore.Mvc;
@@ -9,11 +10,11 @@ namespace CustomClothing.Controllers
     {
         //Injeção de dependência
         private IClienteRepositorio _clienteRepositorio;
-        private Login _login;
-        public LoginController(IClienteRepositorio clienteRepositorio, Login login)
+        private LoginCliente _logincliente;
+        public LoginController(IClienteRepositorio clienteRepositorio, LoginCliente logincliente)
         {
             _clienteRepositorio = clienteRepositorio;
-            _login = login; 
+            _logincliente = logincliente;
         }
         public IActionResult Login()
         {
@@ -26,7 +27,7 @@ namespace CustomClothing.Controllers
             Cliente clienteDB = _clienteRepositorio.Login(cliente.Email, cliente.Senha);
             if (clienteDB.Email != null && clienteDB.Senha != null)
             {
-               _login.LoginCliente(clienteDB);
+                _logincliente.Login(clienteDB);
                 return new RedirectResult(Url.Action(nameof(PerfilCliente)));
             }
             else
@@ -38,20 +39,26 @@ namespace CustomClothing.Controllers
         }
         public IActionResult PerfilCliente()
         {
-            ViewBag.Nome = _login.GetCliente().Nome;
-            ViewBag.Celular = _login.GetCliente().Celular;
-            ViewBag.Email = _login.GetCliente().Email;
             return View();
         }
+
+        [ClienteAutorizacao]
         public IActionResult LogoutCliente()
         {
-            _login.Logout();
-            return RedirectToAction(nameof(Index));
+            _logincliente.Logout();
+            return RedirectToAction("Index", "Home");
         }
 
         public IActionResult Cadastro()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Cadastro(Cliente cliente)
+        {
+            _clienteRepositorio.Cadastrar(cliente);
+            return RedirectToAction(nameof(Cadastro));
         }
     }
 }

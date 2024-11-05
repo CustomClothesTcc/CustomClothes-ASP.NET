@@ -1,37 +1,66 @@
-﻿@{
-    ViewData["Custom Clothes"] = "Login";
+﻿@model CustomClothing.Models.Cliente
+@{
+    ViewData["Custom Clothes"] = "Cadastro";
 }
-<link rel="stylesheet" href="~/css/Cadastro.css" />
-
-<body>
-    <div class="container">
-        <div class="content first-content">
-
-            <div class="primeira-coluna">
-                <h2 class="title">Bem-vindo de volta!</h2>
-                <p class="descricao">Para se manter conectado conosco,</p>
-                <p class="descricao"> faça login com suas informações pessoais</p>
-              <a asp-area="" asp-controller="Login" asp-action="Login">Entrar</a>
-
+<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="Login" asp-action="Cadastro" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CPF" class="control-label">CPF:</label>
+                <input asp-for="CPF" class="form-control" />
+                <span asp-validation-for="CPF" class="text-danger"></span>
             </div>
-            <div class="segunda-coluna">
-                <h2 class="title-primeira-coluna">Crie sua conta</h2>
-                <div class="icones">
-                    <a href="https://www.facebook.com/"><img src="~/lib/Imagens/icons8-facebook-48.png" /></a>
-                    <a href="https://accounts.google.com/"><img src="~/lib/Imagens/icons8-google-logo-48.png/></a>
-                    <a href="https://br.linkedin.com/"><img src="~/lib/Imagens/icons8-linkedin-48.png" /></a>
-                </div>
-
-                <form class="inputs">
-                    <input class="input-form" type="text" id="nome" placeholder="Nome" />
-                    <input class="input-form" type="email" id="email" placeholder="Email" />
-                    <input class="input-form" type="password" id="senha" placeholder="Crie sua senha" />
-                    <input class="input-form" type="password" id="confsenha" placeholder="Confirme sua senha" />
-                    <button class="btn" onclick=""> Inscrever-se </button>
-                </form>
-
-
+            <div class="form-group">
+                <label asp-for="RG" class="control-label">RG:</label>
+                <input asp-for="RG" class="form-control" />
+                <span asp-validation-for="RG" class="text-danger"></span>
             </div>
-        </div>
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label">Nome:</label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataNans" class="control-label">Data de Nascimento:</label>
+                <input asp-for="DataNans" class="form-control" />
+                <span asp-validation-for="DataNans" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" asp-for="Sexo" value="M">
+                    <span class="form-check-label"> Masculino </span>
+                </label>
+                <label class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" asp-for="Sexo" value="F">
+                    <span class="form-check-label"> Feminino</span>
+                </label>
+                <span asp-validation-for="Sexo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Celular" class="control-label">Telefone:</label>
+                <input asp-for="Celular" class="form-control" />
+                <span asp-validation-for="Celular" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label">Email:</label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Senha" class="control-label">Senha:</label>
+                <input asp-for="Senha" class="form-control" />
+                <span asp-validation-for="Senha" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="CADASTRAR" class="btn btn-primary" />
+            </div>
+        </form>
     </div>
-</body>
+    <div>
+        <a asp-action="Login">Voltar</a>
+    </div>
+</div>
+

@@ -4,16 +4,16 @@ using Newtonsoft.Json;
 
 namespace CustomClothing.Libraries.Login
 {
-    public class Login
+    public class LoginCliente
     {
         private string Key = "Login";
         private Sessao.Sessao _sessao;
 
-        public Login(Sessao.Sessao sessao)
+        public LoginCliente(Sessao.Sessao sessao)
         {
             _sessao = sessao;
         }
-        public void LoginCliente(Cliente cliente)
+        public void Login(Cliente cliente)
         {
             //Serializar
             string clienteJSONString = JsonConvert.SerializeObject(cliente);

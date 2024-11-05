@@ -18,7 +18,7 @@ namespace CustomClothing.Models
 
         [Display(Name = "Nascimento")]
         [Required(ErrorMessage = "A data é obrigatoria")]
-        public DateTime DataNans { get; set; }
+        public DateOnly DataNans { get; set; }
 
         [Display(Name = "Celular")]
         [Required(ErrorMessage = "O Celular é obrigatorio")]
