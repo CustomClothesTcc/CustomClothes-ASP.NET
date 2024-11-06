@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\",
+  "WorkspaceRootPath": "D:\\Users\\Miguel\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\onedrive\\desktop\\tcc\\customclothes-asp.net\\wwwroot\\css\\cadastro.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\css\\cadastro.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\onedrive\\desktop\\tcc\\customclothes-asp.net\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\views\\login\\cadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\onedrive\\desktop\\tcc\\customclothes-asp.net\\views\\login\\cadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\login\\cadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\onedrive\\desktop\\tcc\\customclothes-asp.net\\repositorio\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:repositorio\\clienterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +30,54 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cadastro.cshtml",
-              "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Login\\Cadastro.cshtml",
-              "RelativeDocumentMoniker": "Views\\Login\\Cadastro.cshtml",
-              "ToolTip": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Login\\Cadastro.cshtml",
-              "RelativeToolTip": "Views\\Login\\Cadastro.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAC4AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T03:15:46.787Z",
+              "DocumentIndex": 1,
+              "Title": "Login.css",
+              "DocumentMoniker": "D:\\Users\\Miguel\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Login.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Login.css",
+              "ToolTip": "D:\\Users\\Miguel\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Login.css",
+              "RelativeToolTip": "wwwroot\\css\\Login.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-06T16:50:12.624Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAwwBYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T03:12:40.48Z",
+              "Title": "Cadastro.css",
+              "DocumentMoniker": "D:\\Users\\Miguel\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Cadastro.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Cadastro.css",
+              "ToolTip": "D:\\Users\\Miguel\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Cadastro.css",
+              "RelativeToolTip": "wwwroot\\css\\Cadastro.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-06T16:47:17.482Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAAwEAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Cadastro.cshtml",
+              "DocumentMoniker": "D:\\Users\\Miguel\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Login\\Cadastro.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Cadastro.cshtml",
+              "ToolTip": "D:\\Users\\Miguel\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Login\\Cadastro.cshtml",
+              "RelativeToolTip": "Views\\Login\\Cadastro.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T16:43:54.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClienteRepositorio.cs",
+              "DocumentMoniker": "D:\\Users\\Miguel\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\Repositorio\\ClienteRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorio\\ClienteRepositorio.cs",
+              "ToolTip": "D:\\Users\\Miguel\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\Repositorio\\ClienteRepositorio.cs",
+              "RelativeToolTip": "Repositorio\\ClienteRepositorio.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAgwDYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T03:10:27.866Z",
+              "WhenOpened": "2024-11-05T13:07:14.137Z",
               "EditorCaption": ""
             }
           ]

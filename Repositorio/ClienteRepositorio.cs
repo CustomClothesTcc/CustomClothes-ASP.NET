@@ -2,6 +2,7 @@
 using CustomClothing.Repositorio.Contract;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using MySql.Data.MySqlClient;
+using MySqlX.XDevAPI;
 using System.Data;
 
 namespace CustomClothing.Repositorio
@@ -74,7 +75,7 @@ namespace CustomClothing.Repositorio
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("SELECT * FROM tbCliente WHERE Email = @Email AND Senha = @Senha", conexao);
+                MySqlCommand cmd = new MySqlCommand("CALL pcd_LoginCliente(@Email, @Senha)", conexao);
                 //MySqlCommand cmd = new MySqlCommand("CALL pcd_LoginCliente(@Email, @Senha)", conexao);
                 //cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = Email;
@@ -89,7 +90,7 @@ namespace CustomClothing.Repositorio
                     cliente.CPF = Convert.ToString(dr["CPF"]);
                     cliente.RG = Convert.ToString(dr["RG"]);
                     cliente.Nome = Convert.ToString(dr["Nome"]);
-                    cliente.DataNans = (DateOnly)(dr["DataNans"]);
+                    cliente.DataNans = DateOnly.FromDateTime((DateTime)dr["DataNans"]);
                     cliente.Celular = Convert.ToString(dr["Celular"]);
                     cliente.Sexo = Convert.ToString(dr["Sexo"]);
                     cliente.Email = Convert.ToString(dr["Email"]);
@@ -117,7 +118,7 @@ namespace CustomClothing.Repositorio
                     cliente.CPF = Convert.ToString(dr["CPF"]);
                     cliente.RG = Convert.ToString(dr["RG"]);
                     cliente.Nome = Convert.ToString(dr["Nome"]);
-                    cliente.DataNans = (DateOnly)(dr["DataNans"]);
+                    cliente.DataNans = DateOnly.FromDateTime((DateTime)dr["DataNans"]);
                     cliente.Celular = Convert.ToString(dr["Celular"]);
                     cliente.Sexo = Convert.ToString(dr["Sexo"]);
                     cliente.Email = Convert.ToString(dr["Email"]);
@@ -145,7 +146,7 @@ namespace CustomClothing.Repositorio
                     cliente.CPF = Convert.ToString(dr["CPF"]);
                     cliente.RG = Convert.ToString(dr["RG"]);
                     cliente.Nome = Convert.ToString(dr["Nome"]);
-                    cliente.DataNans = (DateOnly)(dr["DataNans"]);
+                    cliente.DataNans = DateOnly.FromDateTime((DateTime)dr["DataNans"]);
                     cliente.Celular = Convert.ToString(dr["Celular"]);
                     cliente.Sexo = Convert.ToString(dr["Sexo"]);
                     cliente.Email = Convert.ToString(dr["Email"]);
@@ -176,7 +177,7 @@ namespace CustomClothing.Repositorio
                             CPF = Convert.ToString(dr["CPF"]),
                             RG = (string)(dr["RG"]),
                             Nome = (string)(dr["Nome"]),
-                            DataNans = (DateOnly)(dr["DataNans"]),
+                            DataNans = DateOnly.FromDateTime((DateTime)dr["DataNans"]),
                             Celular = (string)(dr["Celular"]),
                             Sexo = (string)(dr["Sexo"]),
                             Email = (string)(dr["Email"]),

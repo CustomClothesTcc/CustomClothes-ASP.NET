@@ -2,7 +2,8 @@
 @{
     ViewData["Custom Clothes"] = "Cadastro";
 }
-<div class="row">
+<link rel="stylesheet" href="~/css/Cadastro.css"/>
+<div class="Container">
     <div class="col-md-4">
         <form asp-controller="Login" asp-action="Cadastro" method="post" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -63,4 +64,3 @@
         <a asp-action="Login">Voltar</a>
     </div>
 </div>
-
