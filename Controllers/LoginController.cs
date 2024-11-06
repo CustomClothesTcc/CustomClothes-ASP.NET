@@ -58,7 +58,7 @@ namespace CustomClothing.Controllers
         public IActionResult Cadastro(Cliente cliente)
         {
             _clienteRepositorio.Cadastrar(cliente);
-            return RedirectToAction(nameof(Cadastro));
+            return RedirectToAction(nameof(Login));
         }
     }
 }

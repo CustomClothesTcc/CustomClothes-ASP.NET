@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@inject CustomClothing.Libraries.Login.LoginCliente _loginCliente
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
@@ -20,43 +21,56 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
-        <header>
-            <div class="pesquisa">
-<div class="divLogo">
-    <div class="divImg">
-       <img src="~/lib/Imagens/LogosCC/CustomClothesSemNome.png" alt="Logo" id="logoNavCC"/>
-    </div>
-    <div class="divP">
-        <p>Custom</p>
-        <p>Clothes</p>
-    </div>
-</div>
-
-<div class="autocomplete-container">
-                <input id="search-bar" type="search" class="form-control" placeholder="Pesquise a sua Roupa...">
-               <button id="search-button">
-                <i class="bi bi-search"></i>
-               </button>
+    <header>
+        <div class="pesquisa">
+            <div class="divLogo">
+                <div class="divImg">
+                    <img src="~/lib/Imagens/LogosCC/CustomClothesSemNome.png" alt="Logo" id="logoNavCC" />
+                </div>
+                <div class="divP">
+                    <p>Custom</p>
+                    <p>Clothes</p>
+                </div>
             </div>
-<div class="divGuia">
-                <a asp-area="" asp-controller="Login" asp-action="Login">
-                    <i class="bi bi-person-circle"></i>
-                </a>
+
+            <div class="autocomplete-container">
+                <input id="search-bar" type="search" class="form-control" placeholder="Pesquise a sua Roupa...">
+                <button id="search-button">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+            <div class="divGuia">
+                <li class="nav-item dropdown" style="list-style: none">
+                    @if (_loginCliente.GetCliente() != null)
+                    {
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">@_loginCliente.GetCliente().Nome</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Meus Perfil</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/Login/LogoutCliente">Sair</a></li>
+                        </ul>
+                    }
+                    else
+                    {
+                        <a class="nav-link" href="/Login/Login"><i class="fas fa-user-alt"></i> Login</a>
+                    }
+                </li>
+                </li>
                 <a asp-area="" asp-controller="#" asp-action="#">
                     <i class="bi bi-heart-fill"></i>
                 </a>
                 <a asp-area="" asp-controller="#" asp-action="#">
                     <i class="bi bi-cart3"></i>
                 </a>
-</div>
             </div>
-            <nav>
-                <a asp-area="" asp-controller="Home" asp-action="Index">INÍCIO</a>
-                <a asp-area="" asp-controller="Home" asp-action="Sobrenos">SOBRE-NÓS</a>
-                <a asp-area="" asp-controller="" asp-action="#">PRODUTOS</a>
-                <a asp-area="" asp-controller="Produto" asp-action="Personalizar">PERSONALIZAR</a>
-            </nav>
-        </header>
+        </div>
+        <nav>
+            <a asp-area="" asp-controller="Home" asp-action="Index">INÍCIO</a>
+            <a asp-area="" asp-controller="Home" asp-action="Sobrenos">SOBRE-NÓS</a>
+            <a asp-area="" asp-controller="" asp-action="#">PRODUTOS</a>
+            <a asp-area="" asp-controller="Produto" asp-action="Personalizar">PERSONALIZAR</a>
+        </nav>
+    </header>
     <div>
         <main role="main" class="pb-3">
             @RenderBody()
@@ -81,7 +95,7 @@
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
             © 2024 Copyright:
             <a class="text-reset fw-bold text-decoration-none">Custom Clothes, todos os direitos reservados.</a>
-            <br/>
+            <br />
             <a class="text-reset fw-bold text-decoration-none" href="https://customclothestcc.github.io/DevWorkstation/">Desenvolvido pela Dev Workstation LTDA.</a>
         </div>
     </footer>

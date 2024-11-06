@@ -77,6 +77,10 @@
       "PackagePath": "staticwebassets\\css\\Sobrenos.css"
     },
     {
+      "Id": "D:\\Users\\Miguel\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
       "Id": "D:\\Users\\Miguel\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
