@@ -5,9 +5,14 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
-.menu-btn{
-    display: none;
+.menu-hamburguer a i{
+    padding-right: 0.5em;
+    padding-left: 0.4em;
+    font-size: 1.7vw;
 }
+    .menu-btn {
+        display: none;
+    }
 .divGuia a {
     display: inline-block;
     padding: 8px;

@@ -65,13 +65,13 @@ div.autocomplete-container {
         .divLogo{
             display: flex;
             flex-direction: column;
+            flex-wrap: wrap;
             align-items: center;
             text-align: center;
         }
-        .divP{
-            display: flex;
-            flex-direction: row;
-            font-size: 1em;
+        .divP p{
+            display: none;
+           
         }
 
 }
