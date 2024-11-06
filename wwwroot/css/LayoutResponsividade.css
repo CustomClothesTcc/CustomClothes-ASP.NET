@@ -1,16 +1,77 @@
-﻿@media screen and (max-width: 770px){
-    img#logoNavCC{
-        width: 6vw;
-        height: auto;
+﻿@media screen and (max-width: 931px){
+    .autocomplete-container {
+        min-width: 55vw;
+        max-width: 70vw;
     }
-    div.divImg img{
-        width: 3vw;
+}
+@media screen and (max-width: 751px) {
+    img #logoNavCC
+
+{
+    width: 6vw;
+    height: auto;
+}
+
+div.divImg img {
+    width: 3vw;
+}
+
+div.divGuia i {
+    font-size: 0.8em;
+}
+
+div.autocomplete-container {
+    width: 65%;
+    height: auto;
+}
+}
+
+@media screen and (max-width: 551px){
+    .autocomplete-container {
+        min-height: 1em;
+        max-width: 2em;
+        min-width: 45vw;
+        max-width: 50vw;
     }
-    div.divGuia i{
-        font-size: 0.8em;
+    .menu-btn {
+        font-size: 24px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: inline;
     }
-    div.autocomplete-container{
-        width: 65%;
-        height: auto;
+
+    .menu-hamburguer {
+        display: none; 
+        position: absolute;
+        top: 40px;
+        right: 10px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        border-radius: 5px;
     }
+
+        .menu-hamburguer a {
+            display: block;
+            padding: 8px 16px;
+            color: #333;
+            text-decoration: none;
+        }
+            .menu-hamburguer a:hover {
+                background-color: #f1f1f1;
+            }
+        .divLogo{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            text-align: center;
+        }
+        .divP p{
+            display: none;
+           
+        }
+
 }
