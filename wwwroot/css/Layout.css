@@ -5,7 +5,15 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
-
+.menu-btn{
+    display: none;
+}
+.divGuia a {
+    display: inline-block;
+    padding: 8px;
+    color: #333;
+    text-decoration: none;
+}
 /* Header */
 .divLogo {
     display: flex;
@@ -193,8 +201,8 @@ a:hover {
 .autocomplete-container {
     display: flex;
     align-items: center;
-    width: 100%;
-    max-width: 600px;
+    min-width: 65vw;
+    max-width: 80vw;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 25px;

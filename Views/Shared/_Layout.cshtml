@@ -38,17 +38,22 @@
                 <i class="bi bi-search"></i>
                </button>
             </div>
-<div class="divGuia">
+            <!-- Menu Hambúrguer -->
+            <button class="menu-btn" onclick="toggleMenu()">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="menu-hamburguer" id="menuHamburguer">
                 <a asp-area="" asp-controller="Login" asp-action="Login">
-                    <i class="bi bi-person-circle"></i>
+                    <i class="bi bi-person-circle"></i> Login
                 </a>
                 <a asp-area="" asp-controller="#" asp-action="#">
-                    <i class="bi bi-heart-fill"></i>
+                    <i class="bi bi-heart-fill"></i> Favoritos
                 </a>
                 <a asp-area="" asp-controller="#" asp-action="#">
-                    <i class="bi bi-cart3"></i>
+                    <i class="bi bi-cart3"></i> Carrinho
                 </a>
-</div>
+            </div>
+
             </div>
             <nav>
                 <a asp-area="" asp-controller="Home" asp-action="Index">INÍCIO</a>
@@ -86,6 +91,7 @@
         </div>
     </footer>
     <script src="~/js/site.js"></script>
+    <script src="~/js/LayoutJS.js"></script>
     <script src="~/js/sugestoes.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

@@ -13,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\kaiqu\\onedrive\\\u00E1rea de trabalho\\customclothes-asp.net\\wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\kaiqu\\onedrive\\\u00E1rea de trabalho\\customclothes-asp.net\\wwwroot\\js\\layoutjs.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\js\\layoutjs.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,28 +30,28 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LayoutJS.js",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\js\\LayoutJS.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\LayoutJS.js",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\js\\LayoutJS.js",
+              "RelativeToolTip": "wwwroot\\js\\LayoutJS.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-06T17:41:37.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Layout.css",
               "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\css\\Layout.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Layout.css",
               "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\css\\Layout.css",
               "RelativeToolTip": "wwwroot\\css\\Layout.css",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-04T18:07:36.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-04T17:51:36.58Z",
+              "WhenOpened": "2024-11-06T17:12:17.372Z",
               "EditorCaption": ""
             },
             {
@@ -58,9 +62,22 @@
               "RelativeDocumentMoniker": "wwwroot\\css\\LayoutResponsividade.css",
               "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\css\\LayoutResponsividade.css",
               "RelativeToolTip": "wwwroot\\css\\LayoutResponsividade.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAiwEoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-04T17:30:52.79Z",
+              "WhenOpened": "2024-11-06T17:08:37.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T17:08:30.465Z",
               "EditorCaption": ""
             }
           ]
