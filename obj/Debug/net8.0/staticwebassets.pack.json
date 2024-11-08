@@ -77,15 +77,11 @@
       "PackagePath": "staticwebassets\\css\\Sobrenos.css"
     },
     {
-<<<<<<< HEAD
-      "Id": "D:\\Users\\Miguel\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\bootstrap.css",
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Users\\Miguel\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\favicon.ico",
-=======
       "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\favicon.ico",
->>>>>>> 77ce051c75331e9232b8afb227c0e1cede03258b
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {

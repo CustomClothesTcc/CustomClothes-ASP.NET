@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\wwwroot",
-    "\\wwwroot\\css"
+    "\\Views",
+    "\\Views\\Produto",
+    "\\wwwroot"
   ],
-  "SelectedNode": "\\wwwroot\\css\\Cadastro.css",
+  "SelectedNode": "\\CustomClothing.sln",
   "PreviewInSolutionExplorer": false
 }

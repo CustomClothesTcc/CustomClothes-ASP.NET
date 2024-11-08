@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "f+TFU/Q+D2X/1EgXrW4yx+Wc0LwNnbC9d1BBnphCsLo=",
-=======
-  "Hash": "u6uSwqUx8Rn8urwdOSQGS2DRIcd4840uw3m5JCiW5Ss=",
->>>>>>> 77ce051c75331e9232b8afb227c0e1cede03258b
+  "Hash": "F0zEAAB70vfpsO5CrBswEjxUFEowZSrFAjLcYr53ZiU=",
   "Source": "CustomClothing",
   "BasePath": "_content/CustomClothing",
   "Mode": "Default",
@@ -59,11 +55,10 @@
       "OriginalItemSpec": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CustomClothing.bundle.scp.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\css\\bootstrap.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "css/bootstrap.css",
       "AssetKind": "All",
@@ -79,10 +74,7 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Users\\Miguel\\OneDrive\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Cadastro.css",
-=======
       "Identity": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\css\\Cadastro.css",
->>>>>>> 77ce051c75331e9232b8afb227c0e1cede03258b
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\",
