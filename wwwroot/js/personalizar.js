@@ -1,4 +1,4 @@
-﻿const uploadImagem = document.getElementById('uploadImagem');
+﻿const uploadImagem = document.getElementById('file');
 const imagemPreview = document.getElementById('imagemPreview');
 const containerPreview = document.getElementById('containerPreview');
 
