@@ -28,6 +28,11 @@ namespace CustomClothing.Controllers
             return View();
         }
 
+        public IActionResult Confirmar()
+        {
+            return View();
+        }
+
         public IActionResult Problema()
         {
             return View();

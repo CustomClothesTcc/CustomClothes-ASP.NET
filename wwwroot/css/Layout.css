@@ -211,7 +211,7 @@ a:hover {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 25px;
-    overflow: hidden;
+  
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -220,12 +220,10 @@ a:hover {
     border: 1px solid #ccc;
     z-index: 99;
     top: 100%;
-    left: 0;
-    right: 0;
+ 
     background-color: #9f9f9f;
     color: #fff;
     max-height: 200px;
-    overflow-y: auto;
 }
 
 .autocomplete-item {

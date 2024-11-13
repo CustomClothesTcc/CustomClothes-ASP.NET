@@ -1,0 +1,482 @@
+﻿
+
+.perfil {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    gap: 20px;
+}
+
+h1 {
+    background-color: rgb(206, 206, 206);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.perf {
+    width: 5vw;
+    height: 5vw;
+    margin-left: 45px
+}
+
+.hr {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    width: 94%;
+    border: 1px solid rgb(146, 146, 146);
+}
+
+.forma {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+label {
+    font-size: 3vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil1 {
+    display: flex;
+    height: 19vw;
+}
+
+.imgpag {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 120px
+}
+
+/*.imgpag div:hover{
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+ /*box-shadow: rgba(50,50,93,0.25) 0px 30px 60px -12px inset, rgba(0,0,0,0.3) 0px 18px 36px -18px inset;
+    border-radius: 22px;
+    transition: 1s;
+}*/
+
+.pag {
+    width: 10vw;
+    height: 9vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgpag p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 3vh;
+}
+
+.test {
+    background-color: rgb(216, 215, 215);
+    height: 65vh;
+    margin-bottom: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iupi {
+    background-color: rgb(168, 0, 184);
+    color: #ffffff
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 65vh;
+    gap: 50px;
+
+}
+
+    .form div, .formu div, .formK div {
+        position: relative;
+    }
+
+        .form div input, .formu div input, .formK div input {
+            background-color: #ffffff;
+            padding: 0.625rem;
+            border: none;
+            width: 25VW;
+            font-size: 23px;
+            border-radius: 8px;
+        }
+
+        .form div label, .formu div label, .formK div label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            translate: 0.625rem 0.625rem;
+            color: #030104;
+            background-color: rgb(255, 255, 255);
+            padding-inline: 0.25rem;
+            border: 2px solid transparent;
+            pointer-events: none;
+            transition: translate 250ms, background-color 250ms, border-color 250ms;
+            font-size: 2vh;
+        }
+
+        .form div:focus-within label,
+        .form div:not(:has(:placeholder-shown))
+        label {
+            translate: 0.625rem -1rem;
+            border-color: #030104;
+            border-radius: 5px;
+            height: 2,5vh;
+            font-size: 3vh;
+        }
+
+        .form div ::placeholder {
+            color: transparent;
+        }
+
+.formK {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 65vh;
+    gap: 44px;
+    margin-left: 1vw;
+}
+
+    .formK div:focus-within label,
+    .formK div:not(:has(:placeholder-shown))
+    label {
+        translate: 0.625rem -1rem;
+        border-color: #030104;
+        border-radius: 5px;
+        height: 2,5vh;
+        font-size: 3vh;
+    }
+
+    .formK div ::placeholder {
+        color: transparent;
+    }
+
+select {
+    padding: 0.625rem;
+    /*border: 2px solid #030104;*/
+    border: none;
+    width: 25VW;
+    font-size: 23px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.tes {
+    background-color: rgb(216, 215, 215);
+    height: 30vh;
+    margin-bottom: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.formu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 10vh;
+    gap: 50px;
+}
+
+    .formu div:focus-within label,
+    .formu div:not(:has(:placeholder-shown))
+    label {
+        translate: 0.625rem -1rem;
+        border-color: #030104;
+        border-radius: 5px;
+        height: 2,5vh;
+        font-size: 3vh;
+    }
+
+    .formu div ::placeholder {
+        color: transparent;
+    }
+
+.formula {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 10vh;
+    gap: 44px;
+    margin-left: 1vw;
+}
+
+button, button .total {
+    background-color: blueviolet;
+    border: none;
+    border-radius: 20px;
+    width: 7vw;
+    height: 6vh;
+    color: white;
+}
+
+    button:hover {
+        background-color: rgb(46, 13, 77);
+    }
+
+.te {
+    background-color: rgb(216, 215, 215);
+    width: 100%;
+    height: 30vh;
+}
+
+    .te label {
+        width: 100%;
+        height: 7vh;
+        display: flex;
+    }
+
+.col {
+    display: flex;
+    width: 100%;
+    height: 23vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+    .col p {
+        font-size: 3vh;
+    }
+
+.total {
+    display: flex;
+    height: 16vh;
+    flex-direction: column;
+}
+
+    .total p {
+        display: flex;
+        justify-content: center;
+        height: 7vh;
+        align-items: center;
+        font-size: 4vh;
+    }
+
+    .total div {
+        width: 100%;
+        height: 9vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+button .total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: rgb(39, 167, 77)
+}
+
+
+/* -------------------- RESPONSIVIDADE --------------------*/
+
+@media only screen and (min-width:360px) {
+
+    button {
+        width: 17vw;
+        border-radius: 50px;
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    img .perf {
+        width: 8vw;
+    }
+    h1 {
+        text-align: center;
+        font-size: 3vw;
+        height: 20vh;
+    }
+}
+
+@media only screen and (max-width:1040px) {
+    /*p.aviso{
+        display: contents;
+        color: red;
+    }*/
+    .formula {
+        margin-left: 7vw;
+    }
+
+    .test {
+        height: 80vh;
+        gap: 4px;
+    }
+
+    label {
+        font-size: 3vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .perfil1 {
+        height: 34vw;
+    }
+
+    .imgpag {
+        gap: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    .formK {
+        top: 2px;
+        gap: 75px
+    }
+
+        .form div input, .formu div input, .formK div input {
+            width: 45vw;
+        }
+
+    .formu div:focus-within label,
+    .formu div:not(:has(:placeholder-shown))
+    label {
+        font-size: 2vh;
+    }
+
+    .formK div:focus-within label,
+    .formK div:not(:has(:placeholder-shown))
+    label {
+        font-size: 2vh;
+    }
+
+    .form div:focus-within label,
+    .form div:not(:has(:placeholder-shown))
+    label {
+        font-size: 2vh;
+    }
+
+    /*.test{
+        justify-content: center;
+        overflow-x: scroll;
+       overflow-y: hidden;
+       width: 100%;
+    }*/
+    .imgpag p {
+        font-size: 2vh;
+    }
+
+    .col_um {
+        width: 450px;
+        margin: 0;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 3vw;
+        height:4vh;
+    }
+}
+
+
+@media only screen and (max-width:1112px) {
+    .perf {
+        width: 9vw;
+        height: 9vw;
+        margin-left: 28px
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    .form div input, .formu div input, .formK div input {
+        width: 45vw;
+    }
+
+    .form {
+        gap: 43px
+    }
+
+    .formK {
+        gap: 74px
+    }
+
+    select {
+        width: 45vw;
+    }
+
+    .perf {
+        width: 6vw;
+        height: 6vw;
+        margin-left: 45px
+    }
+
+    p .col_um {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .form {
+        gap: 20px;
+    }
+
+    .formK {
+        gap: 41px;
+    }
+
+    .col_um {
+        width: 450px;
+        margin: 0;
+    }
+    h1{
+        height: 4vh;
+        font-size: 3vh
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .col_um {
+        width: 300px;
+        margin: 0;
+    }
+
+    .te p {
+        font-size: 2vh;
+    }
+
+    .total button {
+        width: 36vw;
+    }
+}

@@ -1,0 +1,140 @@
+﻿@{
+    ViewData["Title"] = "Confirmar";
+}
+
+<link rel="stylesheet" href="~/css/Confirmar.css" />
+
+<div class="perfil">
+    <img src="~/lib/imagens/pngwing.com (7).png" class="perf" />
+    <h1>Olá Cliente! Pronto para finalizar sua compra?</h1>
+</div>
+<div class="hr">
+    <hr></hr>
+</div>
+<br>
+<div class="forma"><label>Formas de pagamento:</label></div>
+<div class="perfil1">
+    <div class="imgpag">
+        <div>
+            <a href="">
+                <img src="~/lib/imagens/pix.png" class="pag" /> 
+                <p>Pix</p>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="~/lib/imagens/pngwing.com (8).png" class="pag"> 
+                <p>Cartão de crédito</p>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="~/lib/imagens/pngwing.com (9).png" class="pag"/>
+                <p>Boleto bancário</p>
+            </a>
+        </div>
+    </div>
+</div>
+    </div>
+<div class="test">
+    <div class="form">
+        <div>
+            <input type="text" id="nome" placeholder="Nome" required>
+            <label for="nome">Nome</label>
+        </div>
+        <div>
+            <input type="text" id="cpf" placeholder="CPF" required>
+            <label for="cpf">CPF</label>
+        </div>
+        <div>
+            <input type="text" id="cep" placeholder="CEP" required>
+            <label for="cep">CEP</label>
+        </div>
+        <div>
+            <input type="text" id="rua" placeholder="Rua" required>
+            <label for="rua">Rua</label>
+        </div>
+        <div>
+            <input type="text" id="complemento" placeholder="Complemento">
+            <label for="complemento">Complemento</label>
+        </div>
+        <!--<p class="aviso">Arraste pro lado &rarr; </p>  -->
+    </div>
+    <div class="formK">
+        <div>
+            <input type="text" id="celular" placeholder="Celular" required>
+            <label for="celular">Celular</label>
+        </div>
+        <div>
+            <input type="text" id="bairro" placeholder="Bairro">
+            <label for="bairro">Bairro</label>
+        </div>
+        <div>
+            <input type="text" id="numero" placeholder="numero">
+            <label for="numero">Número</label>
+        </div>
+        <div>
+            <select>
+                <option selected disabled class="iupi">UF... </option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Destrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="TO">Tocantins</option>
+            </select>
+        </div>
+    </div>
+</div>
+<div class="tes">
+    <div class="formu">
+        <div>
+            <input type="text" id="cupomdesconto" placeholder="Cupom de desconto">
+            <label for="cupomdesconto">Cupom de desconto</label>
+        </div>
+    </div>
+    <div class="formula">
+        <div>
+            <button>Usar</button>
+        </div>
+    </div>
+</div>
+<div class="te">
+    <label><b>Detalhes do pagamento</b></label>
+    <div class="col">
+        <div class="col_um">
+            <p>Camisa Mamomas Assassinas:</p>
+            <p>Camisa Racionais mc´s:</p>
+            <p>Cupom:</p>
+        </div>
+        <div class="col_dois">
+            <p>+R$45,00</p>
+            <p>+R$50,00</p>
+            <p>-R$5,00</p>
+        </div>
+    </div>
+</div>
+<div class="total">
+    <p>Valor total: <span>$90,00</span></p>
+    <div><button>Finalizar compra</button></div>
+</div>
