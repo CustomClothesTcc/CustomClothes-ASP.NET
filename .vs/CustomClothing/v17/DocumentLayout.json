@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\repositorio\\personalizarrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:repositorio\\personalizarrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\controllers\\compracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:controllers\\compracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\views\\produto\\personalizar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\produto\\personalizar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\models\\personalizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:models\\personalizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "Models\\Produto.cs",
-              "ToolTip": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Models\\Produto.cs",
-              "RelativeToolTip": "Models\\Produto.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T21:53:59.77Z",
+              "WhenOpened": "2024-11-13T19:01:24.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompraController.cs",
+              "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Controllers\\CompraController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CompraController.cs",
+              "ToolTip": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Controllers\\CompraController.cs",
+              "RelativeToolTip": "Controllers\\CompraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:01:22.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:51:37.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProdutoRepositorio.cs",
-              "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Repositorio\\ProdutoRepositorio.cs",
-              "RelativeDocumentMoniker": "Repositorio\\ProdutoRepositorio.cs",
-              "ToolTip": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Repositorio\\ProdutoRepositorio.cs",
-              "RelativeToolTip": "Repositorio\\ProdutoRepositorio.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAmwF4AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T21:51:30.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "PersonalizarRepositorio.cs",
               "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Repositorio\\PersonalizarRepositorio.cs",
               "RelativeDocumentMoniker": "Repositorio\\PersonalizarRepositorio.cs",
               "ToolTip": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Repositorio\\PersonalizarRepositorio.cs",
               "RelativeToolTip": "Repositorio\\PersonalizarRepositorio.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAUwGcAAAANAAAA",
+              "ViewState": "AQIAAEwAAAAAAAAAAADwv1gAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T21:51:36.601Z",
+              "WhenOpened": "2024-11-13T17:47:07.631Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Personalizar.cshtml",
+              "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Produto\\Personalizar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Produto\\Personalizar.cshtml",
+              "ToolTip": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Produto\\Personalizar.cshtml",
+              "RelativeToolTip": "Views\\Produto\\Personalizar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T17:41:47.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Personalizar.cs",
+              "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Models\\Personalizar.cs",
+              "RelativeDocumentMoniker": "Models\\Personalizar.cs",
+              "ToolTip": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Models\\Personalizar.cs",
+              "RelativeToolTip": "Models\\Personalizar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:40:13.369Z"
             }
           ]
         }
