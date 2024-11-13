@@ -4,86 +4,40 @@
 }
 <!--Link do CSS para estilizar a página Personalizar Roupa-->
 <link rel="stylesheet" href="~/css/Personalizar.css" />
-<title>Personalização de Roupa</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+<!--Título Principal-->
+<h1 class="text-center fs-1">Personalizar a sua aqui:</h1>
 <!--A div Container vai ser todo o contéudo da Tela de Personalizar-->
-<div class="container mt-4">
-    <h1 class="text-center mb-5">PERSONALIZAÇÃO DE ROUPAS</h1>
-    <div class="row">
-
-        <div class="col-md-6 mb-4">
-            <h2>Envio de Imagem</h2>
-            <form enctype="multipart/form-data">
-
-                <div class="areaUpload" id="areaUpload">
-                    <input asp-for="Estampa" type="file" accept="image/*" id="file">
-                    <div id="containerPreview">
-                        <i class="bi bi-shirt iconeCamiseta"></i>
-                        <p class="textoUpload">Clique para enviar<br>Imagem da camiseta</p>
-                        <img id="imagemPreview" class="imagemPreview d-none" alt="Pré-visualização da imagem">
-                    </div>
-                </div>
-                <small class="text-muted">Envie uma imagem quadrada para melhor visualização.</small>
-
-                <div class="mb-3 mt-3">
-                    <label asp-for="DescImg" for="tamanhoImagem" class="form-label">Tamanho da Imagem (px)</label>
-                    <input asp-for="DescImg" type="number" class="form-control" id="tamanhoImagem" placeholder="Ex: 200">
-                </div>
-                <div class="mb-3">
-                    <label asp-for="Tamanho" for="dropdownTamanhoRoupa" class="form-label">Tamanho da Roupa</label>
-                    <select asp-for="Tamanho" id="dropdownTamanhoRoupa" class="form-select">
-                        <option value="">Selecione</option>
-                        <option value="XS">XS</option>
-                        <option value="S">S</option>
-                        <option value="M">M</option>
-                        <option value="L">L</option>
-                        <option value="XL">XL</option>
-                        <option value="XXL">XXL</option>
-                        <option value="3XL">3XL</option>
-                        <option value="4XL">4XL</option>
-                        <option value="5XL">5XL</option>
-                        <option value="6XL">6XL</option>
-                        <option value="P">P</option>
-                        <option value="M">M</option>
-                        <option value="G">G</option>
-                        <option value="GG">GG</option>
-                    </select>
-                </div>
-            </form>
-        </div>
-
-        <div class="col-md-6 mb-4">
-            <h2>Detalhes da Roupa</h2>
-            <form>
-                <div class="mb-3">
-                    <label asp-for="Valor" class="form-label">Valor Estimado (R$)</label>
-                    <input asp-for="Valor" type="text" class="form-control" id="valorEstimado" placeholder="Ex: 150,00" required>
-                </div>
-                <div class="mb-3">
-                    <label asp-for="Descricao" class="form-label">Descrição da Roupa</label>
-                    <textarea asp-for="Descricao" class="form-control" id="descricaoRoupa" rows="16" placeholder="Descrição detalhada da peça"></textarea>
-                </div>
-                <div class="mb-3">
-                    <label asp-for="Tecido" class="form-label">Tipo de Tecido</label>
-                    <select asp-for="Tecido" id="dropdownTipoTecido" class="form-select">
-                        <option value="">Selecione</option>
-                        <option value="Algodão">Algodão</option>
-                        <option value="Poliéster">Poliéster</option>
-                        <option value="Linho">Linho</option>
-                        <option value="Seda">Seda</option>
-                        <option value="Jeans">Jeans</option>
-                        <option value="Viscose">Viscose</option>
-                        <option value="Malha">Malha</option>
-                    </select>
-                </div>
-            </form>
-        </div>
-    </div>
-
-    <div class="text-center">
-        <button type="button" class="btn btn-primary btn-lg" id="botaoPersonalizar">Personalizar Roupa</button>
+<div class="Container">
+    <!--A Div Custom vai ser a roupa personalizada conforme o cliente pediu-->
+    <div class="Custom">
+        <form asp-controller="Produto" asp-action="Personalizar" method="post" enctype="multipart/form-data">
+            <!---A Classe Picture terá as estampas que o usuário pedir--->
+            <label asp-for="Estampa">Estampa:</label>
+            <input asp-for="Estampa" type="file" id="file" name="file" rquired />
+            <br />
+            <label asp-for="Descricao">Descrição da Roupa:</label>
+            <input asp-for="Descricao" class="descricao" type="text" id="descricao" required />
+            <br />
+            <label asp-for="DescImg">Tamanho da Imagem:</label>
+            <input asp-for="DescImg" class="Roupa" type="text" id="Tamanho-1" required />
+            <br />
+            <label asp-for="Tamanho">Tamanho:</label>
+            <input asp-for="Tamanho" class="Roupa" type="text" id="tamanho" required />
+            <br />
+            <label asp-for="Tecido">Tecido:</label>
+            <input asp-for="Tecido" class="Roupa" type="text" id="tamanho" required />
+            <br />
+            <label asp-for="Cor">Cor:</label>
+            <input asp-for="Cor" class="Roupa" type="text" id="tamanho" required />
+            <br />
+            <label asp-for="Quantidade">Quantidade:</label>
+            <input asp-for="Quantidade" class="Roupa" type="text" id="tamanho" required />
+            <br />
+            <label asp-for="Valor" class="Total">Total:</label>
+            <input asp-for="Valor" class="Roupa" type="text" id="Txtotal" required />
+            <br />
+            <!--O Botão Ver utiliza Classes CSS e Boostrap-->
+            <input type="submit" value="Personalizar" class="botão text-white btn d-grid gap-2 col-4 mx-auto" />
+        </form>
     </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="~/js/Personalizar.js"></script>

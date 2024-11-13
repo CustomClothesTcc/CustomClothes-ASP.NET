@@ -53,22 +53,22 @@ namespace CustomClothing.Repositorio
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 MySqlDataReader dr;
 
-                Produto produto = new Produto();
+                Produto produtos = new Produto();
                 dr = cmd.ExecuteReader(System.Data.CommandBehavior.CloseConnection);
                 while (dr.Read())
                 {
-                    produto.IdProduto = Convert.ToInt32(dr["IdProduto"]);
-                    produto.Tecido = (string)(dr["Tecido"]);
-                    produto.Descricao = (string)(dr["Descricao"]);
-                    produto.Categoria = (string)(dr["Categoria"]);
-                    produto.Cor = (string)(dr["Cor"]);
-                    produto.Estampa = (string)(dr["Estampa"]);
-                    produto.Quantidade = Convert.ToInt32(dr["Quantidade"]);
-                    produto.Tamanho = (string)(dr["Tamanho"]);
-                    produto.Situacao = (string)(dr["Situacao"]);
-                    produto.Valor = Convert.ToDecimal(dr["Valor"]);
+                    produtos.IdProduto = Convert.ToInt32(dr["IdProduto"]);
+                    produtos.Tecido = (string)(dr["Tecido"]);
+                    produtos.Descricao = (string)(dr["Descricao"]);
+                    produtos.Categoria = (string)(dr["Categoria"]);
+                    produtos.Cor = (string)(dr["Cor"]);
+                    produtos.Estampa = (string)(dr["Estampa"]);
+                    produtos.Quantidade = Convert.ToInt32(dr["Quantidade"]);
+                    produtos.Tamanho = (string)(dr["Tamanho"]);
+                    produtos.Situacao = (string)(dr["Situacao"]);
+                    produtos.Valor = Convert.ToDecimal(dr["Valor"]);
                 }
-                return produto;
+                return produtos;
             }
         }
 
