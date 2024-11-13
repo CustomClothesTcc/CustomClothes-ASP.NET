@@ -9,10 +9,12 @@ namespace CustomClothing.Controllers
     public class ProdutoController : Controller
     {
         private IPersonalizarRepositorio _produtoRepositorio;
+        private IProdutoRepositorio _produtosRepositorio;
 
-        public ProdutoController(IPersonalizarRepositorio produtoRepositorio)
+        public ProdutoController(IPersonalizarRepositorio produtoRepositorio, IProdutoRepositorio produtosRepositorio)
         {
             _produtoRepositorio = produtoRepositorio;
+            _produtosRepositorio = produtosRepositorio;
         }
 
         public IActionResult Personalizar()
@@ -45,6 +47,18 @@ namespace CustomClothing.Controllers
 
             ViewBag.msg = "Produto personalizado com sucesso!";
             return RedirectToAction("Personalizar");
+        }
+
+        public IActionResult CadProduto()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult CadProduto(Produto produtos)
+        {
+            _produtosRepositorio.Cadastrar(produtos);
+            return RedirectToAction(nameof(CadProduto));
         }
 
         public IActionResult Produto()

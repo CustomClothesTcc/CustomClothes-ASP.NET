@@ -11,6 +11,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddHttpContextAccessor();
 //Injetando os repositórios na Controller
 builder.Services.AddScoped<IClienteRepositorio, ClienteRepositorio>();
+builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
 builder.Services.AddScoped<IPersonalizarRepositorio, PersonalizarRepositorio>();
 builder.Services.AddScoped<IitemRepositorio, ItemRepositorio>();
 
