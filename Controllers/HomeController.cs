@@ -28,6 +28,10 @@ namespace CustomClothing.Controllers
             return View();
         }
 
+        public IActionResult PerfilCliente()
+        {
+            return View();
+        }
         public IActionResult Confirmar()
         {
             return View();

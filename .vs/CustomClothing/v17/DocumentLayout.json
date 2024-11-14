@@ -1,45 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\",
+  "WorkspaceRootPath": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcc3modu\\customclothes-asp.net\\wwwroot\\css\\confirmar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\css\\confirmar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcclara\\customclothes-asp.net\\wwwroot\\css\\perfilcliente.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\css\\perfilcliente.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcc3modu\\customclothes-asp.net\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcclara\\customclothes-asp.net\\views\\home\\perfilcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\home\\perfilcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcc3modu\\customclothes-asp.net\\views\\home\\confirmar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\home\\confirmar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcc3modu\\customclothes-asp.net\\wwwroot\\css\\layoutresponsividade.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\css\\layoutresponsividade.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcc3modu\\customclothes-asp.net\\wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcc3modu\\customclothes-asp.net\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcc3modu\\customclothes-asp.net\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcclara\\customclothes-asp.net\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcc3modu\\customclothes-asp.net\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcclara\\customclothes-asp.net\\wwwroot\\css\\confirmar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\css\\confirmar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcclara\\customclothes-asp.net\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcclara\\customclothes-asp.net\\views\\home\\confirmar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\home\\confirmar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcclara\\customclothes-asp.net\\wwwroot\\css\\layoutresponsividade.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\css\\layoutresponsividade.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcclara\\customclothes-asp.net\\wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcclara\\customclothes-asp.net\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcclara\\customclothes-asp.net\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcc3modu\\customclothes-asp.net\\repositorio\\personalizarrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcclara\\customclothes-asp.net\\repositorio\\personalizarrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:repositorio\\personalizarrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcc3modu\\customclothes-asp.net\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\documents\\tcclara\\customclothes-asp.net\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,27 +58,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Layout.css",
-              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\wwwroot\\css\\Layout.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\Layout.css",
-              "ToolTip": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\wwwroot\\css\\Layout.css",
-              "RelativeToolTip": "wwwroot\\css\\Layout.css",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAANwAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-13T19:07:26.995Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "perfilCliente.css",
+              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\wwwroot\\css\\perfilCliente.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\perfilCliente.css",
+              "ToolTip": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\wwwroot\\css\\perfilCliente.css*",
+              "RelativeToolTip": "wwwroot\\css\\perfilCliente.css*",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAgwK4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-14T17:12:49.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "perfilCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\Views\\Home\\perfilCliente.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\perfilCliente.cshtml",
+              "ToolTip": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\Views\\Home\\perfilCliente.cshtml*",
+              "RelativeToolTip": "Views\\Home\\perfilCliente.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T17:10:56.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "LayoutResponsividade.css",
-              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\wwwroot\\css\\LayoutResponsividade.css",
+              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\wwwroot\\css\\LayoutResponsividade.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\LayoutResponsividade.css",
-              "ToolTip": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\wwwroot\\css\\LayoutResponsividade.css",
+              "ToolTip": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\wwwroot\\css\\LayoutResponsividade.css",
               "RelativeToolTip": "wwwroot\\css\\LayoutResponsividade.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -78,11 +108,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Confirmar.css",
+              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\wwwroot\\css\\Confirmar.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Confirmar.css",
+              "ToolTip": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\wwwroot\\css\\Confirmar.css",
+              "RelativeToolTip": "wwwroot\\css\\Confirmar.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-13T17:42:57.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Layout.css",
+              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\wwwroot\\css\\Layout.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Layout.css",
+              "ToolTip": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\wwwroot\\css\\Layout.css",
+              "RelativeToolTip": "wwwroot\\css\\Layout.css",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAANwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-13T19:07:26.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAAkAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -90,24 +145,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Confirmar.css",
-              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\wwwroot\\css\\Confirmar.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\Confirmar.css",
-              "ToolTip": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\wwwroot\\css\\Confirmar.css",
-              "RelativeToolTip": "wwwroot\\css\\Confirmar.css",
-              "ViewState": "AQIAALUAAAAAAAAAAAAAALsAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-13T17:42:57.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Confirmar.cshtml",
-              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\Views\\Home\\Confirmar.cshtml",
+              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\Views\\Home\\Confirmar.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Confirmar.cshtml",
-              "ToolTip": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\Views\\Home\\Confirmar.cshtml",
+              "ToolTip": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\Views\\Home\\Confirmar.cshtml",
               "RelativeToolTip": "Views\\Home\\Confirmar.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -115,11 +157,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AQIAADMAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -127,23 +169,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAkAAAA",
+              "ToolTip": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "Controllers\\HomeController.cs*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwB4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T17:32:09.517Z"
+              "WhenOpened": "2024-11-13T17:32:09.517Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\Models\\Produto.cs",
+              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\Models\\Produto.cs",
               "RelativeToolTip": "Models\\Produto.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAAAUAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -151,11 +194,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ProdutoRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\Repositorio\\ProdutoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\Repositorio\\ProdutoRepositorio.cs",
               "RelativeDocumentMoniker": "Repositorio\\ProdutoRepositorio.cs",
-              "ToolTip": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\Repositorio\\ProdutoRepositorio.cs",
+              "ToolTip": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\Repositorio\\ProdutoRepositorio.cs",
               "RelativeToolTip": "Repositorio\\ProdutoRepositorio.cs",
               "ViewState": "AQIAAE8AAAAAAAAAAAAmwF4AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -163,11 +206,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "PersonalizarRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\Repositorio\\PersonalizarRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\Repositorio\\PersonalizarRepositorio.cs",
               "RelativeDocumentMoniker": "Repositorio\\PersonalizarRepositorio.cs",
-              "ToolTip": "C:\\Users\\3mod\\Documents\\TCC3MODu\\CustomClothes-ASP.NET\\Repositorio\\PersonalizarRepositorio.cs",
+              "ToolTip": "C:\\Users\\3mod\\Documents\\tccLara\\CustomClothes-ASP.NET\\Repositorio\\PersonalizarRepositorio.cs",
               "RelativeToolTip": "Repositorio\\PersonalizarRepositorio.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAUwGcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
