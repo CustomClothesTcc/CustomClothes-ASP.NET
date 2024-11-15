@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "Om5j9r+JZLYHwS9DQbsyeU7VihCrJ5IqlZlmg1GENuE=",
+=======
+  "Hash": "T8ioa+LJmtrtrma6mNq1YO010sh+Mwz1XtTDO03YXO8=",
+>>>>>>> TesteMiguel
   "Source": "CustomClothing",
   "BasePath": "_content/CustomClothing",
   "Mode": "Default",
@@ -395,6 +399,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\oppen.png"
+    },
+    {
+      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\png-clipart-red-volkswagen-polo-volkswagen-polo-gti-compact-car-volkswagen-crafter-volkswagen-free-sedan-car.png",
+      "SourceId": "CustomClothing",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
+      "BasePath": "_content/CustomClothing",
+      "RelativePath": "Img/png-clipart-red-volkswagen-polo-volkswagen-polo-gti-compact-car-volkswagen-crafter-volkswagen-free-sedan-car.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\png-clipart-red-volkswagen-polo-volkswagen-polo-gti-compact-car-volkswagen-crafter-volkswagen-free-sedan-car.png"
     },
     {
       "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\TCC.png",
