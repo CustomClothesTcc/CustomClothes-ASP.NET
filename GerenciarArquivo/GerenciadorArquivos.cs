@@ -12,12 +12,6 @@
             var NomeArquivo = Path.GetFileName(file.FileName);
             var Caminho = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Img", NomeArquivo);
 
-            // Criar diretório se não existir
-            if (!Directory.Exists(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Img")))
-            {
-                Directory.CreateDirectory(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Img"));
-            }
-
             // Salvar arquivo no diretório
             using (var stream = new FileStream(Caminho, FileMode.Create))
             {
