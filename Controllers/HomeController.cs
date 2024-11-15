@@ -1,4 +1,3 @@
-using CustomClothing.Libraries.Login;
 using CustomClothing.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -7,16 +6,15 @@ namespace CustomClothing.Controllers
 {
     public class HomeController : Controller
     {
-       
-        private LoginCliente _loginCliente;
-        public HomeController(LoginCliente loginCliente)
-        {            
-            _loginCliente = loginCliente;
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
         }
 
         public IActionResult Index()
         {
-            ViewBag.LoginCliente = _loginCliente.GetCliente().CPF;
             return View();
         }
       
@@ -26,11 +24,6 @@ namespace CustomClothing.Controllers
         }
 
         public IActionResult Finalizada()
-        {
-            return View();
-        }
-
-        public IActionResult PerfilCliente()
         {
             return View();
         }

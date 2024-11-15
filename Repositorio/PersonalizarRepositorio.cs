@@ -32,7 +32,6 @@ namespace CustomClothing.Repositorio
                 cmd.Parameters.Add("@Estampa", MySqlDbType.VarChar).Value = produto.Estampa;
                 cmd.Parameters.Add("@Quantidade", MySqlDbType.Int64).Value = produto.Quantidade;
                 cmd.Parameters.Add("@Tamanho", MySqlDbType.VarChar).Value = produto.Tamanho;
-                //cmd.Parameters.Add("@DescImg", MySqlDbType.VarChar).Value = produto.DescImg;
                 cmd.Parameters.Add("@Valor", MySqlDbType.Decimal).Value = produto.Valor;
                 cmd.ExecuteNonQuery();
                 conexao.Close();
@@ -65,7 +64,6 @@ namespace CustomClothing.Repositorio
                     produto.Estampa = (string)(dr["Estampa"]);
                     produto.Quantidade = Convert.ToInt32(dr["Quantidade"]);
                     produto.Tamanho = (string)(dr["Tamanho"]);
-                    //produto.DescImg = (string)(dr["DescImg"]);
                     produto.Valor = Convert.ToDecimal(dr["Valor"]);
                 }
                 return produto;
@@ -96,7 +94,6 @@ namespace CustomClothing.Repositorio
                             Estampa = (string)(dr["Estampa"]),
                             Quantidade = Convert.ToInt32(dr["Quantidade"]),
                             Tamanho = (string)(dr["Tamanho"]),
-                           // DescImg = (string)(dr["DescImg"]),
                             Valor = Convert.ToDecimal(dr["Valor"]),
                         });
                 }
