@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Models",
     "\\Views",
     "\\Views\\Produto",
     "\\wwwroot"
   ],
-  "SelectedNode": "\\CustomClothing.sln",
+  "SelectedNode": "\\Models\\Endereco.cs",
   "PreviewInSolutionExplorer": false
 }
