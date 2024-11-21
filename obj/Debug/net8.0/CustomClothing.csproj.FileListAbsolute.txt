@@ -3155,3 +3155,7 @@ D:\Usuário\Miguel\Downloads\CustomClothes-ASP.NET-Teste\CustomClothes-ASP.NET-8
 D:\Usuário\Miguel\Downloads\CustomClothes-ASP.NET-Teste\CustomClothes-ASP.NET-87b4af8c53bef419766a36102c0bf1f955f6a417\obj\Debug\net8.0\CustomClothing.pdb
 D:\Usuário\Miguel\Downloads\CustomClothes-ASP.NET-Teste\CustomClothes-ASP.NET-87b4af8c53bef419766a36102c0bf1f955f6a417\obj\Debug\net8.0\CustomClothing.genruntimeconfig.cache
 D:\Usuário\Miguel\Downloads\CustomClothes-ASP.NET-Teste\CustomClothes-ASP.NET-87b4af8c53bef419766a36102c0bf1f955f6a417\obj\Debug\net8.0\ref\CustomClothing.dll
+C:\Users\kaiqu\OneDrive\Área de Trabalho\CustomClothes-ASP.NET\bin\Debug\net8.0\CustomClothing.staticwebassets.endpoints.json
+C:\Users\kaiqu\OneDrive\Área de Trabalho\CustomClothes-ASP.NET\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\kaiqu\OneDrive\Área de Trabalho\CustomClothes-ASP.NET\obj\Debug\net8.0\staticwebassets\msbuild.CustomClothing.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\kaiqu\OneDrive\Área de Trabalho\CustomClothes-ASP.NET\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

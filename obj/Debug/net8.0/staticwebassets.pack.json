@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CustomClothing.bundle.scp.css",
-      "PackagePath": "staticwebassets\\CustomClothing.bundle.scp.css"
+      "PackagePath": "staticwebassets\\CustomClothing.y4q65y8zio.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\Img\\DC.jpg",
@@ -15,6 +15,10 @@
     {
       "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\Img\\HomemAranha.png",
       "PackagePath": "staticwebassets\\Img\\HomemAranha.png"
+    },
+    {
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\Img\\OIP.jpg",
+      "PackagePath": "staticwebassets\\Img\\OIP.jpg"
     },
     {
       "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\Img\\TCC.png",
@@ -535,6 +539,10 @@
     {
       "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CustomClothing.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CustomClothing.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -16,7 +16,13 @@
             <!-- Tecido -->
             <div class="col-md-6 col-lg-4">
                 <label asp-for="Tecido" class="form-label">Tecido</label>
-                <input asp-for="Tecido" class="form-control" />
+                <select asp-for="Tecido" class="form-select">
+                    <option value="" disabled selected>Selecione...</option>
+                    <option value="ALGODAO">Algodão</option>
+                    <option value="POLIESTER">Poliéster</option>
+                    <option value="SEDA">Seda</option>
+                    <option value="LINHO">Linho</option>
+                </select>
                 <span asp-validation-for="Tecido" class="text-danger"></span>
             </div>
 
@@ -30,7 +36,14 @@
             <!-- Categoria -->
             <div class="col-md-6 col-lg-4">
                 <label asp-for="Categoria" class="form-label">Categoria</label>
-                <input asp-for="Categoria" class="form-control" />
+                <select asp-for="Categoria" class="form-select">
+                    <option value="" disabled selected>Selecione...</option>
+                    <option value="Calcados">Calçados</option>
+                    <option value="Superior">Superior</option>
+                    <option value="Inferior">Inferior</option>
+                    <option value="Acessorios">Acessórios</option>
+                    <option value="Outros">Outros</option>
+                </select>
                 <span asp-validation-for="Categoria" class="text-danger"></span>
             </div>
 
@@ -65,7 +78,12 @@
             <!-- Situação -->
             <div class="col-md-6 col-lg-4">
                 <label asp-for="Situacao" class="form-label">Situação</label>
-                <input asp-for="Situacao" class="form-control" />
+                <select asp-for="Situacao" class="form-select">
+                    <option value="" disabled selected>Selecione...</option>
+                    <option value="Esgotado">Esgotado</option>
+                    <option value="Estoque">Em Estoque</option>
+                    <option value="Inativo">Inativo</option>
+                </select>
                 <span asp-validation-for="Situacao" class="text-danger"></span>
             </div>
 

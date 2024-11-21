@@ -1,4 +1,5 @@
 ﻿@model CustomClothing.Models.Personalizar
+
 @{
     ViewData["Title"] = "Personalizar";
 }
@@ -16,10 +17,12 @@
                 <div class="mb-4">
                     <label asp-for="Estampa" class="form-label">Estampa:</label>
                     <div class="custom-file">
-                        <input asp-for="Estampa" type="file" id="file" class="form-control d-none" required>
-                        <label for="file" class="btn btn-outline-primary d-block text-center">
-                            <i class="bi bi-upload"></i> Clique para enviar sua estampa
-                        </label>
+               
+                         <label for="file" class="btn btn-outline-primary d-block text-center"> 
+                            <i class="bi bi-upload"></i> Clique para enviar sua estampa 
+                         </label>
+
+                        <input asp-for="Estampa" type="file" id="file" name="file" class="form-control d-none" rquired />
                     </div>
                 </div>
 
@@ -29,11 +32,11 @@
                     <input asp-for="Descricao" class="form-control" type="text" placeholder="Descreva a estampa..." required>
                 </div>
 
-                <!-- Tamanho da Imagem -->
-                <div class="mb-3">
-                    <label asp-for="DescImg" class="form-label">Tamanho da Imagem:</label>
-                    <input asp-for="DescImg" class="form-control" type="text" placeholder="Ex.: 10cm x 15cm" required>
-                </div>
+                @* <!-- Tamanho da Imagem -->
+                @* <div class="mb-3">
+                @*     <label asp-for="DescImg" class="form-label">Tamanho da Imagem:</label> *@
+                @*     <input asp-for="DescImg" class="form-control" type="text" placeholder="Ex.: 10cm x 15cm" required> *@
+                @* </div> *@
 
                 <!-- Tamanho -->
                 <div class="mb-3">
@@ -44,13 +47,32 @@
                 <!-- Tecido -->
                 <div class="mb-3">
                     <label asp-for="Tecido" class="form-label">Tecido:</label>
-                    <input asp-for="Tecido" class="form-control" type="text" placeholder="Algodão, Poliéster..." required>
+                    <select asp-for="Tecido" class="form-select" required>
+                        <option value="" disabled selected>Selecione o tecido...</option>
+                        <option value="ALGODAO">Algodão</option>
+                        <option value="POLIESTER">Poliéster</option>
+                        <option value="SEDA">Seda</option>
+                        <option value="LINHO">Linho</option>
+                    </select>
                 </div>
 
                 <!-- Cor -->
                 <div class="mb-3">
                     <label asp-for="Cor" class="form-label">Cor:</label>
                     <input asp-for="Cor" class="form-control" type="text" placeholder="Preto, Branco, Vermelho..." required>
+                </div>
+
+                <!-- Categoria -->
+                <div class="mb-3">
+                    <label asp-for="Categoria" class="form-label">Categoria:</label>
+                    <select asp-for="Categoria" class="form-select" required>
+                        <option value="" disabled selected>Selecione a categoria...</option>
+                        <option value="Calcados">Calçados</option>
+                        <option value="Superior">Superior</option>
+                        <option value="Inferior">Inferior</option>
+                        <option value="Acessorios">Acessórios</option>
+                        <option value="Outros">Outros</option>
+                    </select>
                 </div>
 
                 <!-- Quantidade -->
@@ -67,7 +89,7 @@
 
                 <!-- Botão -->
                 <div class="text-center">
-                    <button type="submit" class="btn btn-success w-50">Personalizar</button>
+                    <input type="submit" class="btn btn-success w-50" value="Personalizar">
                 </div>
             </form>
         </div>
