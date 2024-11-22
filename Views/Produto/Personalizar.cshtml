@@ -1,42 +1,97 @@
 ﻿@model CustomClothing.Models.Personalizar
+
 @{
     ViewData["Title"] = "Personalizar";
 }
 <!--Link do CSS para estilizar a página Personalizar Roupa-->
 <link rel="stylesheet" href="~/css/Personalizar.css" />
-<!--Título Principal-->
-<h1 class="text-center fs-1">Personalizar a sua aqui:</h1>
-<!--A div Container vai ser todo o contéudo da Tela de Personalizar-->
-<div class="Container">
-    <!--A Div Custom vai ser a roupa personalizada conforme o cliente pediu-->
-    <div class="Custom">
-        <form asp-controller="Produto" asp-action="Personalizar" method="post" enctype="multipart/form-data">
-            <!---A Classe Picture terá as estampas que o usuário pedir--->
-            <label asp-for="Estampa">Estampa:</label>
-            <input asp-for="Estampa" type="file" id="file" name="file" rquired />
-            <br />
-            <label asp-for="Descricao">Descrição da Roupa:</label>
-            <input asp-for="Descricao" class="descricao" type="text" id="descricao" required />
-            <br />
-            <label asp-for="DescImg">Tamanho da Imagem:</label>
-            <input asp-for="DescImg" class="Roupa" type="text" id="Tamanho-1" required />
-            <br />
-            <label asp-for="Tamanho">Tamanho:</label>
-            <input asp-for="Tamanho" class="Roupa" type="text" id="tamanho" required />
-            <br />
-            <label asp-for="Tecido">Tecido:</label>
-            <input asp-for="Tecido" class="Roupa" type="text" id="tamanho" required />
-            <br />
-            <label asp-for="Cor">Cor:</label>
-            <input asp-for="Cor" class="Roupa" type="text" id="tamanho" required />
-            <br />
-            <label asp-for="Quantidade">Quantidade:</label>
-            <input asp-for="Quantidade" class="Roupa" type="text" id="tamanho" required />
-            <br />
-            <label asp-for="Valor" class="Total">Total:</label>
-            <input asp-for="Valor" class="Roupa" type="text" id="Txtotal" required />
-            <!--O Botão Ver utiliza Classes CSS e Boostrap-->
-            <input type="submit" value="Personalizar" />
-        </form>
+
+<div class="container py-5">
+    <!--Título Principal-->
+    <h1 class="text-center fs-1 mb-4">Personalize sua camiseta:</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <form asp-controller="Produto" asp-action="Personalizar" method="post" enctype="multipart/form-data" class="bg-white p-4 rounded-3 shadow">
+                <!-- Estampa -->
+                <div class="mb-4">
+                    <label asp-for="Estampa" class="form-label">Estampa:</label>
+                    <div class="custom-file">
+               
+                         <label for="file" class="btn btn-outline-primary d-block text-center"> 
+                            <i class="bi bi-upload"></i> Clique para enviar sua estampa 
+                         </label>
+
+                        <input asp-for="Estampa" type="file" id="file" name="file" class="form-control d-none" rquired />
+                    </div>
+                </div>
+
+                <!-- Descrição da Roupa -->
+                <div class="mb-3">
+                    <label asp-for="Descricao" class="form-label">Descrição da Roupa:</label>
+                    <input asp-for="Descricao" class="form-control" type="text" placeholder="Descreva a estampa..." required>
+                </div>
+
+                @* <!-- Tamanho da Imagem -->
+                @* <div class="mb-3">
+                @*     <label asp-for="DescImg" class="form-label">Tamanho da Imagem:</label> *@
+                @*     <input asp-for="DescImg" class="form-control" type="text" placeholder="Ex.: 10cm x 15cm" required> *@
+                @* </div> *@
+
+                <!-- Tamanho -->
+                <div class="mb-3">
+                    <label asp-for="Tamanho" class="form-label">Tamanho:</label>
+                    <input asp-for="Tamanho" class="form-control" type="text" placeholder="P, M, G, GG..." required>
+                </div>
+
+                <!-- Tecido -->
+                <div class="mb-3">
+                    <label asp-for="Tecido" class="form-label">Tecido:</label>
+                    <select asp-for="Tecido" class="form-select" required>
+                        <option value="" disabled selected>Selecione o tecido...</option>
+                        <option value="ALGODAO">Algodão</option>
+                        <option value="POLIESTER">Poliéster</option>
+                        <option value="SEDA">Seda</option>
+                        <option value="LINHO">Linho</option>
+                    </select>
+                </div>
+
+                <!-- Cor -->
+                <div class="mb-3">
+                    <label asp-for="Cor" class="form-label">Cor:</label>
+                    <input asp-for="Cor" class="form-control" type="text" placeholder="Preto, Branco, Vermelho..." required>
+                </div>
+
+                <!-- Categoria -->
+                <div class="mb-3">
+                    <label asp-for="Categoria" class="form-label">Categoria:</label>
+                    <select asp-for="Categoria" class="form-select" required>
+                        <option value="" disabled selected>Selecione a categoria...</option>
+                        <option value="Calcados">Calçados</option>
+                        <option value="Superior">Superior</option>
+                        <option value="Inferior">Inferior</option>
+                        <option value="Acessorios">Acessórios</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                </div>
+
+                <!-- Quantidade -->
+                <div class="mb-3">
+                    <label asp-for="Quantidade" class="form-label">Quantidade:</label>
+                    <input asp-for="Quantidade" class="form-control" type="number" min="1" required>
+                </div>
+
+                <!-- Total -->
+                <div class="mb-3">
+                    <label asp-for="Valor" class="form-label">Total:</label>
+                    <input asp-for="Valor" class="form-control" type="text" placeholder="Valor estimado..." readonly>
+                </div>
+
+                <!-- Botão -->
+                <div class="text-center">
+                    <input type="submit" class="btn btn-success w-50" value="Personalizar">
+                </div>
+            </form>
+        </div>
     </div>
 </div>

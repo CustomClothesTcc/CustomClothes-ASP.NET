@@ -24,7 +24,7 @@ namespace CustomClothing.Controllers
         }
 
         [HttpPost]
-        public ActionResult Personalizar(Personalizar produto, IFormFile file)
+        public IActionResult Personalizar(Personalizar produto, IFormFile file)
         {
             // Obter lista de produtos
             var ListProdutos = _produtoRepositorio.ObterTodosProdutos();

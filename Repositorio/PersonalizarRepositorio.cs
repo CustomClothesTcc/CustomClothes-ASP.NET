@@ -28,6 +28,7 @@ namespace CustomClothing.Repositorio
                 MySqlCommand cmd = new MySqlCommand("insert into tbProduto(Tecido, Descricao,Cor,Estampa,Quantidade,Tamanho,Valor) values(@Tecido, @Descricao, @Cor,@Estampa, @Quantidade, @Tamanho, @Valor)", conexao);
                 cmd.Parameters.Add("@Tecido", MySqlDbType.VarChar).Value = produto.Tecido;
                 cmd.Parameters.Add("@Descricao", MySqlDbType.VarChar).Value = produto.Descricao;
+                cmd.Parameters.Add("@Categoria", MySqlDbType.VarChar).Value = produto.Categoria;
                 cmd.Parameters.Add("@Cor", MySqlDbType.VarChar).Value = produto.Cor;
                 cmd.Parameters.Add("@Estampa", MySqlDbType.VarChar).Value = produto.Estampa;
                 cmd.Parameters.Add("@Quantidade", MySqlDbType.Int64).Value = produto.Quantidade;
