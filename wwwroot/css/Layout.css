@@ -5,17 +5,14 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
-
-.menu-hamburguer a i {
+.menu-hamburguer a i{
     padding-right: 0.5em;
     padding-left: 0.4em;
     font-size: 1.7vw;
 }
-
-.menu-btn {
-    display: none;
-}
-
+    .menu-btn {
+        display: none;
+    }
 .divGuia a {
     display: inline-block;
     padding: 8px;
@@ -29,13 +26,12 @@
     justify-content: space-evenly;
     margin: 1em;
 }
-
     .divLogo p {
         margin: 0.1px;
         padding: 0.1px;
     }
 
-div.divP {
+div.divP{
     display: grid;
     margin-left: 0.1em;
     grid-template-rows: auto auto;
@@ -56,11 +52,9 @@ div.divLogo p:last-of-type {
     font-size: 1.2em;
     color: #7779A0;
 }
-
-.divImg {
+.divImg{
     flex: 0 1 auto;
 }
-
 img#logoNavCC {
     width: auto;
     height: 3em;
@@ -98,23 +92,19 @@ header .pesquisa {
     align-items: center;
     justify-content: center;
 }
-
-button i {
-    color: #000;
-}
-
-div.pesquisa img {
-    width: 150px;
-    height: 100px;
-}
-
-div.divGuia {
+    button i{
+        color: #000;
+    }
+    div.pesquisa img {
+        width: 150px;
+        height: 100px;
+    }
+div.divGuia{
     display: flex;
     justify-content: space-evenly;
     gap: 0.6em;
     font-size: 1.5em;
 }
-
 div.pesquisa input {
     padding: 1em;
     width: 60vw;
@@ -192,7 +182,6 @@ a:hover {
             background-color: #1da1f2;
             border-color: #1da1f2;
         }
-
         .footer-custom .social-btn.whatsapp:hover {
             background-color: #00ff90;
             border-color: #00ff90;
@@ -222,6 +211,7 @@ a:hover {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 25px;
+  
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -230,6 +220,7 @@ a:hover {
     border: 1px solid #ccc;
     z-index: 99;
     top: 100%;
+ 
     background-color: #9f9f9f;
     color: #fff;
     max-height: 200px;
@@ -241,7 +232,7 @@ a:hover {
     border-bottom: 1px solid #ccc;
 }
 
-    .autocomplete-item:hover {
-        background-color: #9F9F9F;
-        color: #fff;
-    }
+.autocomplete-item:hover {   
+    background-color: #9F9F9F;
+    color: #fff;
+}

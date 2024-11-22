@@ -2,75 +2,87 @@
     ViewData["Title"] = "Confirmar";
 }
 
-<!-- Incluindo o Bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="~/css/Confirmar.css" />
 
-<div class="container mt-5">
-    <!-- Perfil -->
-    <div class="text-center mb-4">
-        <img src="~/lib/imagens/pngwing.com (7).png" class="rounded-circle mb-3" style="width: 120px; height: 120px;" alt="Perfil">
-        <h1>Olá Cliente! Pronto para finalizar sua compra?</h1>
+<div class="perfil">
+    <img src="~/lib/imagens/pngwing.com (7).png" class="perf" />
+    <h1>Olá Cliente! Pronto para finalizar sua compra?</h1>
+</div>
+<div class="hr">
+    <hr></hr>
+</div>
+<br>
+<div class="forma"><label>Formas de pagamento:</label></div>
+<div class="perfil1">
+    <div class="imgpag">
+        <div>
+            <a href="">
+                <img src="~/lib/imagens/pix.png" class="pag" /> 
+                <p>Pix</p>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="~/lib/imagens/pngwing.com (8).png" class="pag"> 
+                <p>Cartão de crédito</p>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="~/lib/imagens/pngwing.com (9).png" class="pag"/>
+                <p>Boleto bancário</p>
+            </a>
+        </div>
     </div>
-
-    <hr class="mb-4">
-
-    <!-- Formas de pagamento -->
-    <div class="mb-4">
-        <label for="metodo-pagamento" class="form-label">Formas de pagamento:</label>
-        <select id="metodo-pagamento" class="form-select" required>
-            <option value="" disabled selected>Selecione...</option>
-            <option value="pix">Pix</option>
-            <option value="boleto">Boleto</option>
-            <option value="debito">Débito</option>
-            <option value="credito">Crédito</option>
-        </select>
+</div>
     </div>
-
-    <!-- Formulário -->
-    <form class="row g-3">
-        <div class="col-md-6">
-            <label for="nome" class="form-label">Nome</label>
-            <input type="text" class="form-control" id="nome" placeholder="Nome" required>
+<div class="test">
+    <div class="form">
+        <div>
+            <input type="text" id="nome" placeholder="Nome" required>
+            <label for="nome">Nome</label>
         </div>
-        <div class="col-md-6">
-            <label for="cpf" class="form-label">CPF</label>
-            <input type="text" class="form-control" id="cpf" placeholder="CPF" required>
+        <div>
+            <input type="text" id="cpf" placeholder="CPF" required>
+            <label for="cpf">CPF</label>
         </div>
-        <div class="col-md-6">
-            <label for="cep" class="form-label">CEP</label>
-            <input type="text" class="form-control" id="cep" placeholder="CEP" required>
+        <div>
+            <input type="text" id="cep" placeholder="CEP" required>
+            <label for="cep">CEP</label>
         </div>
-        <div class="col-md-6">
-            <label for="rua" class="form-label">Rua</label>
-            <input type="text" class="form-control" id="rua" placeholder="Rua" required>
+        <div>
+            <input type="text" id="rua" placeholder="Rua" required>
+            <label for="rua">Rua</label>
         </div>
-        <div class="col-md-6">
-            <label for="complemento" class="form-label">Complemento</label>
-            <input type="text" class="form-control" id="complemento" placeholder="Complemento">
+        <div>
+            <input type="text" id="complemento" placeholder="Complemento">
+            <label for="complemento">Complemento</label>
         </div>
-        <div class="col-md-6">
-            <label for="celular" class="form-label">Celular</label>
-            <input type="text" class="form-control" id="celular" placeholder="Celular" required>
+        <!--<p class="aviso">Arraste pro lado &rarr; </p>  -->
+    </div>
+    <div class="formK">
+        <div>
+            <input type="text" id="celular" placeholder="Celular" required>
+            <label for="celular">Celular</label>
         </div>
-        <div class="col-md-6">
-            <label for="bairro" class="form-label">Bairro</label>
-            <input type="text" class="form-control" id="bairro" placeholder="Bairro">
+        <div>
+            <input type="text" id="bairro" placeholder="Bairro">
+            <label for="bairro">Bairro</label>
         </div>
-        <div class="col-md-3">
-            <label for="numero" class="form-label">Número</label>
-            <input type="text" class="form-control" id="numero" placeholder="Número">
+        <div>
+            <input type="text" id="numero" placeholder="numero">
+            <label for="numero">Número</label>
         </div>
-        <div class="col-md-3">
-            <label for="uf" class="form-label">UF</label>
-            <select id="uf" class="form-select" required>
-                <option value="" disabled selected>UF...</option>
+        <div>
+            <select>
+                <option selected disabled class="iupi">UF... </option>
                 <option value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
                 <option value="AP">Amapá</option>
                 <option value="AM">Amazonas</option>
                 <option value="BA">Bahia</option>
                 <option value="CE">Ceará</option>
-                <option value="DF">Distrito Federal</option>
+                <option value="DF">Destrito Federal</option>
                 <option value="ES">Espírito Santo</option>
                 <option value="GO">Goiás</option>
                 <option value="MA">Maranhão</option>
@@ -92,34 +104,37 @@
                 <option value="TO">Tocantins</option>
             </select>
         </div>
-        <div class="col-md-6">
-            <label for="cupomdesconto" class="form-label">Cupom de desconto</label>
-            <input type="text" class="form-control" id="cupomdesconto" placeholder="Cupom de desconto">
-        </div>
-    </form>
-
-    <!-- Detalhes do pagamento -->
-    <div class="mt-4">
-        <h4>Detalhes do pagamento</h4>
-        <div class="row">
-            <div class="col-6">
-                <p>Camisa Mamomas Assassinas:</p>
-                <p>Camisa Racionais mc´s:</p>
-                <p>Cupom:</p>
-            </div>
-            <div class="col-6 text-end">
-                <p>+R$45,00</p>
-                <p>+R$50,00</p>
-                <p>-R$5,00</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Valor total e finalizar -->
-    <div class="mt-4 text-end">
-        <p class="h5">Valor total: <span class="fw-bold">R$90,00</span></p>
-        <button class="btn btn-primary">Finalizar compra</button>
     </div>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<div class="tes">
+    <div class="formu">
+        <div>
+            <input type="text" id="cupomdesconto" placeholder="Cupom de desconto">
+            <label for="cupomdesconto">Cupom de desconto</label>
+        </div>
+    </div>
+    <div class="formula">
+        <div>
+            <button>Usar</button>
+        </div>
+    </div>
+</div>
+<div class="te">
+    <label><b>Detalhes do pagamento</b></label>
+    <div class="col">
+        <div class="col_um">
+            <p>Camisa Mamomas Assassinas:</p>
+            <p>Camisa Racionais mc´s:</p>
+            <p>Cupom:</p>
+        </div>
+        <div class="col_dois">
+            <p>+R$45,00</p>
+            <p>+R$50,00</p>
+            <p>-R$5,00</p>
+        </div>
+    </div>
+</div>
+<div class="total">
+    <p>Valor total: <span>$90,00</span></p>
+    <div><button>Finalizar compra</button></div>
+</div>

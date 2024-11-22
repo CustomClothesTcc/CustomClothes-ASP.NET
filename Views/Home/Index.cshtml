@@ -77,37 +77,37 @@
 <!--<div class="bloco-roxo">
 </div>-->
 <div class="align-content-center" style="margin-left: 8%">
-        <div class="col-lg-11">
-            <div class="row align-content-center">
-                @foreach (var item in Model)
-                {
-                    <div class="col-lg-3 col-md-6 mb-4" style="margin:3% 4%">
-                        <div class="card h-100">
+    <div class="col-lg-11">
+        <div class="row align-content-center">
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-3 col-md-6 mb-4" style="margin:3% 4%">
+                    <div class="card h-100">
 
-                            @if (@item.Estampa != null)
-                            {
+                        @if (@item.Estampa != null)
+                        {
                             <img class="card-img-right flex-auto d-none d-md-block" data-src=" " alt="Thumbnail [300x300]" style="width: 385px; height: 300px;" src="@item.Estampa" data-holder-rendered="true">
-                            }
-                            else
-                            {
-                                <img class="card-img-right flex-auto d-none d-md-block" data-src=" " alt="Thumbnail [300x300]" style="width: 385px; height: 300px;" src="~/Images/image-not-found.jpg" data-holder-rendered="true">
-                            }
+                        }
+                        else
+                        {
+                            <img class="card-img-right flex-auto d-none d-md-block" data-src=" " alt="Thumbnail [300x300]" style="width: 385px; height: 300px;" src="~/Images/image-not-found.jpg" data-holder-rendered="true">
+                        }
 
-                            <div class="card-body">
-                                <h4 class="card-title">
+                        <div class="card-body">
+                            <h4 class="card-title">
                                 <a href="@item.Estampa">@item.Descricao</a>
-                                </h4>
-                                <spam>Tamanho: @item.Tamanho</spam>
-                                <br/>
-                                <spam>Preço: @item.Valor</spam>
-                            </div>
-                        <a asp-controller="Produto" asp-action="Personalizar" class="btn btn-primary">Adicionar</a>
+                            </h4>
+                            <spam>Tamanho: @item.Tamanho</spam>
+                            <br />
+                            <spam>Preço: @item.Valor</spam>
                         </div>
+                        <a asp-controller="Produto" asp-action="Personalizar" class="btn btn-primary">Adicionar</a>
                     </div>
-                }
-            </div>
+                </div>
+            }
         </div>
     </div>
+</div>
 </div>
 @*
 <div class="Container2">

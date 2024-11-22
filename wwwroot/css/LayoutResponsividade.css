@@ -1,36 +1,4 @@
-﻿/* Footer Responsivo */
-.footer-custom .social-btn {
-    width: 2.5rem; /* Ícones menores */
-    height: 2.5rem;
-    font-size: 1.25rem; /* Ajusta o tamanho do ícone */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease;
-}
-
-    .footer-custom .social-btn:hover {
-        transform: scale(1.1);
-    }
-
-/* Reduz tamanhos em telas menores */
-@media screen and (max-width: 576px) {
-    .footer-custom p {
-        font-size: 0.875rem; /* Reduz tamanho do texto */
-    }
-
-    .footer-custom .social-btn {
-        width: 2rem; /* Ícones menores ainda */
-        height: 2rem;
-        font-size: 1rem;
-    }
-
-        .footer-custom .social-btn i {
-            font-size: 1rem;
-        }
-}
-
-@media screen and (max-width: 931px){
+﻿@media screen and (max-width: 931px){
     .autocomplete-container {
         min-width: 55vw;
         max-width: 70vw;

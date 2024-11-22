@@ -9,21 +9,15 @@
     }
 </style>
 
-<<<<<<< HEAD
 <!--Essa div corresponde a estrutura da tela de Cadastro --->
 <div class="container bg-white p-5 rounded-5">
 
     <div class="mb-5 bg-custom text-center">
-=======
-<div class="container bg-white p-4 p-md-5 rounded-5 shadow">
-    <div class="mb-4 bg-custom text-center rounded-3 p-3">
->>>>>>> 449cb4980ec36ac9daa5fbd047c55cddcf8dbe23
         <h1 class="text-light">Cadastrar</h1>
     </div>
 
     <form asp-controller="Login" asp-action="Cadastro" method="post" enctype="multipart/form-data">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-<<<<<<< HEAD
         <div class="mb-3">
             <label asp-for="CPF" class="control-label">CPF:</label>
             <input asp-for="CPF" class="form-control cpf" placeholder="Digite seu CPF..." required="Campo não pode estar vazio" />
@@ -79,71 +73,20 @@
             <a class="btn btn-primary bg-custom w-50" asp-action="Login">Voltar</a>
         </div>
 
-=======
-        <div class="row g-3">
-            <!-- CPF -->
-            <div class="col-md-6">
-                <label asp-for="CPF" class="form-label">CPF:</label>
-                <input asp-for="CPF" class="form-control" placeholder="Digite seu CPF..." />
-                <span asp-validation-for="CPF" class="text-danger"></span>
-            </div>
-            <!-- RG -->
-            <div class="col-md-6">
-                <label asp-for="RG" class="form-label">RG:</label>
-                <input asp-for="RG" class="form-control" placeholder="Digite seu RG..." />
-                <span asp-validation-for="RG" class="text-danger"></span>
-            </div>
-            <!-- Nome -->
-            <div class="col-md-12">
-                <label asp-for="Nome" class="form-label">Nome:</label>
-                <input asp-for="Nome" class="form-control" placeholder="Digite seu Nome..." />
-                <span asp-validation-for="Nome" class="text-danger"></span>
-            </div>
-            <!-- Data de Nascimento -->
-            <div class="col-md-6">
-                <label asp-for="DataNans" class="form-label">Data de Nascimento:</label>
-                <input asp-for="DataNans" type="date" class="form-control" />
-                <span asp-validation-for="DataNans" class="text-danger"></span>
-            </div>
-            <!-- Sexo -->
-            <div class="col-md-6">
-                <label class="form-label">Sexo:</label>
-                <div class="d-flex gap-3">
-                    <label class="form-check">
-                        <input class="form-check-input" type="radio" asp-for="Sexo" value="M">
-                        <span class="form-check-label"> Masculino </span>
-                    </label>
-                    <label class="form-check">
-                        <input class="form-check-input" type="radio" asp-for="Sexo" value="F">
-                        <span class="form-check-label"> Feminino</span>
-                    </label>
-                </div>
-                <span asp-validation-for="Sexo" class="text-danger"></span>
-            </div>
-            <!-- Celular -->
-            <div class="col-md-6">
-                <label asp-for="Celular" class="form-label">Telefone:</label>
-                <input asp-for="Celular" type="tel" class="form-control" placeholder="Digite seu Número..." />
-                <span asp-validation-for="Celular" class="text-danger"></span>
-            </div>
-            <!-- Email -->
-            <div class="col-md-6">
-                <label asp-for="Email" class="form-label">Email:</label>
-                <input asp-for="Email" type="email" class="form-control" placeholder="Digite seu Email..." />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <!-- Senha -->
-            <div class="col-md-12">
-                <label asp-for="Senha" class="form-label">Senha:</label>
-                <input asp-for="Senha" type="password" class="form-control" placeholder="Digite sua Senha..." />
-                <span asp-validation-for="Senha" class="text-danger"></span>
-            </div>
-        </div>
-        <!-- Botões -->
-        <div class="d-flex gap-3 mt-4">
-            <button type="submit" class="btn btn-success w-100 bg-custom text-light">Cadastrar</button>
-            <a class="btn btn-primary w-100 bg-custom text-light" asp-action="Login">Voltar</a>
-        </div>
->>>>>>> 449cb4980ec36ac9daa5fbd047c55cddcf8dbe23
     </form>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

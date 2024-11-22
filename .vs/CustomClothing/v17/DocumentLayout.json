@@ -1,33 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\",
+  "WorkspaceRootPath": "D:\\Usu\u00E1rio\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\views\\produto\\cadproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\produto\\cadproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\usu\u00E1rio\\miguel\\downloads\\customclothes-asp.net-r\\customclothes-asp.net-78866b8c9adf9916d57e07c7a530c4b18371d21b\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\usu\u00E1rio\\miguel\\downloads\\customclothes-asp.net-r\\customclothes-asp.net-78866b8c9adf9916d57e07c7a530c4b18371d21b\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\views\\produto\\personalizar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\produto\\personalizar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\usu\u00E1rio\\miguel\\downloads\\customclothes-asp.net-r\\customclothes-asp.net-78866b8c9adf9916d57e07c7a530c4b18371d21b\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\usu\u00E1rio\\miguel\\downloads\\customclothes-asp.net-r\\customclothes-asp.net-78866b8c9adf9916d57e07c7a530c4b18371d21b\\views\\produto\\personalizar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\produto\\personalizar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\usu\u00E1rio\\miguel\\downloads\\customclothes-asp.net-r\\customclothes-asp.net-78866b8c9adf9916d57e07c7a530c4b18371d21b\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\usu\u00E1rio\\miguel\\downloads\\customclothes-asp.net-r\\customclothes-asp.net-78866b8c9adf9916d57e07c7a530c4b18371d21b\\models\\personalizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:models\\personalizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\usu\u00E1rio\\miguel\\downloads\\customclothes-asp.net-r\\customclothes-asp.net-78866b8c9adf9916d57e07c7a530c4b18371d21b\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\usu\u00E1rio\\miguel\\downloads\\customclothes-asp.net-r\\customclothes-asp.net-78866b8c9adf9916d57e07c7a530c4b18371d21b\\views\\produto\\cadproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\produto\\cadproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,92 +42,107 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
-              "ViewState": "AQIAANABAAAAAAAAAAAAwNoBAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-11-22T17:46:45.895Z",
+              "DocumentIndex": 5,
+              "Title": "Personalizar.cs",
+              "DocumentMoniker": "D:\\Usu\u00E1rio\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\Models\\Personalizar.cs",
+              "RelativeDocumentMoniker": "Models\\Personalizar.cs",
+              "ToolTip": "D:\\Usu\u00E1rio\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\Models\\Personalizar.cs",
+              "RelativeToolTip": "Models\\Personalizar.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T18:16:27.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Usu\u00E1rio\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Usu\u00E1rio\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T19:23:57.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAFMAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T19:23:57.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "D:\\Usu\u00E1rio\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Usu\u00E1rio\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAJMAAAAAAAAAAAAAAJMAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-21T19:09:12.828Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ProdutoRepositorio.cs",
-              "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Repositorio\\ProdutoRepositorio.cs",
+              "DocumentMoniker": "D:\\Usu\u00E1rio\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\Repositorio\\ProdutoRepositorio.cs",
               "RelativeDocumentMoniker": "Repositorio\\ProdutoRepositorio.cs",
-              "ToolTip": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Repositorio\\ProdutoRepositorio.cs",
+              "ToolTip": "D:\\Usu\u00E1rio\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\Repositorio\\ProdutoRepositorio.cs",
               "RelativeToolTip": "Repositorio\\ProdutoRepositorio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAQwA4AAAAIAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAMwCYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T18:13:07.594Z"
+              "WhenOpened": "2024-11-21T18:13:07.594Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ProdutoController.cs",
-              "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Controllers\\ProdutoController.cs",
+              "DocumentMoniker": "D:\\Usu\u00E1rio\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\Controllers\\ProdutoController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProdutoController.cs",
-              "ToolTip": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Controllers\\ProdutoController.cs",
+              "ToolTip": "D:\\Usu\u00E1rio\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\Controllers\\ProdutoController.cs",
               "RelativeToolTip": "Controllers\\ProdutoController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAuwDoAAAAIAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAADoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T18:12:40.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Personalizar.cshtml",
-              "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Produto\\Personalizar.cshtml",
+              "DocumentMoniker": "D:\\Usu\u00E1rio\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\Views\\Produto\\Personalizar.cshtml",
               "RelativeDocumentMoniker": "Views\\Produto\\Personalizar.cshtml",
-              "ToolTip": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Produto\\Personalizar.cshtml",
+              "ToolTip": "D:\\Usu\u00E1rio\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\Views\\Produto\\Personalizar.cshtml",
               "RelativeToolTip": "Views\\Produto\\Personalizar.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAABBAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T18:10:57.454Z"
+              "WhenOpened": "2024-11-21T18:10:57.454Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "Home.css",
+              "DocumentMoniker": "D:\\Usu\u00E1rio\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\wwwroot\\css\\Home.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Home.css",
+              "ToolTip": "D:\\Usu\u00E1rio\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\wwwroot\\css\\Home.css",
+              "RelativeToolTip": "wwwroot\\css\\Home.css",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAQwIAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-22T18:03:03.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CadProduto.cshtml",
-              "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Produto\\CadProduto.cshtml",
+              "DocumentMoniker": "D:\\Usu\u00E1rio\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\Views\\Produto\\CadProduto.cshtml",
               "RelativeDocumentMoniker": "Views\\Produto\\CadProduto.cshtml",
-              "ToolTip": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Produto\\CadProduto.cshtml",
+              "ToolTip": "D:\\Usu\u00E1rio\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\Views\\Produto\\CadProduto.cshtml",
               "RelativeToolTip": "Views\\Produto\\CadProduto.cshtml",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAAACAAAAAZAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAEQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T18:08:33.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T18:08:33.111Z"
             }
           ]
         }

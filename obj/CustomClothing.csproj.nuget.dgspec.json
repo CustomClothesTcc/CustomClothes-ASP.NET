@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\CustomClothing.csproj": {}
+    "D:\\Usuário\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\CustomClothing.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\CustomClothing.csproj": {
+    "D:\\Usuário\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\CustomClothing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\CustomClothing.csproj",
+        "projectUniqueName": "D:\\Usuário\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\CustomClothing.csproj",
         "projectName": "CustomClothing",
-        "projectPath": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\CustomClothing.csproj",
+        "projectPath": "D:\\Usuário\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\CustomClothing.csproj",
         "packagesPath": "C:\\Users\\Gih\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\obj\\",
+        "outputPath": "D:\\Usuário\\Miguel\\Downloads\\CustomClothes-ASP.NET-R\\CustomClothes-ASP.NET-78866b8c9adf9916d57e07c7a530c4b18371d21b\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
