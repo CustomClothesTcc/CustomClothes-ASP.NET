@@ -92,12 +92,12 @@ namespace CustomClothing.Repositorio
                             IdProduto = Convert.ToInt32(dr["IdProduto"]),
                             Tecido = (string)(dr["Tecido"]),
                             Descricao = (string)(dr["Descricao"]),
-                            Categoria = (string)(dr["Categoria"]),
+                            Categoria = Convert.ToString(dr["Categoria"]),
                             Cor = (string)(dr["Cor"]),
                             Estampa = (string)(dr["Estampa"]),
                             Quantidade = Convert.ToInt32(dr["Quantidade"]),
                             Tamanho = (string)(dr["Tamanho"]),
-                            Situacao = (string)(dr["Situacao"]),
+                            Situacao = Convert.ToString(dr["Situacao"]),
                             Valor = Convert.ToDecimal(dr["Valor"]),
                         });
                 }

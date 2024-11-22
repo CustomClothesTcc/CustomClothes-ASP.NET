@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ud6Fdr1VH8j9NVz0Q9e10qsjz05R+xTU/bkqOA4kak0=",
+  "Hash": "f1Sa1ho5L15k94fCseJINSaMD1BF/9lYg2wPFSh2NZ8=",
   "Source": "CustomClothing",
   "BasePath": "_content/CustomClothing",
   "Mode": "Default",
@@ -378,6 +378,25 @@
       "OriginalItemSpec": "wwwroot\\Img\\HomemAranha.png"
     },
     {
+      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\Nike.jpg",
+      "SourceId": "CustomClothing",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
+      "BasePath": "_content/CustomClothing",
+      "RelativePath": "Img/Nike.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\Nike.jpg"
+    },
+    {
       "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\oppen.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
@@ -528,6 +547,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\LayoutJS.js"
+    },
+    {
+      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\js\\mask\\jquery.mask.min.js",
+      "SourceId": "CustomClothing",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
+      "BasePath": "_content/CustomClothing",
+      "RelativePath": "js/mask/jquery.mask.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\mask\\jquery.mask.min.js"
     },
     {
       "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\js\\personalizar.js",

@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\Img\\HomemAranha.png"
     },
     {
+      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\Nike.jpg",
+      "PackagePath": "staticwebassets\\Img\\Nike.jpg"
+    },
+    {
       "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\TCC.png",
       "PackagePath": "staticwebassets\\Img\\TCC.png"
     },
@@ -103,6 +107,10 @@
     {
       "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\js\\carousel.js",
       "PackagePath": "staticwebassets\\js\\carousel.js"
+    },
+    {
+      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\js\\mask\\jquery.mask.min.js",
+      "PackagePath": "staticwebassets\\js\\mask\\jquery.mask.min.js"
     },
     {
       "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\js\\personalizar.js",

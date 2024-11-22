@@ -55,10 +55,29 @@ namespace CustomClothing.Controllers
         }
 
         [HttpPost]
-        public IActionResult CadProduto(Produto produtos)
+        public IActionResult CadProduto(Produto produtos, IFormFile file)
         {
+            //var ListProdutos = _produtosRepositorio.ObterTodosProdutos();
+
+            // Verificar se o arquivo foi enviado
+            if (file != null && file.Length > 0)
+            {
+                // Cadastrar a imagem e obter o caminho
+                var Caminho = GerenciadorArquivos.CadastrarImagemProduto(file);
+                produtos.Estampa = Caminho;  // Salvar o caminho da imagem no produto
+            }
+            else
+            {
+                ViewBag.msg = "Nenhuma imagem foi selecionada.";
+                return View();
+            }
+
+            // Salvar o produto no banco de dados
             _produtosRepositorio.Cadastrar(produtos);
-            return RedirectToAction(nameof(CadProduto));
+
+            ViewBag.msg = "Produto cadastrado com sucesso!";
+            return RedirectToAction("CadProduto");
+            
         }
 
         public IActionResult Produto()

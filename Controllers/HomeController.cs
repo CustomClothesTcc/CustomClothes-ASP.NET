@@ -1,4 +1,5 @@
 using CustomClothing.Models;
+using CustomClothing.Repositorio.Contract;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -6,16 +7,16 @@ namespace CustomClothing.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private IProdutoRepositorio _produtoRepositorio;
+        public HomeController(IProdutoRepositorio produtoRepositorio)
         {
-            _logger = logger;
+            _produtoRepositorio = produtoRepositorio;
         }
 
         public IActionResult Index()
         {
-            return View();
+            return View(_produtoRepositorio.ObterTodosProdutos());
         }
       
         public IActionResult Sobrenos()

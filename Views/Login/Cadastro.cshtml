@@ -9,9 +9,9 @@
     }
 </style>
 
-<!--Essa div corresponde a estrutura da tela de --->
+<!--Essa div corresponde a estrutura da tela de Cadastro --->
 <div class="container bg-white p-5 rounded-5">
-    
+
     <div class="mb-5 bg-custom text-center">
         <h1 class="text-light">Cadastrar</h1>
     </div>
@@ -20,24 +20,24 @@
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <div class="mb-3">
             <label asp-for="CPF" class="control-label">CPF:</label>
-            <input asp-for="CPF" class="form-control" placeholder="Digite seu CPF..." />
+            <input asp-for="CPF" class="form-control cpf" placeholder="Digite seu CPF..." required="Campo não pode estar vazio" />
             <span asp-validation-for="CPF" class="text-danger"></span>
         </div>
 
         <div class="mb-3">
             <label asp-for="RG" class="control-label">RG:</label>
-            <input asp-for="RG" class="form-control" placeholder="Digite seu RG... " />
+            <input asp-for="RG" class="form-control rg" placeholder="Digite seu RG... " required="Campo não pode estar vazio" />
             <span asp-validation-for="RG" class="text-danger"></span>
         </div>
 
         <div class="mb-3">
             <label asp-for="Nome" class="control-label">Nome:</label>
-            <input asp-for="Nome" class="form-control" placeholder="Digite seu Nome..." />
+            <input asp-for="Nome" class="form-control" placeholder="Digite seu Nome..." required />
             <span asp-validation-for="Nome" class="text-danger"></span>
-        </div> 
+        </div>
         <div class="mb-3">
             <label asp-for="DataNans" class="control-label">Data de Nascimento:</label>
-            <input asp-for="DataNans" class="form-control" placeholder="Digite sua Data de Nascimento..." />
+            <input asp-for="DataNans" type="date" class="form-control" placeholder="Digite sua Data de Nascimento..." required />
             <span asp-validation-for="DataNans" class="text-danger"></span>
         </div>
         <div class="form-group">
@@ -53,17 +53,17 @@
         </div>
         <div class="mb-3">
             <label asp-for="Celular" class="control-label">Telefone:</label>
-            <input asp-for="Celular" class="form-control" placeholder="Digite seu Número..." />
+            <input asp-for="Celular" class="form-control telefone" placeholder="Digite seu Número..." required />
             <span asp-validation-for="Celular" class="text-danger"></span>
-        </div> 
+        </div>
         <div class="mb-3">
             <label asp-for="Email" class="control-label">Email:</label>
-            <input asp-for="Email" class="form-control" placeholder="Digite seu Email..." />
+            <input asp-for="Email" class="form-control" type="email" placeholder="Digite seu Email..." required />
             <span asp-validation-for="Email" class="text-danger"></span>
-        </div> 
+        </div>
         <div class="mb-3">
             <label asp-for="Senha" class="control-label">Senha:</label>
-            <input asp-for="Senha" class="form-control" placeholder="Digite sua Senha..." />
+            <input asp-for="Senha" type="password" class="form-control" placeholder="Digite sua Senha..." required />
             <span asp-validation-for="Senha" class="text-danger"></span>
         </div>
 
