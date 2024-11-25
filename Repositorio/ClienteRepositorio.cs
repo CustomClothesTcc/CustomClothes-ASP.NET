@@ -44,11 +44,11 @@ namespace CustomClothing.Repositorio
                 conexao.Open();
                 MySqlCommand cmd = new MySqlCommand("CALL pcd_CadastrarCliente(@CPF,@RG,@Nome,@DataNans,@Celular,@Sexo,@Email,@Senha)", conexao);
                 //cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.Add("@CPF", MySqlDbType.VarChar).Value = cliente.CPF;
-                cmd.Parameters.Add("@RG", MySqlDbType.VarChar).Value = cliente.RG;
+                cmd.Parameters.Add("@CPF", MySqlDbType.VarChar).Value = cliente.CPF.Replace(".", "").Replace("-", "");
+                cmd.Parameters.Add("@RG", MySqlDbType.VarChar).Value = cliente.RG.Replace(".", "").Replace("-", "");
                 cmd.Parameters.Add("@Nome", MySqlDbType.VarChar).Value = cliente.Nome;
                 cmd.Parameters.Add("@DataNans", MySqlDbType.Date).Value = cliente.DataNans.ToString("yyyy/MM/dd");
-                cmd.Parameters.Add("@Celular", MySqlDbType.VarChar).Value = cliente.Celular;
+                cmd.Parameters.Add("@Celular", MySqlDbType.VarChar).Value = cliente.Celular.Replace("(", "").Replace("-", "").Replace(")", "");
                 cmd.Parameters.Add("@Sexo", MySqlDbType.VarChar).Value = cliente.Sexo;
                 cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = cliente.Email;
                 cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = cliente.Senha;
