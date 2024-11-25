@@ -228,8 +228,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9qgmt0s8oe</Fingerprint>
-      <Integrity>MfveOQ+4ft9wVoyOOpu6XVdLttb9hMeYw1oAZxSM+7w=</Integrity>
+      <Fingerprint>1rvah7hkef</Fingerprint>
+      <Integrity>PfxMbMcJeeVcpbjKfwPpX5sgHkAplZBCP+AFihWJT6c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Sobrenos.css'))</OriginalItemSpec>

@@ -1,19 +1,21 @@
-﻿@{
-    ViewData["Title"] = "Sobre-Nos";
-}
-<!--CSS da tela de Sobre Nós-->
-<link rel="stylesheet" href="~/css/Sobrenos.css"/>
-<!--div Container vai ser todo a estrutura da Tela de Sobre Nós-->
-<div class="Container">
-    <h1 class="text-center fs-1">Sobre-Nós</h1>
-    <!--A div Coluna é iamgem e o texto falando sobre a Custom Clothes-->
-    <div class="Coluna">
-        <p class="text-center fs-4">
-            A Custom Clothes foi criada no ano de 2021 por Sofia Mendes, que não tinha inicialmente o propósito de criar a empresa, mas tinha apenas como hobby e hábito de customizar suas roupas, e as personalizava com estampas e decorações da qual sentia que representasse a sua personalidade.
-            Com o passar do tempo, pessoas próximas pediam para Sofia fazer roupas para elas. Onde gostaram tanto do que a ela produzia, que recomendavam para que passasse a vender, sendo hoje em dia um sucesso no mercado da moda, e também principalmente pela sua contribuição com meio ambiente.
-        </p>
-        <img src="~/lib/Imagens/Estamparia.jpg"/>
+﻿<div class="container py-5" id="Container">
+    <!-- Título -->
+    <h1 class="text-center mb-4">Sobre Nós</h1>
+
+    <!-- Conteúdo Responsivo -->
+    <div class="row align-items-center">
+        <!-- Texto -->
+        <div class="col-lg-6 mb-4 mb-lg-0">
+            <p class="fs-5">
+                A Custom Clothes foi criada no ano de 2021 por Sofia Mendes, que não tinha inicialmente o propósito de criar a empresa, mas tinha apenas como hobby e hábito de customizar suas roupas, e as personalizava com estampas e decorações da qual sentia que representasse a sua personalidade.
+                <br /><br />
+                Com o passar do tempo, pessoas próximas pediam para Sofia fazer roupas para elas. Onde gostaram tanto do que a ela produzia, que recomendavam para que passasse a vender, sendo hoje em dia um sucesso no mercado da moda, e também principalmente pela sua contribuição com meio ambiente.
+            </p>
+        </div>
+
+        <!-- Imagem -->
+        <div class="col-lg-6 text-center">
+            <img src="~/lib/Imagens/Estamparia.jpg" class="img-fluid rounded shadow" alt="Imagem de estamparia">
+        </div>
     </div>
 </div>
-
-  

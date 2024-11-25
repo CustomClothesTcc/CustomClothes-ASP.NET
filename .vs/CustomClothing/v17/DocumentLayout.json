@@ -1,73 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\kaiqu\\onedrive\\\u00E1rea de trabalho\\customclothes-asp.net\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\kaiqu\\onedrive\\\u00E1rea de trabalho\\customclothes-asp.net\\wwwroot\\js\\layoutjs.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\js\\layoutjs.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\kaiqu\\onedrive\\\u00E1rea de trabalho\\customclothes-asp.net\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T16:49:58.61Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.css",
-              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\css\\Login.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\Login.css",
-              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\css\\Login.css",
-              "RelativeToolTip": "wwwroot\\css\\Login.css",
-              "ViewState": "AgIAABcAAAAAAAAAAAAnwCIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-25T17:26:22.499Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LayoutJS.js",
-              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\js\\LayoutJS.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\LayoutJS.js",
-              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\js\\LayoutJS.js",
-              "RelativeToolTip": "wwwroot\\js\\LayoutJS.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-25T17:24:51.553Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

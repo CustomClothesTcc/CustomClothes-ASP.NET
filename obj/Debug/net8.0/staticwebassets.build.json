@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2C/eRNXUCi9ermnGN/4TXhHx81w3oxN+9rGZNWMyfOI=",
+  "Hash": "J8/ZCfDgyaftfhrbt5Zp48lH+H9ctb8x/z6/YXDoawk=",
   "Source": "CustomClothing",
   "BasePath": "_content/CustomClothing",
   "Mode": "Default",
@@ -325,8 +325,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9qgmt0s8oe",
-      "Integrity": "MfveOQ+4ft9wVoyOOpu6XVdLttb9hMeYw1oAZxSM+7w=",
+      "Fingerprint": "1rvah7hkef",
+      "Integrity": "PfxMbMcJeeVcpbjKfwPpX5sgHkAplZBCP+AFihWJT6c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Sobrenos.css"
@@ -3901,7 +3901,7 @@
       ]
     },
     {
-      "Route": "css/Sobrenos.9qgmt0s8oe.css",
+      "Route": "css/Sobrenos.1rvah7hkef.css",
       "AssetFile": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\css\\Sobrenos.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3911,7 +3911,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "567"
+          "Value": "569"
         },
         {
           "Name": "Content-Type",
@@ -3919,11 +3919,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MfveOQ+4ft9wVoyOOpu6XVdLttb9hMeYw1oAZxSM+7w=\""
+          "Value": "\"PfxMbMcJeeVcpbjKfwPpX5sgHkAplZBCP+AFihWJT6c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 16:30:12 GMT"
+          "Value": "Mon, 25 Nov 2024 17:49:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3933,7 +3933,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9qgmt0s8oe"
+          "Value": "1rvah7hkef"
         },
         {
           "Name": "label",
@@ -3941,7 +3941,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MfveOQ+4ft9wVoyOOpu6XVdLttb9hMeYw1oAZxSM+7w="
+          "Value": "sha256-PfxMbMcJeeVcpbjKfwPpX5sgHkAplZBCP+AFihWJT6c="
         }
       ]
     },
@@ -3956,7 +3956,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "567"
+          "Value": "569"
         },
         {
           "Name": "Content-Type",
@@ -3964,11 +3964,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MfveOQ+4ft9wVoyOOpu6XVdLttb9hMeYw1oAZxSM+7w=\""
+          "Value": "\"PfxMbMcJeeVcpbjKfwPpX5sgHkAplZBCP+AFihWJT6c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 16:30:12 GMT"
+          "Value": "Mon, 25 Nov 2024 17:49:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3978,7 +3978,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MfveOQ+4ft9wVoyOOpu6XVdLttb9hMeYw1oAZxSM+7w="
+          "Value": "sha256-PfxMbMcJeeVcpbjKfwPpX5sgHkAplZBCP+AFihWJT6c="
         }
       ]
     },
@@ -4251,7 +4251,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 16:39:18 GMT"
+          "Value": "Mon, 25 Nov 2024 17:53:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4296,7 +4296,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 25 Nov 2024 16:39:18 GMT"
+          "Value": "Mon, 25 Nov 2024 17:53:31 GMT"
         },
         {
           "Name": "Cache-Control",

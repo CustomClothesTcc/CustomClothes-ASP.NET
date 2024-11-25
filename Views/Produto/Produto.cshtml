@@ -1,144 +1,128 @@
 ﻿@{
     ViewData["Title"] = "Produtos";
 }
-<!--Link do Código CSS para estilizar a Tela de Produtos-->
-<link rel="stylesheet" href="~/css/Produto.css" />
-<!--A div Container vai ser todo o contéudo da Tela de Personalizar-->
-<div class="Container">
-    <!--A Div Produto estão as camisetas e blusas-->
-    <div class="Produto">
-        <!--Imagem Centralizada-->
-        <img class=" mx-auto d-block" src="~/lib/Imagens/Camiseta.jpg" />
-        <div class="Teste-1">
-            <!--Tamanho da fonte-->
-            <label class="fs-4" for="text">Camiseta Estampada Masculina</label>
-            <br />
-            <label class="fw-bold" for="text">Tipo de Tecido:</label>
-            <label for="text"> 100% Algodão</label>
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
-                </svg>
-            </button>
-            <br />
-            <label for="text" class="text-decoration-line-through fst-italic text-bg-secondary fw-light">R$50,00</label>
-            <div class="d-flex">
-                <label class="fs-4" for="text">R$45,00</label>
-                <p class="teste bg-success text-white ms-1 rounded">10%</p>
-            </div>
-        </div>
-        <!--Os Botões utiliza uma Classe CSS e o resto Boostrap-->
-        <button class="botão text-white btn d-grid gap-2 col-5 mx-auto" asp-area="" asp-controller="Home" asp-action="Index">Ver</button>
-    </div>
-    <div class="Produto">
-        <img class="mx-auto d-flex" src="~/lib/Imagens/Mamonas.jpg" />
-        <div class="Teste-1">
-            <label class="fs-4" for="text">Camiseta Mamonas  Masculina</label>
-            <br />
-            <label class="fw-bold" for="text">Tipo de Tecido:</label>
-            <label for="text"> 100% Poliéster</label>
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
-                </svg>
-            </button>
-            <br />
-            <br />
-            <label class="fs-4" for="text">R$55,00</label>
-        </div>
 
-        <Button asp-area="" asp-controller="Produto" asp-action="#" class="botão text-white btn d-grid gap-2 col-5 mx-auto">Ver</Button>
-    </div>
+<div class="container py-5">
+    <h1 class="text-center mb-4">Nossos Produtos</h1>
 
-    <div class="Produto">
-        <img class="mx-auto d-block" src="~/lib/Imagens/Camiseta Feminina.jpg" />
-        <div class="Teste-1">
-            <label class="fs-4" for="text">Camiseta Básica Branca Feminina</label>
-            <br />
-            <label class="fw-bold" for="text">Tipo de Tecido:</label>
-            <label for="text"> 98% Algodão e 2% Poliéster</label>
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
-                </svg>
-            </button>
-            <br />
-            <label for="text" class="text-decoration-line-through fst-italic text-bg-secondary fw-light">R$55,00</label>
-            <div class="d-flex">
-                <label class="fs-4" for="text">R$50,00</label>
-                <p class="teste bg-success text-white ms-1 rounded">10%</p>
+    <!-- Grid de Produtos -->
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <!-- Produto 1 -->
+        <div class="col">
+            <div class="card h-100 shadow">
+                <img src="~/lib/Imagens/Camiseta.jpg" class="card-img-top img-fluid" alt="Camiseta Estampada Masculina">
+                <div class="card-body">
+                    <h5 class="card-title">Camiseta Estampada Masculina</h5>
+                    <p class="card-text">
+                        <strong>Tipo de Tecido:</strong> 100% Algodão
+                    </p>
+                    <div class="d-flex align-items-center">
+                        <span class="text-decoration-line-through text-muted me-2">R$50,00</span>
+                        <span class="fw-bold fs-5">R$45,00</span>
+                        <span class="badge bg-success ms-2">10% OFF</span>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Ver</a>
+                    <button class="btn btn-outline-danger ms-2">
+                        <i class="bi bi-heart-fill"></i>
+                    </button>
+                </div>
             </div>
         </div>
 
-        <Button asp-area="" asp-controller="Produto" asp-action="#" class="botão text-white btn d-grid gap-2 col-5 mx-auto">Ver</Button>
-    </div>
-</div>
-<div class="Container">
-    <div class="Produto">
-        <img class=" mx-auto d-block" src="~/lib/Imagens/Blusa1.jpg" />
-        <div class="Teste-1">
-            <label class="fs-4" for="text">Moletom Canguru Cinza Masculino</label>
-            <br />
-            <label class="fw-bold" for="text">Tipo de Tecido:</label>
-            <label for="text">68% Algodão e 34% Poliéster</label>
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
-                </svg>
-            </button>
-            <br />
-            <label for="text" class="text-decoration-line-through fst-italic text-bg-secondary fw-light">R$150,00</label>
-            <div class="d-flex">
-                <label class="fs-4" for="text">R$85,00</label>
-                <p class="teste bg-success text-white ms-1 rounded">10%</p>
+        <!-- Produto 2 -->
+        <div class="col">
+            <div class="card h-100 shadow">
+                <img src="~/lib/Imagens/Mamonas.jpg" class="card-img-top img-fluid" alt="Camiseta Mamonas Masculina">
+                <div class="card-body">
+                    <h5 class="card-title">Camiseta Mamonas Masculina</h5>
+                    <p class="card-text">
+                        <strong>Tipo de Tecido:</strong> 100% Poliéster
+                    </p>
+                    <div class="d-flex align-items-center">
+                        <span class="fw-bold fs-5">R$55,00</span>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Ver</a>
+                    <button class="btn btn-outline-danger ms-2">
+                        <i class="bi bi-heart-fill"></i>
+                    </button>
+                </div>
             </div>
         </div>
 
-        <Button asp-area="" asp-controller="Produto" asp-action="#" class="botão text-white btn d-grid gap-2 col-5 mx-auto">Ver</Button>
-    </div>
-    <div class="Produto">
-        <img class=" mx-auto d-block" src="~/lib/Imagens/Camiseta Preta.jpg" />
-        <div class="Teste-1">
-            <label class="fs-4" for="text">Camiseta Básica Preta Masculina</label>
-            <br />
-            <label class="fw-bold" for="text">Tipo de Tecido:</label>
-            <label for="text">100% Poliéster</label>
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
-                </svg>
-            </button>
-            <br />
-            <label for="text" class="text-decoration-line-through fst-italic text-bg-secondary fw-light">R$65,00</label>
-            <div class="d-flex">
-                <label class="fs-4" for="text">R$60,00</label>
-                <p class="teste bg-success text-white ms-1 rounded w-10 text-center">10%</p>
+        <!-- Produto 3 -->
+        <div class="col">
+            <div class="card h-100 shadow">
+                <img src="~/lib/Imagens/Camiseta Feminina.jpg" class="card-img-top img-fluid" alt="Camiseta Básica Branca Feminina">
+                <div class="card-body">
+                    <h5 class="card-title">Camiseta Básica Branca Feminina</h5>
+                    <p class="card-text">
+                        <strong>Tipo de Tecido:</strong> 98% Algodão e 2% Poliéster
+                    </p>
+                    <div class="d-flex align-items-center">
+                        <span class="text-decoration-line-through text-muted me-2">R$55,00</span>
+                        <span class="fw-bold fs-5">R$50,00</span>
+                        <span class="badge bg-success ms-2">10% OFF</span>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Ver</a>
+                    <button class="btn btn-outline-danger ms-2">
+                        <i class="bi bi-heart-fill"></i>
+                    </button>
+                </div>
             </div>
         </div>
 
-        <Button asp-area="" asp-controller="Produto" asp-action="#" class="botão text-white btn d-grid gap-2 col-5 mx-auto">Ver</Button>
-    </div>
-
-    <div class="Produto">
-        <img class=" mx-auto d-block" src="~/lib/Imagens/Beatles.jpg" />
-        <div class="Teste-1">
-            <label class="fs-4" for="text">Camiseta Beatles Masculina</label>
-            <br />
-            <label class="fw-bold" for="text">Tipo de Tecido:</label>
-            <label for="text">100% Algodão</label>
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
-                </svg>
-            </button>
-            <br />
-            <label for="text" class="text-decoration-line-through fst-italic text-bg-secondary fw-light">R$55,00</label>
-            <div class="d-flex">
-                <label class="fs-4" for="text">R$50,00</label>
-                <p class="teste bg-success text-white ms-1 rounded">10%</p>
+        <!-- Produto 4 -->
+        <div class="col">
+            <div class="card h-100 shadow">
+                <img src="~/lib/Imagens/Blusa1.jpg" class="card-img-top img-fluid" alt="Moletom Canguru Cinza Masculino">
+                <div class="card-body">
+                    <h5 class="card-title">Moletom Canguru Cinza Masculino</h5>
+                    <p class="card-text">
+                        <strong>Tipo de Tecido:</strong> 68% Algodão e 34% Poliéster
+                    </p>
+                    <div class="d-flex align-items-center">
+                        <span class="text-decoration-line-through text-muted me-2">R$150,00</span>
+                        <span class="fw-bold fs-5">R$85,00</span>
+                        <span class="badge bg-success ms-2">10% OFF</span>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Ver</a>
+                    <button class="btn btn-outline-danger ms-2">
+                        <i class="bi bi-heart-fill"></i>
+                    </button>
+                </div>
             </div>
         </div>
 
-        <Button asp-area="" asp-controller="Produto" asp-action="#" class="botão text-white btn d-grid gap-2 col-5 mx-auto text-center">Ver</Button>
+        <!-- Produto 5 -->
+        <div class="col">
+            <div class="card h-100 shadow">
+                <img src="~/lib/Imagens/Camiseta Preta.jpg" class="card-img-top img-fluid" alt="Camiseta Básica Preta Masculina">
+                <div class="card-body">
+                    <h5 class="card-title">Camiseta Básica Preta Masculina</h5>
+                    <p class="card-text">
+                        <strong>Tipo de Tecido:</strong> 100% Poliéster
+                    </p>
+                    <div class="d-flex align-items-center">
+                        <span class="text-decoration-line-through text-muted me-2">R$65,00</span>
+                        <span class="fw-bold fs-5">R$60,00</span>
+                        <span class="badge bg-success ms-2">10% OFF</span>
+                    </div>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Ver</a>
+                    <button class="btn btn-outline-danger ms-2">
+                        <i class="bi bi-heart-fill"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
