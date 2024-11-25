@@ -1,4 +1,3 @@
-﻿@inject CustomClothing.Libraries.Login.LoginCliente _loginCliente
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -21,10 +20,8 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
-    <!-- Header -->
     <header>
         <div class="pesquisa">
-                <!-- Logo -->
             <div class="divLogo">
                 <div class="divImg">
                     <img src="~/lib/Imagens/LogosCC/CustomClothesSemNome.png" alt="Logo" id="logoNavCC" />
@@ -35,14 +32,13 @@
                 </div>
             </div>
 
-                <!-- Barra de Pesquisa -->
-                <div class="autocomplete-container">
-                        <input type="search" id="search-bar" class="form-control" placeholder="Pesquise a sua Roupa...">
-                        <button class="btn btn-outline-secondary">
-                            <i class="bi bi-search"></i>
-                        </button> 
-                </div>
- <div class="divGuia">
+            <div class="autocomplete-container">
+                <input id="search-bar" type="search" class="form-control" placeholder="Pesquise a sua Roupa...">
+                <button id="btn btn-outline-secondary">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+            <div class="divGuia">
                 <li class="nav-item dropdown" style="list-style: none">
                     @if (_loginCliente.GetCliente() != null)
                     {
@@ -87,14 +83,12 @@
             <a asp-area="" asp-controller="" asp-action="#">PRODUTOS</a>
             <a asp-area="" asp-controller="Produto" asp-action="Personalizar">PERSONALIZAR</a>
         </nav>
-               
     </header>
-
-    <!-- Main -->
-    <main role="main" class="container py-4">
-        @RenderBody()
-    </main>
-
+    <div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
     <!-- Footer -->
     <footer class="footer-custom footer text-center">
         <div class="container p-4">
