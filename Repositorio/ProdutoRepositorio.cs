@@ -20,7 +20,7 @@ namespace CustomClothing.Repositorio
 
         public void Cadastrar(Produto produto)
         {
-            using(var conexao = new MySqlConnection(_conexaoMySQL))
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
                 MySqlCommand cmd = new MySqlCommand("insert into tbProduto(Tecido, Descricao,Categoria,Cor,Estampa,Quantidade,Tamanho,Situacao,Valor) values(@Tecido, @Descricao,@Categoria, @Cor,@Estampa, @Quantidade, @Tamanho,@Situacao, @Valor)", conexao);

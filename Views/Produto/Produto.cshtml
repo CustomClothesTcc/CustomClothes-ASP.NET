@@ -1,128 +1,42 @@
-﻿@{
+﻿@model IEnumerable<CustomClothing.Models.Produto>
+@{
     ViewData["Title"] = "Produtos";
 }
 
 <div class="container py-5">
     <h1 class="text-center mb-4">Nossos Produtos</h1>
+    <!--Método para aparecer os produtos para o cliente-->
+    <div class="align-content-center" style="margin-left: 6%">
+        <div class="col-lg-11">
+            <div class="row align-content-center">
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-5 col-md-8 mb-5" style="margin:3% 4%">
+                        <div class="card h-100">
 
-    <!-- Grid de Produtos -->
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-        <!-- Produto 1 -->
-        <div class="col">
-            <div class="card h-100 shadow">
-                <img src="~/lib/Imagens/Camiseta.jpg" class="card-img-top img-fluid" alt="Camiseta Estampada Masculina">
-                <div class="card-body">
-                    <h5 class="card-title">Camiseta Estampada Masculina</h5>
-                    <p class="card-text">
-                        <strong>Tipo de Tecido:</strong> 100% Algodão
-                    </p>
-                    <div class="d-flex align-items-center">
-                        <span class="text-decoration-line-through text-muted me-2">R$50,00</span>
-                        <span class="fw-bold fs-5">R$45,00</span>
-                        <span class="badge bg-success ms-2">10% OFF</span>
-                    </div>
-                </div>
-                <div class="card-footer text-center">
-                    <a href="#" class="btn btn-primary">Ver</a>
-                    <button class="btn btn-outline-danger ms-2">
-                        <i class="bi bi-heart-fill"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
+                            @if (@item.Estampa != null)
+                            {
+                                <img class="card-img-right flex-auto d-none d-md-block" data-src=" " alt="Thumbnail [300x300]" style="width: 375px; height: 300px;" src="@item.Estampa" data-holder-rendered="true">
+                            }
+                            else
+                            {
+                                <img class="card-img-right flex-auto d-none d-md-block" data-src=" " alt="Thumbnail [300x300]" style="width: 375px; height: 300px;" src="~/Images/image-not-found.jpg" data-holder-rendered="true">
+                            }
 
-        <!-- Produto 2 -->
-        <div class="col">
-            <div class="card h-100 shadow">
-                <img src="~/lib/Imagens/Mamonas.jpg" class="card-img-top img-fluid" alt="Camiseta Mamonas Masculina">
-                <div class="card-body">
-                    <h5 class="card-title">Camiseta Mamonas Masculina</h5>
-                    <p class="card-text">
-                        <strong>Tipo de Tecido:</strong> 100% Poliéster
-                    </p>
-                    <div class="d-flex align-items-center">
-                        <span class="fw-bold fs-5">R$55,00</span>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a class="text-decoration-none" href="@item.Estampa">@item.Descricao</a>
+                                </h4>
+                                <spam>Tamanho: @item.Tamanho</spam>
+                                <br />
+                                <spam>Preço: @item.Valor</spam>
+                            </div>
+                            <a asp-controller="Produto" asp-action="Personalizar" class="btn btn-primary">Adicionar</a>
+                        </div>
                     </div>
-                </div>
-                <div class="card-footer text-center">
-                    <a href="#" class="btn btn-primary">Ver</a>
-                    <button class="btn btn-outline-danger ms-2">
-                        <i class="bi bi-heart-fill"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Produto 3 -->
-        <div class="col">
-            <div class="card h-100 shadow">
-                <img src="~/lib/Imagens/Camiseta Feminina.jpg" class="card-img-top img-fluid" alt="Camiseta Básica Branca Feminina">
-                <div class="card-body">
-                    <h5 class="card-title">Camiseta Básica Branca Feminina</h5>
-                    <p class="card-text">
-                        <strong>Tipo de Tecido:</strong> 98% Algodão e 2% Poliéster
-                    </p>
-                    <div class="d-flex align-items-center">
-                        <span class="text-decoration-line-through text-muted me-2">R$55,00</span>
-                        <span class="fw-bold fs-5">R$50,00</span>
-                        <span class="badge bg-success ms-2">10% OFF</span>
-                    </div>
-                </div>
-                <div class="card-footer text-center">
-                    <a href="#" class="btn btn-primary">Ver</a>
-                    <button class="btn btn-outline-danger ms-2">
-                        <i class="bi bi-heart-fill"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Produto 4 -->
-        <div class="col">
-            <div class="card h-100 shadow">
-                <img src="~/lib/Imagens/Blusa1.jpg" class="card-img-top img-fluid" alt="Moletom Canguru Cinza Masculino">
-                <div class="card-body">
-                    <h5 class="card-title">Moletom Canguru Cinza Masculino</h5>
-                    <p class="card-text">
-                        <strong>Tipo de Tecido:</strong> 68% Algodão e 34% Poliéster
-                    </p>
-                    <div class="d-flex align-items-center">
-                        <span class="text-decoration-line-through text-muted me-2">R$150,00</span>
-                        <span class="fw-bold fs-5">R$85,00</span>
-                        <span class="badge bg-success ms-2">10% OFF</span>
-                    </div>
-                </div>
-                <div class="card-footer text-center">
-                    <a href="#" class="btn btn-primary">Ver</a>
-                    <button class="btn btn-outline-danger ms-2">
-                        <i class="bi bi-heart-fill"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Produto 5 -->
-        <div class="col">
-            <div class="card h-100 shadow">
-                <img src="~/lib/Imagens/Camiseta Preta.jpg" class="card-img-top img-fluid" alt="Camiseta Básica Preta Masculina">
-                <div class="card-body">
-                    <h5 class="card-title">Camiseta Básica Preta Masculina</h5>
-                    <p class="card-text">
-                        <strong>Tipo de Tecido:</strong> 100% Poliéster
-                    </p>
-                    <div class="d-flex align-items-center">
-                        <span class="text-decoration-line-through text-muted me-2">R$65,00</span>
-                        <span class="fw-bold fs-5">R$60,00</span>
-                        <span class="badge bg-success ms-2">10% OFF</span>
-                    </div>
-                </div>
-                <div class="card-footer text-center">
-                    <a href="#" class="btn btn-primary">Ver</a>
-                    <button class="btn btn-outline-danger ms-2">
-                        <i class="bi bi-heart-fill"></i>
-                    </button>
-                </div>
+                }
             </div>
         </div>
     </div>
+</div>
 </div>

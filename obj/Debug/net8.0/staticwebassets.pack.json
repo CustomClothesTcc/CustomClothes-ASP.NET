@@ -5,48 +5,32 @@
       "PackagePath": "staticwebassets\\CustomClothing.bundle.scp.css"
     },
     {
-      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\Capture.PNG",
-      "PackagePath": "staticwebassets\\Img\\Capture.PNG"
+      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\Blusa1.jpg",
+      "PackagePath": "staticwebassets\\Img\\Blusa1.jpg"
     },
     {
-      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\DC.jpg",
-      "PackagePath": "staticwebassets\\Img\\DC.jpg"
-    },
-    {
-      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\Estamparia.jpg",
-      "PackagePath": "staticwebassets\\Img\\Estamparia.jpg"
-    },
-    {
-      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\HomemAranha.png",
-      "PackagePath": "staticwebassets\\Img\\HomemAranha.png"
+      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\Camiseta Feminina.jpg",
+      "PackagePath": "staticwebassets\\Img\\Camiseta Feminina.jpg"
     },
     {
       "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\Nike.jpg",
       "PackagePath": "staticwebassets\\Img\\Nike.jpg"
     },
     {
-      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\TCC.png",
-      "PackagePath": "staticwebassets\\Img\\TCC.png"
+      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\OIP.jpg",
+      "PackagePath": "staticwebassets\\Img\\OIP.jpg"
     },
     {
-      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\Teste.png",
-      "PackagePath": "staticwebassets\\Img\\Teste.png"
+      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\SueterFeminino.jpg",
+      "PackagePath": "staticwebassets\\Img\\SueterFeminino.jpg"
     },
     {
-      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\Thumbs.db",
-      "PackagePath": "staticwebassets\\Img\\Thumbs.db"
+      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\Teste.jpg",
+      "PackagePath": "staticwebassets\\Img\\Teste.jpg"
     },
     {
-      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\oppen.png",
-      "PackagePath": "staticwebassets\\Img\\oppen.png"
-    },
-    {
-      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\png-clipart-red-volkswagen-polo-volkswagen-polo-gti-compact-car-volkswagen-crafter-volkswagen-free-sedan-car.png",
-      "PackagePath": "staticwebassets\\Img\\png-clipart-red-volkswagen-polo-volkswagen-polo-gti-compact-car-volkswagen-crafter-volkswagen-free-sedan-car.png"
-    },
-    {
-      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\vingadores.jpg",
-      "PackagePath": "staticwebassets\\Img\\vingadores.jpg"
+      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Adicionar.css",
+      "PackagePath": "staticwebassets\\css\\Adicionar.css"
     },
     {
       "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Cadastro.css",

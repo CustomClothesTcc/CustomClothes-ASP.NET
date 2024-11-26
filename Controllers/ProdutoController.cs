@@ -82,6 +82,11 @@ namespace CustomClothing.Controllers
 
         public IActionResult Produto()
         {
+            return View(_produtosRepositorio.ObterTodosProdutos());
+        }
+
+        public IActionResult AdicionarCarrinho()
+        {
             return View();
         }
 
