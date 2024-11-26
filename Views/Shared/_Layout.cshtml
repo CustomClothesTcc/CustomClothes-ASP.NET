@@ -24,7 +24,7 @@
     <!-- Header -->
     <header>
         <div class="pesquisa">
-                <!-- Logo -->
+            <!-- Logo -->
             <div class="divLogo">
                 <div class="divImg">
                     <img src="~/lib/Imagens/LogosCC/CustomClothesSemNome.png" alt="Logo" id="logoNavCC" />
@@ -35,14 +35,14 @@
                 </div>
             </div>
 
-                <!-- Barra de Pesquisa -->
-                <div class="autocomplete-container">
-                        <input type="search" id="search-bar" class="form-control" placeholder="Pesquise a sua Roupa...">
-                        <button class="btn btn-outline-secondary">
-                            <i class="bi bi-search"></i>
-                        </button> 
-                </div>
- <div class="divGuia">
+            <!-- Barra de Pesquisa -->
+            <div class="autocomplete-container">
+                <input type="search" id="search-bar" class="form-control" placeholder="Pesquise a sua Roupa...">
+                <button class="btn btn-outline-secondary">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+            <div class="divGuia">
                 <li class="nav-item dropdown" style="list-style: none">
                     @if (_loginCliente.GetCliente() != null)
                     {
@@ -61,20 +61,20 @@
                                 Login
                             </a>
                         </div>
-                       
+
                     }
                 </li>
 
-            <!-- Menu Hambúrguer -->
-            <button class="menu-btn" onclick="toggleMenu()">
-                <i class="bi bi-list"></i>
-       
-            </button>
-            <div class="menu-hamburguer" id="menuHamburguer">
-                <a asp-area="" asp-controller="#" asp-action="#">
-                    <i class="bi bi-cart3"></i> 
-                </a>
-            </div>
+                <!-- Menu Hambúrguer -->
+                <button class="menu-btn" onclick="toggleMenu()">
+                    <i class="bi bi-list"></i>
+
+                </button>
+                <div class="menu-hamburguer" id="menuHamburguer">
+                    <a asp-area="" asp-controller="#" asp-action="#">
+                        <i class="bi bi-cart3"></i>
+                    </a>
+                </div>
 
 
             </div>
@@ -85,7 +85,7 @@
             <a asp-area="" asp-controller="" asp-action="#">PRODUTOS</a>
             <a asp-area="" asp-controller="Produto" asp-action="Personalizar">PERSONALIZAR</a>
         </nav>
-               
+
     </header>
 
     <!-- Main -->
