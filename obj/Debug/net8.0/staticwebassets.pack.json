@@ -113,6 +113,10 @@
       "PackagePath": "staticwebassets\\js\\sugestoes.js"
     },
     {
+      "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\js\\teste.js",
+      "PackagePath": "staticwebassets\\js\\teste.js"
+    },
+    {
       "Id": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Car1_waifu2x_photo_noise2.png",
       "PackagePath": "staticwebassets\\lib\\Imagens\\Car1_waifu2x_photo_noise2.png"
     },

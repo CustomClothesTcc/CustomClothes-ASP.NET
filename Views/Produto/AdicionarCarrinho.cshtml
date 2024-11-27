@@ -3,4 +3,62 @@
     ViewData["Title"] = "AdicionarCarrinho";
 }
 <link rel="stylesheet" href="~/css/Adicionar.css" />
-<h1>AdicionarCarrinho</h1>
+<div class="container">
+    <div class="colUm">
+        <div>
+            <div id="zoom">
+                <img src="~/Img/Blusa1.jpg" alt="imagem" id="imgzoom">
+            </div>
+        </div>
+        <div class="cards">
+            <a href="#">
+                <div class="card">
+                    <img src="~/Img/Blusa1.jpg" class="imgcard">
+                    <div><h5>Personalizar Roupas</h5></div>
+                    <p>Clciando aqui você poderá ir direto para tela de personalização </p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card">
+                    <img src="~/Img/Blusa1.jpg" class="imgcard">
+                    <div><h5>Ver outros produtos</h5></div>
+                    <p>Clciando aqui você poderá ir direto para tela de produtos </p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="colDois">
+        <label class="nomeProd">Camiseta do Mamonas Assassinas</label>
+        <h5>R$50,00</h5>
+        <p>R$45,00</p>
+        <div class="linha"><hr></hr></div>
+        <p class="cores">Cores</p>
+        <div class="buttons">
+            <button class="coresButton" id="preto" onclick=""></button>
+            <button class="coresButton" id="vinho" onclick=""></button>
+            <button class="coresButton" id="verde" onclick=""></button>
+            <button class="coresButton" id="branco" onclick=""></button>
+        </div>
+        <p class="cores">Tamanho</p>
+        <div class="buttons">
+            <button class="tamanhosButton" id="P" onclick="">P</button>
+            <button class="tamanhosButton" id="M" onclick="">M</button>
+            <button class="tamanhosButton" id="G" onclick="">G</button>
+            <button class="tamanhosButton" id="GG" onclick="">GG</button>
+        </div>
+        <p class="cores">Quantidade</p>
+        <div class="buttons">
+            <button class="quantButton" id="voltarNumero" onclick="">-</button>
+            <button class="quantButton" id="exibir" onclick="" disabled></button>
+            <button class="quantButton" id="adicionar" onclick="">+</button>
+        </div>
+        <p class="cores">Descrição</p>
+        <div class="buttonsDesc">
+            <input type="text" id="descricao" disabled></input>
+        </div>
+        <div class="buttons">
+            <button class="compraButton" id="comprar" onclick="">Comprar</button>
+        </div>
+    </div>
+</div>
+<script src="~/js/teste.js"></script>

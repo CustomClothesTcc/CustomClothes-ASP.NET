@@ -16,6 +16,7 @@
   <ItemGroup>
     <Content Remove="Views\Home\perfilCliente.cshtml" />
     <Content Remove="wwwroot\css\Finalizada.css" />
+    <Content Remove="wwwroot\js\adicionar.js" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zFCRUwPV9QhnYlgOEaFI5iFD4RZILPN3M0LguIh2oUE=",
+  "Hash": "eFrJNe5yeyRq6TyRgpxCKIlm1stz+r3WhI6XuBu1dY4=",
   "Source": "CustomClothing",
   "BasePath": "_content/CustomClothing",
   "Mode": "Default",
@@ -566,6 +566,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\sugestoes.js"
+    },
+    {
+      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\js\\teste.js",
+      "SourceId": "CustomClothing",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
+      "BasePath": "_content/CustomClothing",
+      "RelativePath": "js/teste.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\teste.js"
     },
     {
       "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
