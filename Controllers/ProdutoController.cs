@@ -77,7 +77,7 @@ namespace CustomClothing.Controllers
 
             ViewBag.msg = "Produto cadastrado com sucesso!";
             return RedirectToAction("CadProduto");
-            
+
         }
 
         public IActionResult Produto()
@@ -85,10 +85,47 @@ namespace CustomClothing.Controllers
             return View(_produtosRepositorio.ObterTodosProdutos());
         }
 
-        public IActionResult AdicionarCarrinho()
+        public IActionResult GuardarProduto(int Id)
         {
-            return View();
+            Produto produto = _produtosRepositorio.ObterProdutos(Id);
+
+            if (produto == null)
+            {
+                return View("NaoExisteItem");
+            }
+            else
+            {
+                var item = new Produto()
+                {
+                    IdProduto = Id,
+                    Quantidade = produto.Quantidade,
+                    Estampa = produto.Estampa,
+                    Descricao = produto.Descricao,
+                    Tamanho = produto.Tamanho,
+                    Valor = produto.Valor,
+                    Tecido = produto.Tecido,
+                    Cor = produto.Cor
+                };
+                _produtosRepositorio.ObterProdutos(Id);
+                return RedirectToAction(nameof(AdicionarCarrinho), new { Id = Id });
+            }
         }
+        public IActionResult AdicionarCarrinho(int Id)
+        {
+            // Busca o produto pelo ID no repositório
+            var produto = _produtosRepositorio.ObterProdutos(Id);
+
+            // Verifica se o produto foi encontrado
+            if (produto == null)
+            {
+                // Redireciona para uma página ou exibe uma View indicando que o produto não existe
+                return View("NaoExisteItem"); // A View "NaoExisteItem" deve ser criada ou substituída por outra ação
+            }
+
+            // Retorna o produto encontrado para a View
+            return View(produto);
+        }
+
 
 
     }

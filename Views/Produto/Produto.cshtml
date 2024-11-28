@@ -3,6 +3,12 @@
     ViewData["Title"] = "Produtos";
 }
 
+<style>
+    .bg-custom {
+        background-color: #1C003F;
+    }
+</style>
+
 <div class="container py-5">
     <h1 class="text-center mb-4">Nossos Produtos</h1>
     <!--Método para aparecer os produtos para o cliente-->
@@ -25,13 +31,19 @@
 
                             <div class="card-body">
                                 <h4 class="card-title">
-                                    <a class="text-decoration-none" href="@item.Estampa">@item.Descricao</a>
+                                    <h4 class="text-decoration-none" href="@item.Estampa">@item.Descricao</h4>
                                 </h4>
                                 <spam>Tamanho: @item.Tamanho</spam>
                                 <br />
-                                <spam>Preço: @item.Valor</spam>
+                                <spam>Preço:R$ @item.Valor</spam>
                             </div>
-                            <a asp-controller="Produto" asp-action="Personalizar" class="btn btn-primary">Adicionar</a>
+                            <div>
+                                @using (Html.BeginForm("GuardarProduto", "Produto", FormMethod.Post))
+                                {
+                                    <input type="hidden" name="id" value=@item.IdProduto>
+                                    <button type="submit" class="btn btn-primary bg-custom w-100">Adicionar</button>
+                                }
+                            </div>
                         </div>
                     </div>
                 }

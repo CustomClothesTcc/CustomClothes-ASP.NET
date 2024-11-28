@@ -60,7 +60,7 @@ namespace CustomClothing.Repositorio
                     produtos.IdProduto = Convert.ToInt32(dr["IdProduto"]);
                     produtos.Tecido = (string)(dr["Tecido"]);
                     produtos.Descricao = (string)(dr["Descricao"]);
-                    produtos.Categoria = (string)(dr["Categoria"]);
+                    produtos.Categoria = Convert.ToString(dr["Categoria"]);
                     produtos.Cor = (string)(dr["Cor"]);
                     produtos.Estampa = (string)(dr["Estampa"]);
                     produtos.Quantidade = Convert.ToInt32(dr["Quantidade"]);
@@ -78,7 +78,7 @@ namespace CustomClothing.Repositorio
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("select * from tbProduto", conexao);
+                MySqlCommand cmd = new MySqlCommand("select * from tbProduto where Situacao = 'EM ESTOQUE'", conexao);
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
 
