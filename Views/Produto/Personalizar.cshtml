@@ -39,7 +39,13 @@
                     <!-- Tecido -->
                     <div class="col-md-6">
                         <label asp-for="Tecido" class="form-label">Tecido:</label>
-                        <input asp-for="Tecido" class="form-control" type="text" id="tamanho" required />
+                        <select asp-for="Tecido" class="form-select" required>
+                            <option value="">Selecione um tecido</option>
+                            <option value="ALGODAO">Algodão</option>
+                            <option value="POLIESTER">Poliéster</option>
+                            <option value="SEDA">Seda</option>
+                            <option value="LINHO">Linho</option>
+                        </select>
                     </div>
 
                     <!-- Cor -->

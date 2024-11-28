@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\kaiqu\\onedrive\\\u00E1rea de trabalho\\customclothes-asp.net\\views\\produto\\adicionarcarrinho.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\produto\\adicionarcarrinho.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\kaiqu\\onedrive\\\u00E1rea de trabalho\\customclothes-asp.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\kaiqu\\onedrive\\\u00E1rea de trabalho\\customclothes-asp.net\\wwwroot\\css\\adicionar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:wwwroot\\css\\adicionar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\kaiqu\\onedrive\\\u00E1rea de trabalho\\customclothes-asp.net\\views\\produto\\cadproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\produto\\cadproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Adicionar.css",
-              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\css\\Adicionar.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\Adicionar.css",
-              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\css\\Adicionar.css",
-              "RelativeToolTip": "wwwroot\\css\\Adicionar.css",
-              "ViewState": "AgIAAFwBAAAAAAAAAAAgwHgBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-27T20:01:11.799Z",
+              "Title": "CadProduto.cshtml",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\Views\\Produto\\CadProduto.cshtml",
+              "RelativeDocumentMoniker": "Views\\Produto\\CadProduto.cshtml",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\Views\\Produto\\CadProduto.cshtml",
+              "RelativeToolTip": "Views\\Produto\\CadProduto.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T13:25:35.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdicionarCarrinho.cshtml",
-              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\Views\\Produto\\AdicionarCarrinho.cshtml",
-              "RelativeDocumentMoniker": "Views\\Produto\\AdicionarCarrinho.cshtml",
-              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\Views\\Produto\\AdicionarCarrinho.cshtml",
-              "RelativeToolTip": "Views\\Produto\\AdicionarCarrinho.cshtml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAiwFMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T19:33:46.166Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\kaiqu\\OneDrive\\\u00C1rea de Trabalho\\CustomClothes-ASP.NET\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:23:14.458Z",
               "EditorCaption": ""
             }
           ]

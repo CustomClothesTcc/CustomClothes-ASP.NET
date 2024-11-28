@@ -15,7 +15,13 @@
             <!-- Tecido -->
             <div class="col-md-6">
                 <label asp-for="Tecido" class="form-label">Tecido</label>
-                <input asp-for="Tecido" class="form-control" />
+                <select asp-for="Tecido" class="form-select" required>
+                    <option value="">Selecione um tecido</option>
+                    <option value="ALGODAO">Algodão</option>
+                    <option value="POLIESTER">Poliéster</option>
+                    <option value="SEDA">Seda</option>
+                    <option value="LINHO">Linho</option>
+                </select>
                 <span asp-validation-for="Tecido" class="text-danger"></span>
             </div>
 
@@ -29,7 +35,14 @@
             <!-- Categoria -->
             <div class="col-md-6">
                 <label asp-for="Categoria" class="form-label">Categoria</label>
-                <input asp-for="Categoria" class="form-control" />
+                <select asp-for="Categoria" class="form-select" required>
+                    <option value="">Selecione uma categoria</option>
+                    <option value="Calcados">Calçados</option>
+                    <option value="Superior">Superior</option>
+                    <option value="Inferior">Inferior</option>
+                    <option value="Acessorios">Acessórios</option>
+                    <option value="Outros">Outros</option>
+                </select>
                 <span asp-validation-for="Categoria" class="text-danger"></span>
             </div>
 
@@ -64,7 +77,14 @@
             <!-- Situação -->
             <div class="col-md-6">
                 <label asp-for="Situacao" class="form-label">Situação</label>
-                <input asp-for="Situacao" class="form-control" />
+                <select asp-for="Situacao" class="form-select" required>
+                    <option value="">Selecione a situação</option>
+                    <option value="CAMINHO">Caminho</option>
+                    <option value="SEPARACAO">Separação</option>
+                    <option value="ENTREGUE">Entregue</option>
+                    <option value="PROCESSO">Processo</option>
+                    <option value="CANCELADO">Cancelado</option>
+                </select>
                 <span asp-validation-for="Situacao" class="text-danger"></span>
             </div>
 
