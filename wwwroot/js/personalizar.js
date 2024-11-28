@@ -16,3 +16,7 @@ uploadImagem.addEventListener('change', (event) => {
         leitor.readAsDataURL(file);
     }
 });
+// Função para limpar os campos
+function limparInputs() {
+    const  
+}

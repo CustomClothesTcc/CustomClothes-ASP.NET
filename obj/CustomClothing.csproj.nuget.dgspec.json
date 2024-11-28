@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\CustomClothing.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\CustomClothing.csproj",
         "packagesPath": "C:\\Users\\Gih\\.nuget\\packages\\",
         "outputPath": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\obj\\",
+=======
+    "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\CustomClothing.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\CustomClothing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\CustomClothing.csproj",
+        "projectName": "CustomClothing",
+        "projectPath": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\CustomClothing.csproj",
+        "packagesPath": "C:\\Users\\3mod\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\obj\\",
+>>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Gih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\3mod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -82,7 +100,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
         }
       }
     }

@@ -79,11 +79,10 @@
                 <label asp-for="Situacao" class="form-label">Situação</label>
                 <select asp-for="Situacao" class="form-select" required>
                     <option value="">Selecione a situação</option>
-                    <option value="CAMINHO">Caminho</option>
-                    <option value="SEPARACAO">Separação</option>
-                    <option value="ENTREGUE">Entregue</option>
-                    <option value="PROCESSO">Processo</option>
-                    <option value="CANCELADO">Cancelado</option>
+                    <option value="Esgotado">Esgotado</option>
+                    <option value="Estoque">Estoque</option>
+                    <option value="Inativo">Inativo</option>
+   
                 </select>
                 <span asp-validation-for="Situacao" class="text-danger"></span>
             </div>

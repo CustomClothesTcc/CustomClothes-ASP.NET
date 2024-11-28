@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\",
   "Documents": [
     {
@@ -17,6 +18,13 @@
     {
       "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|d:\\users\\miguel\\desktop\\tcc\\customclothes-asp.net\\views\\login\\cadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\login\\cadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|c:\\users\\3mod\\desktop\\customclothes-asp.net\\views\\produto\\cadproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F22013-95D3-4805-B7C5-5023E34BBD89}|CustomClothing.csproj|solutionrelative:views\\produto\\cadproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
     }
   ],
   "DocumentGroupContainers": [
@@ -26,9 +34,10 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+<<<<<<< HEAD
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AdicionarCarrinho.cshtml",
@@ -40,10 +49,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-28T16:58:37.056Z",
               "EditorCaption": ""
+=======
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+>>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -78,7 +96,27 @@
               "ViewState": "AQIAAEIAAAAAAAAAAAAAAFsAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-28T16:50:00.068Z",
+=======
+              "Title": "CadProduto.cshtml",
+              "DocumentMoniker": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\Views\\Produto\\CadProduto.cshtml",
+              "RelativeDocumentMoniker": "Views\\Produto\\CadProduto.cshtml",
+              "ToolTip": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\Views\\Produto\\CadProduto.cshtml",
+              "RelativeToolTip": "Views\\Produto\\CadProduto.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T16:41:32.66Z",
+>>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 608,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
