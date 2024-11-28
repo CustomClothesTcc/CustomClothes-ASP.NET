@@ -10,7 +10,7 @@
     <!-- Formulário Responsivo -->
     <div class="row justify-content-center">
         <div class="col-lg-10">
-            <form asp-controller="Produto" asp-action="Personalizar" method="post" enctype="multipart/form-data">
+            <form asp-controller="Produto" id="formProduto" asp-action="Personalizar" method="post" enctype="multipart/form-data">
                 <div class="row g-3">
                     <!-- Estampa -->
                     <div class="col-md-6">
@@ -69,7 +69,7 @@
 
                 <!-- Botão -->
                 <div class="d-flex justify-content-center mt-4">
-                    <button type="submit" class="btn btn-success w-50">Personalizar</button>
+                    <button type="submit" class="btn btn-success w-50" onclick="return confirm('Produto para personalizar enviado com sucesso')">Personalizar</button>
                 </div>
             </form>
         </div>

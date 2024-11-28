@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\Img\\Teste.jpg"
     },
     {
+      "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\Img\\screenshotTeste.PNG",
+      "PackagePath": "staticwebassets\\Img\\screenshotTeste.PNG"
+    },
+    {
       "Id": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\css\\Adicionar.css",
       "PackagePath": "staticwebassets\\css\\Adicionar.css"
     },

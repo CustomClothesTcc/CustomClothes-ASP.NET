@@ -360,6 +360,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\OIP.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\screenshotTeste.PNG'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CustomClothing</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CustomClothing</BasePath>
+      <RelativePath>Img/screenshotTeste.PNG</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>z1pzc980ds</Fingerprint>
+      <Integrity>lzkyqqzhJrRvqP4oZeZy3IHOIS4Dv1Ajf7pzqnmWo1A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\screenshotTeste.PNG'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\SueterFeminino.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>CustomClothing</SourceId>
@@ -462,8 +480,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e73r6kihxq</Fingerprint>
-      <Integrity>BsGDvmS6qM3F0biFfI5MXvXcIZo+CK9t0HRLWSvAfLQ=</Integrity>
+      <Fingerprint>tlgd08ayn5</Fingerprint>
+      <Integrity>ryrr5uHKqdbfCf/ADdFD2y03eH7T+mlO2rEDyBoroIg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\personalizar.js'))</OriginalItemSpec>

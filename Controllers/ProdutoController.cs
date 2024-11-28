@@ -45,8 +45,8 @@ namespace CustomClothing.Controllers
             // Salvar o produto no banco de dados
             _produtoRepositorio.Cadastrar(produto);
 
-            ViewBag.msg = "Produto personalizado com sucesso!";
-            return RedirectToAction("Personalizar");
+            ViewBag.msgPersonzalizar = "Produto personalizado com sucesso!";
+            return View();
         }
 
         public IActionResult CadProduto()

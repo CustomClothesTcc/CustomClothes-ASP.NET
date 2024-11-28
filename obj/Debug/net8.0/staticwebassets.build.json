@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Cc6vHJFOqkPlSOYjJjawF7ZzfuXIiiJicXwwmtaV7oY=",
+  "Hash": "DvMorOfFuG8EdSqJdkityCUAi+MpiUWqIONza9G+QQ0=",
   "Source": "CustomClothing",
   "BasePath": "_content/CustomClothing",
   "Mode": "Default",
@@ -458,6 +458,27 @@
       "OriginalItemSpec": "wwwroot\\Img\\OIP.jpg"
     },
     {
+      "Identity": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\Img\\screenshotTeste.PNG",
+      "SourceId": "CustomClothing",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\",
+      "BasePath": "_content/CustomClothing",
+      "RelativePath": "Img/screenshotTeste#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z1pzc980ds",
+      "Integrity": "lzkyqqzhJrRvqP4oZeZy3IHOIS4Dv1Ajf7pzqnmWo1A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\screenshotTeste.PNG"
+    },
+    {
       "Identity": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\Img\\SueterFeminino.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
@@ -577,8 +598,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e73r6kihxq",
-      "Integrity": "BsGDvmS6qM3F0biFfI5MXvXcIZo+CK9t0HRLWSvAfLQ=",
+      "Fingerprint": "tlgd08ayn5",
+      "Integrity": "ryrr5uHKqdbfCf/ADdFD2y03eH7T+mlO2rEDyBoroIg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\personalizar.js"
@@ -4576,6 +4597,88 @@
       ]
     },
     {
+      "Route": "Img/screenshotTeste.PNG",
+      "AssetFile": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\Img\\screenshotTeste.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lzkyqqzhJrRvqP4oZeZy3IHOIS4Dv1Ajf7pzqnmWo1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 16:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lzkyqqzhJrRvqP4oZeZy3IHOIS4Dv1Ajf7pzqnmWo1A="
+        }
+      ]
+    },
+    {
+      "Route": "Img/screenshotTeste.z1pzc980ds.PNG",
+      "AssetFile": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\Img\\screenshotTeste.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lzkyqqzhJrRvqP4oZeZy3IHOIS4Dv1Ajf7pzqnmWo1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 16:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z1pzc980ds"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/screenshotTeste.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lzkyqqzhJrRvqP4oZeZy3IHOIS4Dv1Ajf7pzqnmWo1A="
+        }
+      ]
+    },
+    {
       "Route": "Img/SueterFeminino.jpg",
       "AssetFile": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\Img\\SueterFeminino.jpg",
       "Selectors": [],
@@ -4986,51 +5089,6 @@
       ]
     },
     {
-      "Route": "js/personalizar.e73r6kihxq.js",
-      "AssetFile": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\js\\personalizar.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "763"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BsGDvmS6qM3F0biFfI5MXvXcIZo+CK9t0HRLWSvAfLQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 17:58:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "e73r6kihxq"
-        },
-        {
-          "Name": "label",
-          "Value": "js/personalizar.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-BsGDvmS6qM3F0biFfI5MXvXcIZo+CK9t0HRLWSvAfLQ="
-        }
-      ]
-    },
-    {
       "Route": "js/personalizar.js",
       "AssetFile": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\js\\personalizar.js",
       "Selectors": [],
@@ -5041,7 +5099,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "763"
+          "Value": "842"
         },
         {
           "Name": "Content-Type",
@@ -5049,11 +5107,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BsGDvmS6qM3F0biFfI5MXvXcIZo+CK9t0HRLWSvAfLQ=\""
+          "Value": "\"ryrr5uHKqdbfCf/ADdFD2y03eH7T+mlO2rEDyBoroIg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 17:58:19 GMT"
+          "Value": "Thu, 28 Nov 2024 16:16:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5063,7 +5121,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BsGDvmS6qM3F0biFfI5MXvXcIZo+CK9t0HRLWSvAfLQ="
+          "Value": "sha256-ryrr5uHKqdbfCf/ADdFD2y03eH7T+mlO2rEDyBoroIg="
+        }
+      ]
+    },
+    {
+      "Route": "js/personalizar.tlgd08ayn5.js",
+      "AssetFile": "C:\\Users\\kaiqu\\OneDrive\\Área de Trabalho\\CustomClothes-ASP.NET\\wwwroot\\js\\personalizar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "842"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ryrr5uHKqdbfCf/ADdFD2y03eH7T+mlO2rEDyBoroIg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 16:16:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tlgd08ayn5"
+        },
+        {
+          "Name": "label",
+          "Value": "js/personalizar.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ryrr5uHKqdbfCf/ADdFD2y03eH7T+mlO2rEDyBoroIg="
         }
       ]
     },
