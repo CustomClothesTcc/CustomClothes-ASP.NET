@@ -15,8 +15,8 @@
     border-radius: 20px;
     background-color: #fff;
     margin-top: 50px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    /*padding-top: 60px;
+    padding-bottom: 60px;*/
     justify-content: space-between;
     align-items: center;
     height: 60vh;
@@ -48,6 +48,12 @@
     margin-left:89px;
 }
 
+/*Removendo o Scroll do Mouse no Entre com a sua Conta*/
+.primeira-coluna h3{
+    padding:1vh;
+}
+
+
 /*Estilização da segunda coluna da tela de Login*/
 .segunda-coluna {
     position: relative;
@@ -78,12 +84,12 @@
 }
 
 /*Comportamento de Esqueceu a Senha quando for clicado*/
-.Senha {
+.IrCadastro {
     text-decoration: none;
     color: #9F9F9F;
 }
 
-.Senha:hover {
+.IrCadastro:hover {
    color: #979797;
 }
 

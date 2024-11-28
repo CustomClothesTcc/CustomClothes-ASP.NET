@@ -10,30 +10,30 @@ namespace CustomClothing.CarrinhoCompra
 
         public CookiesCarrinhoCompra(Cookie.Cookies cookies)
         {
-            _cookies = cookies; 
+            _cookies = cookies;
         }
 
-        public void Salvar(List<Personalizar> Lista)
+        public void Salvar(List<Produto> Lista)
         {
-          string Valor = JsonConvert.SerializeObject(Lista);
-          _cookies.Cadastrar(Key, Valor);
+            string Valor = JsonConvert.SerializeObject(Lista);
+            _cookies.Cadastrar(Key, Valor);
         }
-        public List<Personalizar> Consultar()
+        public List<Produto> Consultar()
         {
             if (_cookies.Existe(Key))
             {
                 string valor = _cookies.Consultar(Key);
-                return JsonConvert.DeserializeObject<List<Personalizar>>(valor);
+                return JsonConvert.DeserializeObject<List<Produto>>(valor);
             }
             else
             {
-                return new List<Personalizar>();
+                return new List<Produto>();
             }
         }
 
-        public void Cadastrar(Personalizar item)
+        public void Cadastrar(Produto item)
         {
-            List<Personalizar> Lista;
+            List<Produto> Lista;
 
             if (_cookies.Existe(Key))
             {
@@ -46,18 +46,18 @@ namespace CustomClothing.CarrinhoCompra
                 }
                 else
                 {
-                   // ItemLocalizado.Quantidade = ItemLocalizado.Quantidade + 1;
+                    // ItemLocalizado.Quantidade = ItemLocalizado.Quantidade + 1;
                 }
             }
             else
             {
-                Lista = new List<Personalizar>();
+                Lista = new List<Produto>();
                 Lista.Add(item);
             }
             Salvar(Lista);
         }
 
-        public void Atualizar(Personalizar item)
+        public void Atualizar(Produto item)
         {
             var Lista = Consultar();
             var ItemLocalizado = Lista.SingleOrDefault(a => a.IdProduto == item.IdProduto);
@@ -68,7 +68,7 @@ namespace CustomClothing.CarrinhoCompra
                 Salvar(Lista);
             }
         }
-        public void Remover(Personalizar item)
+        public void Remover(Produto item)
         {
             var Lista = Consultar();
             var ItemLocalizado = Lista.SingleOrDefault(a => a.IdProduto == item.IdProduto);

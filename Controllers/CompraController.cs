@@ -3,18 +3,20 @@ using CustomClothing.Models;
 using CustomClothing.Repositorio.Contract;
 using Microsoft.AspNetCore.Mvc;
 
-/*namespace CustomClothing.Controllers
+namespace CustomClothing.Controllers
 {
     public class CompraController : Controller
     {
         private CookiesCarrinhoCompra _cookiesCarrinhoCompra;
         private IProdutoRepositorio _produtoRepositorio;
         private IitemRepositorio _itemRepositorio;
-        public CompraController(IProdutoRepositorio produtoRepositorio, CookiesCarrinhoCompra cookiesCarrinhoCompra, IitemRepositorio itemRepositorio)
+        private IPedidoRepositorio _pedidoRepositorio;
+        public CompraController(IProdutoRepositorio produtoRepositorio, CookiesCarrinhoCompra cookiesCarrinhoCompra, IitemRepositorio itemRepositorio, IPedidoRepositorio pedidoRepositorio)
         {
             _produtoRepositorio = produtoRepositorio;
             _cookiesCarrinhoCompra = cookiesCarrinhoCompra;
             _itemRepositorio = itemRepositorio;
+            _pedidoRepositorio = pedidoRepositorio;
         }
         public IActionResult AdicionarItem(int id)
         {
@@ -28,7 +30,7 @@ using Microsoft.AspNetCore.Mvc;
             {
                 var item = new Produto()
                 {
-                    CodProduto = id,
+                    IdProduto = id,
                     Descricao = produto.Descricao,
                     Estampa = produto.Estampa,
                     Tamanho = produto.Tamanho,
@@ -42,5 +44,15 @@ using Microsoft.AspNetCore.Mvc;
         {
             return View(_cookiesCarrinhoCompra.Consultar());
         }
+
+        public IActionResult RemoverItem(int id)
+        {
+            _cookiesCarrinhoCompra.Remover(new Produto() { IdProduto = id });
+            return RedirectToAction(nameof(Carrinho));
+
+        }
+        DateTime data;
+
+        /*public IActionResult SalvarCarrinho()*/
     }
-}*/
+}

@@ -1,8 +1,14 @@
-﻿@{
+﻿@model IEnumerable<CustomClothing.Models.Produto>
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <link rel="stylesheet" href="~/css/Home.css" />
+<style>
+    .bg-custom {
+        background-color: #1C003F;
+    }
+</style>
 
 <div class="Container">
     <!-- Fazendo o carrosel-->
@@ -73,26 +79,81 @@
         </a>
     </div>
 </div>
-@ViewBag.LoginCliente
-<div class="Container-roxa">
-    <div><img src="~/lib/Imagens/RoupasParteCima/50off camisa.png" class="opa" /></div>
-    <div><img src="~/lib/Imagens/RoupasParteCima/50off blusa.png" class="opa" /></div>
-    <div><img src="~/lib/Imagens/RoupasParteCima/50off camisocial.png" class="opa" /></div>
-    <div><img src="~/lib/Imagens/RoupasParteCima/50off camisa.png" class="opa" /></div>
-</div>
-<div class="Container2">
-    <div><img src="~/lib/Imagens/RoupasParteCima/Blusa.png" class="opa" /></div>
-    <div><img src="~/lib/Imagens/RoupasParteCima/Blusa.png" class="opa" /></div>
-    <div><img src="~/lib/Imagens/RoupasParteCima/Blusa.png" class="opa" /></div>
-    <div><img src="~/lib/Imagens/RoupasParteCima/Blusa.png" class="opa" /></div>
-</div>
-<div class="bloco-roxo">
-</div>
-<div class="Container2">
-    <div><img src="~/lib/Imagens/RoupasParteCima/Blusa.png" class="opa" /></div>
-    <div><img src="~/lib/Imagens/RoupasParteCima/Blusa.png" class="opa" /></div>
-    <div><img src="~/lib/Imagens/RoupasParteCima/Blusa.png" class="opa" /></div>
-    <div><img src="~/lib/Imagens/RoupasParteCima/Blusa.png" class="opa" /></div>
-</div>
-<script src="~/js/carousel.js"></script>
+<!--<div class="bloco-roxo">
+</div>-->
+<div class="align-content-center" style="margin-left: 8%">
+    <div class="col-lg-11">
+        <div class="row align-content-center">
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 col-md-6 mb-4" style="margin:6% 7">
+                    <div class="card h-100">
 
+                        @if (@item.Estampa != null)
+                        {
+                            <img class="card-img-right flex-auto d-none d-md-block" data-src=" " alt="Thumbnail [300x300]" style="width: 375px; height: 300px;" src="@item.Estampa" data-holder-rendered="true">
+                        }
+                        else
+                        {
+                            <img class="card-img-right flex-auto d-none d-md-block" data-src=" " alt="Thumbnail [300x300]" style="width: 375px; height: 300px;" src="~/Images/image-not-found.jpg" data-holder-rendered="true">
+                        }
+
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="@item.Estampa">@item.Descricao</a>
+                            </h4>
+                            <spam>Tamanho: @item.Tamanho</spam>
+                            <br />
+                            <spam>Preço:R$ @item.Valor</spam>
+                        </div>
+                        <div>
+                            @using (Html.BeginForm("GuardarProduto", "Produto", FormMethod.Post))
+                            {
+                                <input type="hidden" name="id" value=@item.IdProduto>
+                                <button type="submit" class="btn btn-primary bg-custom w-100">Adicionar</button>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+</div>
+@*
+<div class="Container2">
+    <div class="opa">
+        <img src="~/lib/Imagens/RoupasParteCima/Blusa.png ">
+        <div class="atributosOpa">
+            <div><label><b>Blusa Personalizada</b></label></div>
+            <p>R$89,10</p>
+            <button class="buttoAd">Adicionar</button>
+        </div>
+    </div>
+    <div class="opa">
+        <img src="~/lib/Imagens/RoupasParteCima/Blusa.png ">
+        <div class="atributosOpa">
+            <div><label><b>Short Personalizado</b></label></div>
+            <p>R$40,00</p>
+            <button class="buttoAd">Adicionar</button>
+        </div>
+    </div>
+    <div class="opa">
+        <img src="~/lib/Imagens/RoupasParteCima/Blusa.png ">
+        <div class="atributosOpa">
+            <div><label><b>Saia Personalizada</b></label></div>
+            <p>R$45,00</p>
+            <button class="buttoAd">Adicionar</button>
+        </div>
+    </div>
+    <div class="opa">
+        <img src="~/lib/Imagens/RoupasParteCima/Blusa.png ">
+        <div class="atributosOpa">
+            <div><label><b>Top Personalizada</b></label></div>
+            <p>R$30,50</p>
+            <button class="buttoAd">Adicionar</button>
+        </div>
+    </div>
+</div>
+*@
+<script src="~/js/carousel.js"></script>

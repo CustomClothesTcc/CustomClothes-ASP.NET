@@ -21,8 +21,10 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div class="pesquisa">
+            <!-- Logo -->
             <div class="divLogo">
                 <div class="divImg">
                     <img src="~/lib/Imagens/LogosCC/CustomClothesSemNome.png" alt="Logo" id="logoNavCC" />
@@ -33,9 +35,10 @@
                 </div>
             </div>
 
+            <!-- Barra de Pesquisa -->
             <div class="autocomplete-container">
-                <input id="search-bar" type="search" class="form-control" placeholder="Pesquise a sua Roupa...">
-                <button id="search-button">
+                <input type="search" id="search-bar" class="form-control" placeholder="Pesquise a sua Roupa...">
+                <button class="btn btn-outline-secondary">
                     <i class="bi bi-search"></i>
                 </button>
             </div>
@@ -52,28 +55,26 @@
                     }
                     else
                     {
-                        <a class="nav-link" href="/Login/Login"><i class="fas fa-user-alt"></i> Login</a>
+                        <div class="menu-hamburguer" id="menuHamburguer">
+                            <a class="nav-link" href="/Login/Login">
+                                <i class="fas fa-user-alt"></i>
+                                Login
+                            </a>
+                        </div>
+
                     }
                 </li>
-                </li>
 
-            <!-- Menu Hambúrguer -->
-            <button class="menu-btn" onclick="toggleMenu()">
-                <i class="bi bi-list"></i>
-            </button>
-            <div class="menu-hamburguer" id="menuHamburguer">
-                <a asp-area="" asp-controller="Login" asp-action="Login">
-                    <i class="bi bi-person-circle"></i>
-                </a>
+                <!-- Menu Hambúrguer -->
+                <button class="menu-btn" onclick="toggleMenu()">
+                    <i class="bi bi-list"></i>
 
-                <a asp-area="" asp-controller="#" asp-action="#">
-                    <i class="bi bi-heart-fill"></i>
-                </a>
-                <a asp-area="" asp-controller="#" asp-action="#">
-                    <i class="bi bi-cart3"></i> 
-                </a>
-
-            </div>
+                </button>
+                <div class="menu-hamburguer" id="menuHamburguer">
+                    <a asp-area="" asp-controller="#" asp-action="#">
+                        <i class="bi bi-cart3"></i>
+                    </a>
+                </div>
 
 
             </div>
@@ -81,15 +82,17 @@
         <nav>
             <a asp-area="" asp-controller="Home" asp-action="Index">INÍCIO</a>
             <a asp-area="" asp-controller="Home" asp-action="Sobrenos">SOBRE-NÓS</a>
-            <a asp-area="" asp-controller="" asp-action="#">PRODUTOS</a>
+            <a asp-area="" asp-controller="Produto" asp-action="Produto">PRODUTOS</a>
             <a asp-area="" asp-controller="Produto" asp-action="Personalizar">PERSONALIZAR</a>
         </nav>
+
     </header>
-    <div>
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+
+    <!-- Main -->
+    <main role="main" class="container py-4">
+        @RenderBody()
+    </main>
+
     <!-- Footer -->
     <footer class="footer-custom footer text-center">
         <div class="container p-4">

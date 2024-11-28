@@ -1,144 +1,54 @@
-﻿@{
+﻿@model IEnumerable<CustomClothing.Models.Produto>
+@{
     ViewData["Title"] = "Produtos";
 }
-<!--Link do Código CSS para estilizar a Tela de Produtos-->
-<link rel="stylesheet" href="~/css/Produto.css" />
-<!--A div Container vai ser todo o contéudo da Tela de Personalizar-->
-<div class="Container">
-    <!--A Div Produto estão as camisetas e blusas-->
-    <div class="Produto">
-        <!--Imagem Centralizada-->
-        <img class=" mx-auto d-block" src="~/lib/Imagens/Camiseta.jpg" />
-        <div class="Teste-1">
-            <!--Tamanho da fonte-->
-            <label class="fs-4" for="text">Camiseta Estampada Masculina</label>
-            <br />
-            <label class="fw-bold" for="text">Tipo de Tecido:</label>
-            <label for="text"> 100% Algodão</label>
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
-                </svg>
-            </button>
-            <br />
-            <label for="text" class="text-decoration-line-through fst-italic text-bg-secondary fw-light">R$50,00</label>
-            <div class="d-flex">
-                <label class="fs-4" for="text">R$45,00</label>
-                <p class="teste bg-success text-white ms-1 rounded">10%</p>
+
+<style>
+    .bg-custom {
+        background-color: #1C003F;
+    }
+</style>
+
+<div class="container py-5">
+    <h1 class="text-center mb-4">Nossos Produtos</h1>
+    <!--Método para aparecer os produtos para o cliente-->
+    <div class="align-content-center" style="margin-left: 6%">
+        <div class="col-lg-11">
+            <div class="row align-content-center">
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-4 col-md-6 mb-4" style="margin:6% 7">
+                        <div class="card h-100">
+
+                            @if (@item.Estampa != null)
+                            {
+                                <img class="card-img-right flex-auto d-none d-md-block" data-src=" " alt="Thumbnail [300x300]" style="width: 375px; height: 300px;" src="@item.Estampa" data-holder-rendered="true">
+                            }
+                            else
+                            {
+                                <img class="card-img-right flex-auto d-none d-md-block" data-src=" " alt="Thumbnail [300x300]" style="width: 375px; height: 300px;" src="~/Images/image-not-found.jpg" data-holder-rendered="true">
+                            }
+
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <h4 class="text-decoration-none" href="@item.Estampa">@item.Descricao</h4>
+                                </h4>
+                                <spam>Tamanho: @item.Tamanho</spam>
+                                <br />
+                                <spam>Preço:R$ @item.Valor</spam>
+                            </div>
+                            <div>
+                                @using (Html.BeginForm("GuardarProduto", "Produto", FormMethod.Post))
+                                {
+                                    <input type="hidden" name="id" value=@item.IdProduto>
+                                    <button type="submit" class="btn btn-primary bg-custom w-100">Adicionar</button>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
             </div>
         </div>
-        <!--Os Botões utiliza uma Classe CSS e o resto Boostrap-->
-        <button class="botão text-white btn d-grid gap-2 col-5 mx-auto" asp-area="" asp-controller="Home" asp-action="Index">Ver</button>
-    </div>
-    <div class="Produto">
-        <img class="mx-auto d-flex" src="~/lib/Imagens/Mamonas.jpg" />
-        <div class="Teste-1">
-            <label class="fs-4" for="text">Camiseta Mamonas  Masculina</label>
-            <br />
-            <label class="fw-bold" for="text">Tipo de Tecido:</label>
-            <label for="text"> 100% Poliéster</label>
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
-                </svg>
-            </button>
-            <br />
-            <br />
-            <label class="fs-4" for="text">R$55,00</label>
-        </div>
-
-        <Button asp-area="" asp-controller="Produto" asp-action="#" class="botão text-white btn d-grid gap-2 col-5 mx-auto">Ver</Button>
-    </div>
-
-    <div class="Produto">
-        <img class="mx-auto d-block" src="~/lib/Imagens/Camiseta Feminina.jpg" />
-        <div class="Teste-1">
-            <label class="fs-4" for="text">Camiseta Básica Branca Feminina</label>
-            <br />
-            <label class="fw-bold" for="text">Tipo de Tecido:</label>
-            <label for="text"> 98% Algodão e 2% Poliéster</label>
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
-                </svg>
-            </button>
-            <br />
-            <label for="text" class="text-decoration-line-through fst-italic text-bg-secondary fw-light">R$55,00</label>
-            <div class="d-flex">
-                <label class="fs-4" for="text">R$50,00</label>
-                <p class="teste bg-success text-white ms-1 rounded">10%</p>
-            </div>
-        </div>
-
-        <Button asp-area="" asp-controller="Produto" asp-action="#" class="botão text-white btn d-grid gap-2 col-5 mx-auto">Ver</Button>
     </div>
 </div>
-<div class="Container">
-    <div class="Produto">
-        <img class=" mx-auto d-block" src="~/lib/Imagens/Blusa1.jpg" />
-        <div class="Teste-1">
-            <label class="fs-4" for="text">Moletom Canguru Cinza Masculino</label>
-            <br />
-            <label class="fw-bold" for="text">Tipo de Tecido:</label>
-            <label for="text">68% Algodão e 34% Poliéster</label>
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
-                </svg>
-            </button>
-            <br />
-            <label for="text" class="text-decoration-line-through fst-italic text-bg-secondary fw-light">R$150,00</label>
-            <div class="d-flex">
-                <label class="fs-4" for="text">R$85,00</label>
-                <p class="teste bg-success text-white ms-1 rounded">10%</p>
-            </div>
-        </div>
-
-        <Button asp-area="" asp-controller="Produto" asp-action="#" class="botão text-white btn d-grid gap-2 col-5 mx-auto">Ver</Button>
-    </div>
-    <div class="Produto">
-        <img class=" mx-auto d-block" src="~/lib/Imagens/Camiseta Preta.jpg" />
-        <div class="Teste-1">
-            <label class="fs-4" for="text">Camiseta Básica Preta Masculina</label>
-            <br />
-            <label class="fw-bold" for="text">Tipo de Tecido:</label>
-            <label for="text">100% Poliéster</label>
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
-                </svg>
-            </button>
-            <br />
-            <label for="text" class="text-decoration-line-through fst-italic text-bg-secondary fw-light">R$65,00</label>
-            <div class="d-flex">
-                <label class="fs-4" for="text">R$60,00</label>
-                <p class="teste bg-success text-white ms-1 rounded w-10 text-center">10%</p>
-            </div>
-        </div>
-
-        <Button asp-area="" asp-controller="Produto" asp-action="#" class="botão text-white btn d-grid gap-2 col-5 mx-auto">Ver</Button>
-    </div>
-
-    <div class="Produto">
-        <img class=" mx-auto d-block" src="~/lib/Imagens/Beatles.jpg" />
-        <div class="Teste-1">
-            <label class="fs-4" for="text">Camiseta Beatles Masculina</label>
-            <br />
-            <label class="fw-bold" for="text">Tipo de Tecido:</label>
-            <label for="text">100% Algodão</label>
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
-                </svg>
-            </button>
-            <br />
-            <label for="text" class="text-decoration-line-through fst-italic text-bg-secondary fw-light">R$55,00</label>
-            <div class="d-flex">
-                <label class="fs-4" for="text">R$50,00</label>
-                <p class="teste bg-success text-white ms-1 rounded">10%</p>
-            </div>
-        </div>
-
-        <Button asp-area="" asp-controller="Produto" asp-action="#" class="botão text-white btn d-grid gap-2 col-5 mx-auto text-center">Ver</Button>
-    </div>
 </div>

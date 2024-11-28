@@ -4,68 +4,101 @@
     ViewData["Title"] = "CadProduto";
 }
 
-<h1>CadProduto</h1>
+<div class="container py-5">
+    <h1 class="text-center mb-4">Cadastro de Produto</h1>
 
-<h4>Produto</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="CadProduto">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            
-            <div class="form-group">
-                <label asp-for="Tecido" class="control-label"></label>
-                <input asp-for="Tecido" class="form-control" />
+    <form asp-action="CadProduto" method="post" enctype="multipart/form-data" class="bg-light p-4 rounded shadow">
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+        <!-- Grid Responsivo -->
+        <div class="row g-3">
+            <!-- Tecido -->
+            <div class="col-md-6">
+                <label asp-for="Tecido" class="form-label">Tecido</label>
+                <select asp-for="Tecido" class="form-select" required>
+                    <option value="">Selecione um tecido</option>
+                    <option value="ALGODAO">Algodão</option>
+                    <option value="POLIESTER">Poliéster</option>
+                    <option value="SEDA">Seda</option>
+                    <option value="LINHO">Linho</option>
+                </select>
                 <span asp-validation-for="Tecido" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Descricao" class="control-label"></label>
+
+            <!-- Descrição -->
+            <div class="col-md-6">
+                <label asp-for="Descricao" class="form-label">Descrição</label>
                 <input asp-for="Descricao" class="form-control" />
                 <span asp-validation-for="Descricao" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Categoria" class="control-label"></label>
-                <input asp-for="Categoria" class="form-control" />
+
+            <!-- Categoria -->
+            <div class="col-md-6">
+                <label asp-for="Categoria" class="form-label">Categoria</label>
+                <select asp-for="Categoria" class="form-select" required>
+                    <option value="">Selecione uma categoria</option>
+                    <option value="Calcados">Calçados</option>
+                    <option value="Superior">Superior</option>
+                    <option value="Inferior">Inferior</option>
+                    <option value="Acessorios">Acessórios</option>
+                    <option value="Outros">Outros</option>
+                </select>
                 <span asp-validation-for="Categoria" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Cor" class="control-label"></label>
+
+            <!-- Cor -->
+            <div class="col-md-6">
+                <label asp-for="Cor" class="form-label">Cor</label>
                 <input asp-for="Cor" class="form-control" />
                 <span asp-validation-for="Cor" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Estampa" class="control-label"></label>
-                <input type="file" asp-for="Estampa" class="form-control" />
+
+            <!-- Estampa -->
+            <div class="col-md-6">
+                <label asp-for="Estampa" class="form-label">Estampa</label>
+                <input type="file" id="file" name="file" asp-for="Estampa" class="form-control" />
                 <span asp-validation-for="Estampa" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Quantidade" class="control-label"></label>
+
+            <!-- Quantidade -->
+            <div class="col-md-6">
+                <label asp-for="Quantidade" class="form-label">Quantidade</label>
                 <input asp-for="Quantidade" class="form-control" />
                 <span asp-validation-for="Quantidade" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Tamanho" class="control-label"></label>
+
+            <!-- Tamanho -->
+            <div class="col-md-6">
+                <label asp-for="Tamanho" class="form-label">Tamanho</label>
                 <input asp-for="Tamanho" class="form-control" />
                 <span asp-validation-for="Tamanho" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Situacao" class="control-label"></label>
-                <input asp-for="Situacao" class="form-control" />
+
+            <!-- Situação -->
+            <div class="col-md-6">
+                <label asp-for="Situacao" class="form-label">Situação</label>
+                <select asp-for="Situacao" class="form-select" required>
+                    <option value="">Selecione a situação</option>
+                    <option value="Esgotado">Esgotado</option>
+                    <option value="Estoque">Estoque</option>
+                    <option value="Inativo">Inativo</option>
+   
+                </select>
                 <span asp-validation-for="Situacao" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Valor" class="control-label"></label>
+
+            <!-- Valor -->
+            <div class="col-md-6">
+                <label asp-for="Valor" class="form-label">Valor</label>
                 <input asp-for="Valor" class="form-control" />
                 <span asp-validation-for="Valor" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
+        </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+        <!-- Botões -->
+        <div class="d-flex justify-content-between align-items-center mt-4">
+            <a asp-action="Index" class="btn btn-secondary">Voltar à Lista</a>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </div>
+    </form>
 </div>
-

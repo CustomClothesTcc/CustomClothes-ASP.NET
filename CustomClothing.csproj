@@ -14,17 +14,23 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Home\perfilCliente.cshtml" />
     <Content Remove="wwwroot\css\Finalizada.css" />
+    <Content Remove="wwwroot\js\adicionar.js" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
     <PackageReference Include="MySql.Data" Version="9.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="wwwroot\Img\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\mask\jquery.mask.min.js" />
   </ItemGroup>
 
 </Project>

@@ -20,7 +20,7 @@ namespace CustomClothing.Repositorio
 
         public void Cadastrar(Produto produto)
         {
-            using(var conexao = new MySqlConnection(_conexaoMySQL))
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
                 MySqlCommand cmd = new MySqlCommand("insert into tbProduto(Tecido, Descricao,Categoria,Cor,Estampa,Quantidade,Tamanho,Situacao,Valor) values(@Tecido, @Descricao,@Categoria, @Cor,@Estampa, @Quantidade, @Tamanho,@Situacao, @Valor)", conexao);
@@ -60,7 +60,7 @@ namespace CustomClothing.Repositorio
                     produtos.IdProduto = Convert.ToInt32(dr["IdProduto"]);
                     produtos.Tecido = (string)(dr["Tecido"]);
                     produtos.Descricao = (string)(dr["Descricao"]);
-                    produtos.Categoria = (string)(dr["Categoria"]);
+                    produtos.Categoria = Convert.ToString(dr["Categoria"]);
                     produtos.Cor = (string)(dr["Cor"]);
                     produtos.Estampa = (string)(dr["Estampa"]);
                     produtos.Quantidade = Convert.ToInt32(dr["Quantidade"]);
@@ -78,7 +78,7 @@ namespace CustomClothing.Repositorio
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("select * from tbProduto", conexao);
+                MySqlCommand cmd = new MySqlCommand("select * from tbProduto where Situacao = 'EM ESTOQUE'", conexao);
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
 
@@ -92,12 +92,12 @@ namespace CustomClothing.Repositorio
                             IdProduto = Convert.ToInt32(dr["IdProduto"]),
                             Tecido = (string)(dr["Tecido"]),
                             Descricao = (string)(dr["Descricao"]),
-                            Categoria = (string)(dr["Categoria"]),
+                            Categoria = Convert.ToString(dr["Categoria"]),
                             Cor = (string)(dr["Cor"]),
                             Estampa = (string)(dr["Estampa"]),
                             Quantidade = Convert.ToInt32(dr["Quantidade"]),
                             Tamanho = (string)(dr["Tamanho"]),
-                            Situacao = (string)(dr["Situacao"]),
+                            Situacao = Convert.ToString(dr["Situacao"]),
                             Valor = Convert.ToDecimal(dr["Valor"]),
                         });
                 }
