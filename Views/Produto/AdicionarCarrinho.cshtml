@@ -40,40 +40,47 @@
         <!-- Coluna 2: Detalhes do Produto -->
         <div class="col-lg-6">
             <h2 class="nomeProd" style="padding: 1em 0 1em 0">@Model.Descricao</h2>
-            <h4 class="text-success fw-bold" style="padding: 0.1em 0 0.1em 0">R$ @Model.Valor</h4>
+            <h6 class="fw-bold">Valor: </h6>
+            <h4 class="text-success" style="padding: 0.1em 0 0.1em 0">R$ @Model.Valor</h4>
+
             <hr class="my-4">
 
-            <!-- Cores -->
-            <p class="fw-bold">Cores</p>
-            <div class="d-flex gap-2">
-                <button class="btn btn-outline-dark rounded-circle" id="preto" style="width: 40px; height: 40px; background-color: black;"></button>
-                <button class="btn btn-outline-dark rounded-circle" id="vinho" style="width: 40px; height: 40px; background-color: darkred;"></button>
-                <button class="btn btn-outline-dark rounded-circle" id="verde" style="width: 40px; height: 40px; background-color: green;"></button>
-                <button class="btn btn-outline-dark rounded-circle" id="branco" style="width: 40px; height: 40px; background-color: white;"></button>
+            <!-- Tecido -->
+            <div style="display: flex; align-items: end; gap: 1em;">
+                <p class="fw-bold mt-4">Tipo de Tecido: </p>
+                <h4 class="text-dark fw-bold" style="padding: 0.1em 0 0.1em 0; margin-bottom: 11px">@Model.Tecido</h4>
             </div>
 
+            <!-- Cores -->
+            <p class="fw-bold">Cor: </p>
+            <h4 class="text-dark fw-bold" style="padding: 0.1em 0 0.1em 0">@Model.Cor</h4>
+
+
+
             <!-- Tamanhos -->
-            <p class="fw-bold mt-4">Tamanho</p>
+            <p class="fw-bold mt-4">Tamanho: </p>
             <div class="d-flex gap-2">
-                <button class="btn btn-outline-primary" style="color: #000; border-color: #000; width: 7vw;">@Model.Tamanho</button>
+                <button class="btn" style="color: #000; border-color: #000; width: 7vw;">@Model.Tamanho</button>
             </div>
 
             <!-- Quantidade -->
-            <p class="fw-bold mt-4">Quantidade</p>
-            <div class="d-flex gap-2">
-                <button class="btn btn-outline-secondary">-</button>
-                <input type="text" class="form-control text-center" style="width: 60px;" value="@Model.Quantidade" disabled />
-                <button class="btn btn-outline-secondary">+</button>
+            <div style="display: flex; align-items: center; gap: 1em;">
+                <p class="fw-bold mt-4">Quantidade em estoque: </p>
+                <h6 class="text-dark fw-bold" style="padding: 0.1em 0 0.1em 0; margin-top: 18px">@Model.Quantidade</h6>
             </div>
 
-            <!-- Descrição -->
-            <p class="fw-bold mt-4">Descrição</p>
-            <textarea class="form-control" id="descricao" rows="3" disabled>@Model.Categoria</textarea>
+
 
             <!-- Botão de Compra -->
             <div class="text-center mt-4">
-                <button class="btn btn-success w-100" style="background-color: #220F3A; border-radius: 15px;">Comprar</button>
+                @using (Html.BeginForm("Carrinho", "Compra", FormMethod.Post))
+                {
+                    <input type="hidden" name="id" value=@Model.IdProduto>
+                    <button type="submit" style=" background-color:#1C003F; margin-bottom: 10px" class="btn btn-primary bg-custom w-100">Adicionar no Carrinho</button>
+                }
             </div>
+            <!-- Voltar -->
+            <a asp-controller="Home" asp-action="Index" style=" background-color:#1C003F" class="btn btn-primary bg-custom w-100">Voltar para o Inicio</a>
         </div>
     </div>
 </div>

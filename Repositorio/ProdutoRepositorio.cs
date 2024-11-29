@@ -78,7 +78,7 @@ namespace CustomClothing.Repositorio
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("select * from tbProduto where Situacao = 'EM ESTOQUE'", conexao);
+                MySqlCommand cmd = new MySqlCommand("select * from tbProduto where Situacao = 'Estoque'", conexao);
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
 
@@ -90,13 +90,13 @@ namespace CustomClothing.Repositorio
                         new Produto
                         {
                             IdProduto = Convert.ToInt32(dr["IdProduto"]),
-                            Tecido = (string)(dr["Tecido"]),
-                            Descricao = (string)(dr["Descricao"]),
+                            Tecido = Convert.ToString(dr["Tecido"]),
+                            Descricao = Convert.ToString(dr["Descricao"]),
                             Categoria = Convert.ToString(dr["Categoria"]),
-                            Cor = (string)(dr["Cor"]),
-                            Estampa = (string)(dr["Estampa"]),
+                            Cor = Convert.ToString(dr["Cor"]),
+                            Estampa = Convert.ToString(dr["Estampa"]),
                             Quantidade = Convert.ToInt32(dr["Quantidade"]),
-                            Tamanho = (string)(dr["Tamanho"]),
+                            Tamanho = Convert.ToString(dr["Tamanho"]),
                             Situacao = Convert.ToString(dr["Situacao"]),
                             Valor = Convert.ToDecimal(dr["Valor"]),
                         });

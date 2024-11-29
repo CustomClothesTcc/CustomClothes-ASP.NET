@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "VT2Uhsfa7HU0QMQgrowmww3N/XL4MfJQQhdtCrqovno=",
-=======
-  "Hash": "ZtgZHFdPmfNaNaItsnqqRBXXsIKxefT3UAThzBFA6M4=",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+  "Hash": "zvqhGR8Ue5O07wQ99o6XT2x3y7O2R8rUWa1+KYSyygo=",
   "Source": "CustomClothing",
   "BasePath": "_content/CustomClothing",
   "Mode": "Default",
@@ -14,28 +10,17 @@
     {
       "Name": "CustomClothing\\wwwroot",
       "Source": "CustomClothing",
-<<<<<<< HEAD
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CustomClothing.styles.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CustomClothing.styles.css",
       "SourceId": "CustomClothing",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CustomClothing.styles.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "CustomClothing.styles.css",
       "AssetKind": "All",
@@ -48,23 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
-      "OriginalItemSpec": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CustomClothing.styles.css"
+      "OriginalItemSpec": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CustomClothing.styles.css"
     },
     {
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CustomClothing.bundle.scp.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CustomClothing.bundle.scp.css",
       "SourceId": "CustomClothing",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CustomClothing.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CustomClothing.bundle.scp.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "CustomClothing.bundle.scp.css",
       "AssetKind": "All",
@@ -77,23 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
-      "OriginalItemSpec": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CustomClothing.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CustomClothing.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Adicionar.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\css\\Adicionar.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CustomClothing.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\css\\Adicionar.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "css/Adicionar.css",
       "AssetKind": "All",
@@ -109,17 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Adicionar.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\bootstrap.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\css\\bootstrap.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\css\\bootstrap.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "css/bootstrap.css",
       "AssetKind": "All",
@@ -135,17 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Cadastro.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\css\\Cadastro.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\css\\Cadastro.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "css/Cadastro.css",
       "AssetKind": "All",
@@ -161,17 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Cadastro.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Confirmar.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\css\\Confirmar.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\css\\Confirmar.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "css/Confirmar.css",
       "AssetKind": "All",
@@ -187,17 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Confirmar.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Final.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\css\\Final.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\css\\Final.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "css/Final.css",
       "AssetKind": "All",
@@ -213,17 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Final.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Home.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\css\\Home.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\css\\Home.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "css/Home.css",
       "AssetKind": "All",
@@ -239,17 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Home.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Layout.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\css\\Layout.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\css\\Layout.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "css/Layout.css",
       "AssetKind": "All",
@@ -265,17 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Layout.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\LayoutResponsividade.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\css\\LayoutResponsividade.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\css\\LayoutResponsividade.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "css/LayoutResponsividade.css",
       "AssetKind": "All",
@@ -291,17 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\LayoutResponsividade.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Login.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\css\\Login.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\css\\Login.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "css/Login.css",
       "AssetKind": "All",
@@ -317,17 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\perfilCliente.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\css\\perfilCliente.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\css\\perfilCliente.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "css/perfilCliente.css",
       "AssetKind": "All",
@@ -343,17 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\perfilCliente.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Personalizar.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\css\\Personalizar.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\css\\Personalizar.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "css/Personalizar.css",
       "AssetKind": "All",
@@ -369,17 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Personalizar.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Problema.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\css\\Problema.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\css\\Problema.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "css/Problema.css",
       "AssetKind": "All",
@@ -395,17 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Problema.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Produto.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\css\\Produto.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\css\\Produto.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "css/Produto.css",
       "AssetKind": "All",
@@ -421,17 +302,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Produto.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\css\\Sobrenos.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\css\\Sobrenos.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\css\\Sobrenos.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "css/Sobrenos.css",
       "AssetKind": "All",
@@ -447,17 +321,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Sobrenos.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\favicon.ico",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\favicon.ico",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -473,17 +340,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\Blusa1.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\Img\\Blusa1.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\Img\\Blusa1.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "Img/Blusa1.jpg",
       "AssetKind": "All",
@@ -499,26 +359,16 @@
       "OriginalItemSpec": "wwwroot\\Img\\Blusa1.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\Calca.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\Img\\Calca.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "Img/Calca.jpg",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\Img\\Camiseta Feminina.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
-      "BasePath": "_content/CustomClothing",
-      "RelativePath": "Img/Camiseta Feminina.jpg",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "PreferTarget",
-<<<<<<< HEAD
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
@@ -528,18 +378,16 @@
       "OriginalItemSpec": "wwwroot\\Img\\Calca.jpg"
     },
     {
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\Camiseta Feminina.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\Img\\Camiseta Feminina.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "Img/Camiseta Feminina.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "PreferTarget",
-=======
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
@@ -549,17 +397,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\Camiseta Feminina.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\Nike.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\Img\\Nike.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\Img\\Nike.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "Img/Nike.jpg",
       "AssetKind": "All",
@@ -575,17 +416,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\Nike.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\OIP.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\Img\\OIP.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\Img\\OIP.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "Img/OIP.jpg",
       "AssetKind": "All",
@@ -601,17 +435,29 @@
       "OriginalItemSpec": "wwwroot\\Img\\OIP.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\SueterFeminino.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\Img\\screenshotTeste.PNG",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\Img\\SueterFeminino.jpg",
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
+      "BasePath": "_content/CustomClothing",
+      "RelativePath": "Img/screenshotTeste.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\screenshotTeste.PNG"
+    },
+    {
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\Img\\SueterFeminino.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "Img/SueterFeminino.jpg",
       "AssetKind": "All",
@@ -627,17 +473,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\SueterFeminino.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\Img\\Teste.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\Img\\Teste.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\Img\\Teste.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "Img/Teste.jpg",
       "AssetKind": "All",
@@ -653,17 +492,10 @@
       "OriginalItemSpec": "wwwroot\\Img\\Teste.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\js\\carousel.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\js\\carousel.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\js\\carousel.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "js/carousel.js",
       "AssetKind": "All",
@@ -679,17 +511,10 @@
       "OriginalItemSpec": "wwwroot\\js\\carousel.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\js\\LayoutJS.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\js\\LayoutJS.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\js\\LayoutJS.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "js/LayoutJS.js",
       "AssetKind": "All",
@@ -705,17 +530,10 @@
       "OriginalItemSpec": "wwwroot\\js\\LayoutJS.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\js\\mask\\jquery.mask.min.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\js\\mask\\jquery.mask.min.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\js\\mask\\jquery.mask.min.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "js/mask/jquery.mask.min.js",
       "AssetKind": "All",
@@ -731,17 +549,10 @@
       "OriginalItemSpec": "wwwroot\\js\\mask\\jquery.mask.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\js\\personalizar.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\js\\personalizar.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\js\\personalizar.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "js/personalizar.js",
       "AssetKind": "All",
@@ -757,17 +568,10 @@
       "OriginalItemSpec": "wwwroot\\js\\personalizar.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\js\\site.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\js\\site.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -783,17 +587,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\js\\sugestoes.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\js\\sugestoes.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\js\\sugestoes.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "js/sugestoes.js",
       "AssetKind": "All",
@@ -809,17 +606,10 @@
       "OriginalItemSpec": "wwwroot\\js\\sugestoes.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\js\\teste.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\js\\teste.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\js\\teste.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "js/teste.js",
       "AssetKind": "All",
@@ -835,17 +625,10 @@
       "OriginalItemSpec": "wwwroot\\js\\teste.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -861,17 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -887,17 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -913,17 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -939,17 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -965,17 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -991,17 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1017,17 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1043,17 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1069,17 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1095,17 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1121,17 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1147,17 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1173,17 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1199,17 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1225,17 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1251,17 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1277,17 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1303,17 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1329,17 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1355,17 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1381,17 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1407,17 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1433,17 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1459,17 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1485,17 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1511,17 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1537,17 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1563,17 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1589,17 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1615,17 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1641,17 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1667,17 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1693,17 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1719,17 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1745,17 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1771,17 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1797,17 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1823,17 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1849,17 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1875,17 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1901,17 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1927,17 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1953,17 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1979,17 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2005,17 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Car1_waifu2x_photo_noise2.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Car1_waifu2x_photo_noise2.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Car1_waifu2x_photo_noise2.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/Car1_waifu2x_photo_noise2.png",
       "AssetKind": "All",
@@ -2031,17 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\Car1_waifu2x_photo_noise2.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Car2_waifu2x_photo_noise2.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Car2_waifu2x_photo_noise2.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Car2_waifu2x_photo_noise2.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/Car2_waifu2x_photo_noise2.png",
       "AssetKind": "All",
@@ -2057,17 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\Car2_waifu2x_photo_noise2.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Car3_waifu2x_photo_noise2.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Car3_waifu2x_photo_noise2.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Car3_waifu2x_photo_noise2.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/Car3_waifu2x_photo_noise2.png",
       "AssetKind": "All",
@@ -2083,17 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\Car3_waifu2x_photo_noise2.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\CustomClothesSemNome.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\CustomClothesSemNome.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\CustomClothesSemNome.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/CustomClothesSemNome.png",
       "AssetKind": "All",
@@ -2109,17 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\CustomClothesSemNome.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Estamparia.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Estamparia.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\Estamparia.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/Estamparia.jpg",
       "AssetKind": "All",
@@ -2135,17 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\Estamparia.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/favoritos.jpg",
       "AssetKind": "All",
@@ -2161,17 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\favoritos.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos1.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos1.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos1.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/favoritos1.jpg",
       "AssetKind": "All",
@@ -2187,17 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\favoritos1.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos2.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos2.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos2.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/favoritos2.jpg",
       "AssetKind": "All",
@@ -2213,17 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\favoritos2.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos3.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos3.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos3.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/favoritos3.jpg",
       "AssetKind": "All",
@@ -2239,17 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\favoritos3.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos4.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos4.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos4.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/favoritos4.jpg",
       "AssetKind": "All",
@@ -2265,17 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\favoritos4.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos5.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos5.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\favoritos5.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/favoritos5.jpg",
       "AssetKind": "All",
@@ -2291,17 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\favoritos5.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\icons8-usuário-homem-com-círculo-24.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\icons8-usuário-homem-com-círculo-24.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\icons8-usuário-homem-com-círculo-24.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/icons8-usuário-homem-com-círculo-24.png",
       "AssetKind": "All",
@@ -2317,17 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\icons8-usuário-homem-com-círculo-24.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\logoCC.jpeg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\logoCC.jpeg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\logoCC.jpeg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/logoCC.jpeg",
       "AssetKind": "All",
@@ -2343,17 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\logoCC.jpeg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosCC\\CustomClothes.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosCC\\CustomClothes.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosCC\\CustomClothes.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/LogosCC/CustomClothes.png",
       "AssetKind": "All",
@@ -2369,17 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\LogosCC\\CustomClothes.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosCC\\CustomClothesSemNome.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosCC\\CustomClothesSemNome.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosCC\\CustomClothesSemNome.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/LogosCC/CustomClothesSemNome.png",
       "AssetKind": "All",
@@ -2395,17 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\LogosCC\\CustomClothesSemNome.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosCC\\logoCC.jpeg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosCC\\logoCC.jpeg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosCC\\logoCC.jpeg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/LogosCC/logoCC.jpeg",
       "AssetKind": "All",
@@ -2421,17 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\LogosCC\\logoCC.jpeg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosRedesSociais\\facebook.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosRedesSociais\\facebook.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosRedesSociais\\facebook.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/LogosRedesSociais/facebook.png",
       "AssetKind": "All",
@@ -2447,17 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\LogosRedesSociais\\facebook.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosRedesSociais\\google.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosRedesSociais\\google.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosRedesSociais\\google.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/LogosRedesSociais/google.png",
       "AssetKind": "All",
@@ -2473,17 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\LogosRedesSociais\\google.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosRedesSociais\\linkedin.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosRedesSociais\\linkedin.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\LogosRedesSociais\\linkedin.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/LogosRedesSociais/linkedin.png",
       "AssetKind": "All",
@@ -2499,17 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\LogosRedesSociais\\linkedin.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\pix.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\pix.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\pix.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/pix.png",
       "AssetKind": "All",
@@ -2525,17 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\pix.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\pngwing.com (7).png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\pngwing.com (7).png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\pngwing.com (7).png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/pngwing.com (7).png",
       "AssetKind": "All",
@@ -2551,17 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\pngwing.com (7).png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\pngwing.com (8).png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\pngwing.com (8).png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\pngwing.com (8).png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/pngwing.com (8).png",
       "AssetKind": "All",
@@ -2577,17 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\pngwing.com (8).png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\pngwing.com (9).png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\pngwing.com (9).png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\pngwing.com (9).png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/pngwing.com (9).png",
       "AssetKind": "All",
@@ -2603,17 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\pngwing.com (9).png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\50off blusa.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\50off blusa.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\50off blusa.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/50off blusa.png",
       "AssetKind": "All",
@@ -2629,17 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\50off blusa.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\50off calca.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\50off calca.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\50off calca.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/50off calca.png",
       "AssetKind": "All",
@@ -2655,17 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\50off calca.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\50off camisa.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\50off camisa.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\50off camisa.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/50off camisa.png",
       "AssetKind": "All",
@@ -2681,17 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\50off camisa.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\50off camisocial.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\50off camisocial.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\50off camisocial.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/50off camisocial.png",
       "AssetKind": "All",
@@ -2707,17 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\50off camisocial.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Beatles.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Beatles.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Beatles.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/Beatles.jpg",
       "AssetKind": "All",
@@ -2733,17 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\Beatles.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Beatles2.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Beatles2.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Beatles2.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/Beatles2.jpg",
       "AssetKind": "All",
@@ -2759,17 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\Beatles2.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Blusa.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Blusa.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Blusa.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/Blusa.png",
       "AssetKind": "All",
@@ -2785,17 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\Blusa.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Blusa1.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Blusa1.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Blusa1.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/Blusa1.jpg",
       "AssetKind": "All",
@@ -2811,17 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\Blusa1.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\camisa-social.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\camisa-social.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\camisa-social.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/camisa-social.jpg",
       "AssetKind": "All",
@@ -2837,17 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\camisa-social.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\camisa-sociaL.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\camisa-sociaL.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\camisa-sociaL.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/camisa-sociaL.png",
       "AssetKind": "All",
@@ -2863,17 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\camisa-sociaL.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta Feminina.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta Feminina.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta Feminina.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/Camiseta Feminina.jpg",
       "AssetKind": "All",
@@ -2889,17 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta Feminina.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta Preta.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta Preta.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta Preta.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/Camiseta Preta.jpg",
       "AssetKind": "All",
@@ -2915,17 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta Preta.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/Camiseta.jpg",
       "AssetKind": "All",
@@ -2941,17 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta_Preta.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta_Preta.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta_Preta.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/Camiseta_Preta.png",
       "AssetKind": "All",
@@ -2967,17 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\Camiseta_Preta.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Mamonas.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Mamonas.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Mamonas.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/Mamonas.jpg",
       "AssetKind": "All",
@@ -2993,17 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\Mamonas.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\SuaLogo.jpg",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\SuaLogo.jpg",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\SuaLogo.jpg",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/SuaLogo.jpg",
       "AssetKind": "All",
@@ -3019,17 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\SuaLogo.jpg"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Thumbs.db",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Thumbs.db",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\Thumbs.db",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/Thumbs.db",
       "AssetKind": "All",
@@ -3045,17 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\Thumbs.db"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\top.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\top.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteCima\\top.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteCima/top.png",
       "AssetKind": "All",
@@ -3071,17 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteCima\\top.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\calça1.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\calça1.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\calça1.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteDebaixo/calça1.png",
       "AssetKind": "All",
@@ -3097,17 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\calça1.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\saias1.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\saias1.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\saias1.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteDebaixo/saias1.png",
       "AssetKind": "All",
@@ -3123,17 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\saias1.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\shorts.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\shorts.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\shorts.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteDebaixo/shorts.png",
       "AssetKind": "All",
@@ -3149,17 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\shorts.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\tenis.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\tenis.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\tenis.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteDebaixo/tenis.png",
       "AssetKind": "All",
@@ -3175,17 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\tenis.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\Thumbs.db",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\Thumbs.db",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\Thumbs.db",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteDebaixo/Thumbs.db",
       "AssetKind": "All",
@@ -3201,17 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\Thumbs.db"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\vestido-branco.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\vestido-branco.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\vestido-branco.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/RoupasParteDebaixo/vestido-branco.png",
       "AssetKind": "All",
@@ -3227,17 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\RoupasParteDebaixo\\vestido-branco.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\telaperfil.png",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\telaperfil.png",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\Imagens\\telaperfil.png",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/Imagens/telaperfil.png",
       "AssetKind": "All",
@@ -3253,17 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\Imagens\\telaperfil.png"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3279,17 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3305,17 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3331,17 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3357,17 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3383,17 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3409,17 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3435,17 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3461,17 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3487,17 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3513,17 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3539,17 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "CustomClothing",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "CustomClothing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\wwwroot\\",
->>>>>>> 8b596d185b2e6636b01ba81d93e15870ce5ef724
+      "ContentRoot": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\wwwroot\\",
       "BasePath": "_content/CustomClothing",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
