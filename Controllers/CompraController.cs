@@ -52,32 +52,17 @@ namespace CustomClothing.Controllers
             return RedirectToAction(nameof(Carrinho));
 
         }
-        DateTime data;
-        public IActionResult SalvarCarrinho(Pedido pedido)
+        public IActionResult Finalizada()
         {
-            List<Produto> carrinho = _cookiesCarrinhoCompra.Consultar();
-
-            Pedido mdE = new Pedido();
-            Item mdI = new Item();
-
-            data = DateTime.Now.ToLocalTime();
-
-            mdE.DataPedido = data.ToString("dd/MM/yyyy");
-            mdE.CPFCli = "54528612336";
-
-            _pedidoRepositorio.Cadastrar(mdE);
-            _pedidoRepositorio.buscarIdPedido(pedido);
-
-            for (int i = 0; i < carrinho.Count; i++)
-            {
-                mdI.IdPedido = Convert.ToInt32(pedido.IdPedido);
-                mdI.IdProduto = Convert.ToInt32(carrinho[i].IdProduto);
-
-                _itemRepositorio.Cadastrar(mdI);
-            }
-
-            _cookiesCarrinhoCompra.Removertodos();
-            return RedirectToAction("confEmp");
+            return View();
+        }
+        public IActionResult Problema()
+        {
+            return View();
+        }
+        public IActionResult SalvarCarrinho()
+        {
+            return RedirectToAction(nameof(Finalizada));  ;
         }
     }
 }

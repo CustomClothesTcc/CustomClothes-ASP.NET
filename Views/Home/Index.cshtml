@@ -81,12 +81,12 @@
 </div>
 <!--<div class="bloco-roxo">
 </div>-->
-<div class="align-content-center" style="margin-left: 8%">
+<div class="align-content-center" style="margin-left: 6%">
     <div class="col-lg-11">
         <div class="row align-content-center">
             @foreach (var item in Model)
             {
-                <div class="col-lg-5 col-md-7 mb-5" style="margin:6% 7">
+                <div class="col-lg-4 col-md-6 mb-4" style="margin:6% 7">
                     <div class="card h-100">
 
                         @if (@item.Estampa != null)
@@ -100,19 +100,22 @@
 
                         <div class="card-body">
                             <h4 class="card-title">
-                                <a href="@item.Estampa">@item.Descricao</a>
+                                <p href="@item.Estampa">@item.Descricao</p>
                             </h4>
                             <spam>Tamanho: @item.Tamanho</spam>
                             <br />
-                            <spam>Preço:R$ @item.Valor</spam>
+                            <spam>Preço: @item.Valor</spam>
                         </div>
+
                         <div>
                             @using (Html.BeginForm("GuardarProduto", "Produto", FormMethod.Post))
                             {
                                 <input type="hidden" name="id" value=@item.IdProduto>
-                                <button type="submit" class="btn btn-primary bg-custom w-100">Ver Produto</button>
+                                <button type="submit" class="btn btn-primary bg-custom w-100">Adicionar</button>
                             }
                         </div>
+
+                        @*<a asp-controller="Produto" asp-action="AdicionarCarrinho" class="btn btn-primary bg-custom">Adicionar</a>*@
                     </div>
                 </div>
             }
