@@ -1,64 +1,92 @@
 ﻿@{
     ViewData["Title"] = "Perfil Cliente";
 }
-<h1>Status do Pedido</h1>
-<link rel="stylesheet" href="~/css/perfilCliente.css">
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil Cliente</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+          rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/PerfilCliente.css" />
+</head>
 <body>
-    <div class="profile-container">
-        <div class="profile-image">
-            <img src="~/img/telaperfil.png" />
-        </div>
-        <div class="profile-info">
-            <input class="NomeCli" placeholder="Nome"></input>
-            <input class="Cel" placeholder="Celular"></input>
-            <input class="End" placeholder="Endereço"></input>
-            <button class="edit-btn">EDITAR</button>
-        </div>
+    <div class="container py-4">
+        <!-- Título -->
+        <h1 class="text-center mb-4">Perfil Cliente</h1>
 
-    </div>
-
-
-    <h2>Status de pedido</h2>
-    <div class="order-status-container">
-        <div class="order-details"></div>
-        <input class="number" placeholder="N°xxxxxx                                                                                                                                                                                                               Data xx/xx/xxxx" /></input
-    </div>
-
-    <input class="caixa-informacoes" placeholder="Informações do Pedido"></input>
-
-
-    <div class="container">
-        <div class="section">
-            <div class="title">Favoritos</div>
-            <div class="grid">
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
+        <!-- Área de Perfil -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-4 text-center">
+                <img src="~/img/TelaPerfil.png"
+                     class="img-fluid rounded-circle border"
+                     alt="Perfil" />
+            </div>
+            <div class="col-md-8">
+                <form>
+                    <div class="mb-3">
+                        <p
+                               class="form-control"
+                                >NOME</p>
+                    </div>
+                    <div class="mb-3">
+                        <p class="form-control">EMAIL</p>
+                    </div>
+                    <div class="mb-3">
+                        <p class="form-control">NUMERO</p>
+                    </div>
+                    <div class="mb-3">
+                        <p class="form-control">ENDEREÇO</p>
+                    </div>
+                </form>
             </div>
         </div>
 
-        <div class="section">
-            <div class="title">Meus Pedidos</div>
-            <div class="grid">
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
+        <!-- Status do Pedido -->
+        <h2 class="mb-3">Status de Pedido</h2>
+        <div class="mb-3">
+
+            <p
+                   class="form-control"
+            >N°xxxxxx | Data xx/xx/xxxx</p>
+        </div>
+        
+
+        <!-- Pedidos -->
+        <div>
+            <h3>Meus Pedidos</h3>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Pedido 1</h5>
+                            <p class="card-text">Detalhes do pedido.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Pedido 2</h5>
+                            <p class="card-text">Detalhes do pedido.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Pedido 3</h5>
+                            <p class="card-text">Detalhes do pedido.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
