@@ -24,11 +24,12 @@ namespace CustomClothing.Repositorio
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("insert into tbItemPedido values(default, @CodItemPedido, @CodProduto, @Valor, @ValorTotal)", conexao);
-                cmd.Parameters.Add("@CodItemPedido", MySqlDbType.Int32).Value = item.CodItemPedido;
-                cmd.Parameters.Add("@CodProduto", MySqlDbType.Int32).Value = item.CodProduto;
-                cmd.Parameters.Add("@Valor", MySqlDbType.Decimal).Value = item.Valor;
-                cmd.Parameters.Add("@ValorTotal", MySqlDbType.Decimal).Value = item.ValorTotal;
+                MySqlCommand cmd = new MySqlCommand("insert into tbItemPedido values(default, @IdItem, @IdProduto, @IdPedido, @Quantidade, @ValorUnit)", conexao);
+                cmd.Parameters.Add("@IdItem", MySqlDbType.Int32).Value = item.IdItem;
+                cmd.Parameters.Add("@IdProduto", MySqlDbType.Int32).Value = item.IdProduto;
+                cmd.Parameters.Add("@IdPedido", MySqlDbType.Int32).Value = item.IdPedido;
+                cmd.Parameters.Add("@Quantidade", MySqlDbType.Int32).Value = item.Quantidade;
+                cmd.Parameters.Add("@ValorUnit", MySqlDbType.Decimal).Value = item.Valor;
                 cmd.ExecuteNonQuery();
                 conexao.Close();
             }
@@ -60,10 +61,10 @@ namespace CustomClothing.Repositorio
                     ItemList.Add(
                         new Item
                         {
-                            CodItemPedido = Convert.ToInt32(dr["CodItemPedido"]),
-                            CodProduto = Convert.ToInt32(dr["CodProduto"]),
-                            Valor = Convert.ToDecimal(dr["Valor"]),
-                            ValorTotal = Convert.ToDecimal(dr["ValorTotal"])
+                            IdItem = Convert.ToInt32(dr["IdItem"]),
+                            IdProduto = Convert.ToInt32(dr["IdProduto"]),
+                            Quantidade = Convert.ToInt32(dr["Quantidade"]),
+                            Valor = Convert.ToDecimal(dr["ValorUnit"])
                         });
                 }
                 return ItemList;

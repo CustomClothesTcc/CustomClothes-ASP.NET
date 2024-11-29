@@ -31,6 +31,7 @@ namespace CustomClothing.Controllers
                 var item = new Produto()
                 {
                     IdProduto = id,
+                    Quantidade = 1,
                     Descricao = produto.Descricao,
                     Estampa = produto.Estampa,
                     Tamanho = produto.Tamanho,
@@ -52,7 +53,31 @@ namespace CustomClothing.Controllers
 
         }
         DateTime data;
+        public IActionResult SalvarCarrinho(Pedido pedido)
+        {
+            List<Produto> carrinho = _cookiesCarrinhoCompra.Consultar();
 
-        /*public IActionResult SalvarCarrinho()*/
+            Pedido mdE = new Pedido();
+            Item mdI = new Item();
+
+            data = DateTime.Now.ToLocalTime();
+
+            mdE.DataPedido = data.ToString("dd/MM/yyyy");
+            mdE.CPFCli = "54528612336";
+
+            _pedidoRepositorio.Cadastrar(mdE);
+            _pedidoRepositorio.buscarIdPedido(pedido);
+
+            for (int i = 0; i < carrinho.Count; i++)
+            {
+                mdI.IdPedido = Convert.ToInt32(pedido.IdPedido);
+                mdI.IdProduto = Convert.ToInt32(carrinho[i].IdProduto);
+
+                _itemRepositorio.Cadastrar(mdI);
+            }
+
+            _cookiesCarrinhoCompra.Removertodos();
+            return RedirectToAction("confEmp");
+        }
     }
 }

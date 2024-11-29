@@ -25,14 +25,34 @@ namespace CustomClothing.Repositorio
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("insert into tbPedido " + " values(default, @IdPedido,  @DataPedido, @codCli, @Status)", conexao);
-
-                cmd.Parameters.Add("@IdPedido", MySqlDbType.Int64).Value = pedido.IdPedido;
-                cmd.Parameters.Add("@DataPedido", MySqlDbType.DateTime).Value = pedido.DataPedido;
-                cmd.Parameters.Add("@codCli", MySqlDbType.Int64).Value = pedido.CodCliente;
-                cmd.Parameters.Add("@Status", MySqlDbType.VarChar).Value = pedido.Status;
+                MySqlCommand cmd = new MySqlCommand("insert into tbPedido values(default, @DataPedido, @ValorTotal, @PedidoStatus, @Quantidade, @CPFCli)", conexao);
+                                
+                cmd.Parameters.Add("@DataPedido", MySqlDbType.VarChar).Value = pedido.DataPedido;
+                cmd.Parameters.Add("@ValorTotal", MySqlDbType.Decimal).Value = pedido.ValorTotal;
+                cmd.Parameters.Add("@PedidoStatus", MySqlDbType.VarChar).Value = pedido.PedidoStatus;
+                cmd.Parameters.Add("@Quantidade", MySqlDbType.Int64).Value = pedido.Quantidade;
+                cmd.Parameters.Add("@CPFCli", MySqlDbType.VarChar).Value = pedido.CPFCli;
                 cmd.ExecuteNonQuery();
                 conexao.Close();
+            }
+
+        }
+        public void buscarIdPedido(Pedido pedido)
+        {
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
+            {
+                conexao.Open();
+                MySqlDataReader dr;
+
+                MySqlCommand cmd = new MySqlCommand("SELECT IdPedido FROM tbPedido ORDER BY IdPedido DESC limit 1", conexao);
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    pedido.IdPedido = dr[0].ToString();
+                }
+                conexao.Close();
+
             }
 
         }
@@ -63,10 +83,12 @@ namespace CustomClothing.Repositorio
                     PedidoList.Add(
                         new Pedido
                         {
-                            IdPedido = Convert.ToInt32(dr["IdPedido"]),
-                            DataPedido = Convert.ToDateTime(dr["DataPedido"]),
-                            CodCliente = Convert.ToInt32(dr["CodCliente"]),
-                            Status = (string)(dr["Status"])
+                            IdPedido = Convert.ToString(dr["IdPedido"]),
+                            DataPedido = Convert.ToString(dr["DataPedido"]),
+                            ValorTotal = Convert.ToDecimal(dr["ValorTotal"]),
+                            PedidoStatus = Convert.ToString(dr["PedidoStatus"]),
+                            Quantidade = Convert.ToInt32(dr["Quantidade"]),
+                            CPFCli = Convert.ToString(dr["CPFCli"])
                         });
                 }
                 return PedidoList;

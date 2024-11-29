@@ -14,6 +14,7 @@ builder.Services.AddScoped<IClienteRepositorio, ClienteRepositorio>();
 builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
 builder.Services.AddScoped<IPersonalizarRepositorio, PersonalizarRepositorio>();
 builder.Services.AddScoped<IitemRepositorio, ItemRepositorio>();
+builder.Services.AddScoped<IPedidoRepositorio, PedidoRepositorio>();
 
 builder.Services.AddScoped<GerenciadorArquivos>();
 builder.Services.AddScoped<CustomClothing.Cookie.Cookies>();

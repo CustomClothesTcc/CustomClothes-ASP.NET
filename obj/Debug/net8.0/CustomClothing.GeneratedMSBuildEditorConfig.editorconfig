@@ -17,79 +17,83 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CustomClothing
 build_property.RootNamespace = CustomClothing
-build_property.ProjectDir = D:\Usuário\Miguel\Music\CustomClothes-ASP.NET\CustomClothes-ASP.NET\
+build_property.ProjectDir = D:\Users\Miguel\Desktop\TCC\CustomClothes-ASP.NET\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Usuário\Miguel\Music\CustomClothes-ASP.NET\CustomClothes-ASP.NET
+build_property.MSBuildProjectDirectory = D:\Users\Miguel\Desktop\TCC\CustomClothes-ASP.NET
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Usuário/Miguel/Music/CustomClothes-ASP.NET/CustomClothes-ASP.NET/Views/Home/Confirmar.cshtml]
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/Compra/Carrinho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhXENhcnJpbmhvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/Home/Confirmar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25maXJtYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usuário/Miguel/Music/CustomClothes-ASP.NET/CustomClothes-ASP.NET/Views/Home/Finalizada.cshtml]
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/Home/Finalizada.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW5hbGl6YWRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usuário/Miguel/Music/CustomClothes-ASP.NET/CustomClothes-ASP.NET/Views/Home/Index.cshtml]
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usuário/Miguel/Music/CustomClothes-ASP.NET/CustomClothes-ASP.NET/Views/Home/Problema.cshtml]
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/Home/Problema.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9ibGVtYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usuário/Miguel/Music/CustomClothes-ASP.NET/CustomClothes-ASP.NET/Views/Home/Sobrenos.cshtml]
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/Home/Sobrenos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZW5vcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usuário/Miguel/Music/CustomClothes-ASP.NET/CustomClothes-ASP.NET/Views/Login/Cadastro.cshtml]
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/Login/Cadastro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQ2FkYXN0cm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usuário/Miguel/Music/CustomClothes-ASP.NET/CustomClothes-ASP.NET/Views/Login/Login.cshtml]
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usuário/Miguel/Music/CustomClothes-ASP.NET/CustomClothes-ASP.NET/Views/Login/PerfilCliente.cshtml]
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/Login/PerfilCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUGVyZmlsQ2xpZW50ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usuário/Miguel/Music/CustomClothes-ASP.NET/CustomClothes-ASP.NET/Views/Produto/AdicionarCarrinho.cshtml]
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/Produto/AdicionarCarrinho.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xBZGljaW9uYXJDYXJyaW5oby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usuário/Miguel/Music/CustomClothes-ASP.NET/CustomClothes-ASP.NET/Views/Produto/CadProduto.cshtml]
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/Produto/CadProduto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xDYWRQcm9kdXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usuário/Miguel/Music/CustomClothes-ASP.NET/CustomClothes-ASP.NET/Views/Produto/Personalizar.cshtml]
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/Produto/Personalizar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xQZXJzb25hbGl6YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usuário/Miguel/Music/CustomClothes-ASP.NET/CustomClothes-ASP.NET/Views/Produto/Produto.cshtml]
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/Produto/Produto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xQcm9kdXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usuário/Miguel/Music/CustomClothes-ASP.NET/CustomClothes-ASP.NET/Views/Shared/Error.cshtml]
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usuário/Miguel/Music/CustomClothes-ASP.NET/CustomClothes-ASP.NET/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usuário/Miguel/Music/CustomClothes-ASP.NET/CustomClothes-ASP.NET/Views/_ViewImports.cshtml]
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usuário/Miguel/Music/CustomClothes-ASP.NET/CustomClothes-ASP.NET/Views/_ViewStart.cshtml]
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Usuário/Miguel/Music/CustomClothes-ASP.NET/CustomClothes-ASP.NET/Views/Shared/_Layout.cshtml]
+[D:/Users/Miguel/Desktop/TCC/CustomClothes-ASP.NET/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-21myo2jbts

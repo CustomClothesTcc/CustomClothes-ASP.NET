@@ -7,6 +7,7 @@ namespace CustomClothing.Repositorio.Contract
         //CRUD do nosso Sistema
         IEnumerable<Pedido> ObterTodosPedidos();
         void Cadastrar(Pedido pedido);
+        void buscarIdPedido(Pedido pedido);
         void Atualizar(Pedido pedido);
         Pedido ObterPedidos(int Id);
         void Excluir(int Id);

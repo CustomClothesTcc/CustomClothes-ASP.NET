@@ -1,0 +1,97 @@
+﻿@model IEnumerable<CustomClothing.Models.Produto>
+
+@{
+    ViewData["Title"] = "Index";
+    decimal Subtotal = 0;
+}
+
+<div class="container">
+    <section id="order">
+        <br />
+        <br />
+        <h2 class="title-doc">Carrinho de compras</h2>
+        <div class="alert alert-danger" style="display: none;" role="alert">
+        </div>
+
+        <div id="code_cart">
+            <div class="card">
+                <table class="table table-hover shopping-cart-wrap">
+                    <thead class="text-muted">
+                        <tr>
+                            <th scope="col">Produto</th>
+                            <th scope="col" width="120">Quantidade</th>
+                            <th scope="col" width="120"></th>
+                            <th scope="col" width="200" class="text-right">Ação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <figure class="media">
+                                        <div class="img-wrap">
+
+                                            <img alt="Thumbnail [300x300]" style="width: 40px; height: 40px;" src="@item.Estampa">
+                                        </div>
+                                        <figcaption class="media-body">
+                                            <h6 class="title text-truncate">@item.Descricao</h6>
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <div class="col-auto">
+                                        <div class="input-group mb-2 control-inline">
+                                            <input type="hidden" class="inputProdutoId" value="@item.IdProduto" />
+                                            <input type="hidden" class="inputQuantidadeEstoque" value="@item.Quantidade" />
+                                            <input type="hidden" class="inputValorUnitario" value="@item.Valor" />
+
+
+                                            <input type="text" style="width: 60px; text-align: center" readonly="readonly" class="form-control inputQuantidadeProdutoCarrinho" value="@item.Quantidade">
+
+
+
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td>
+                                </td>
+                                <td class="text-right">
+                                    <a asp-controller="Compra" asp-action="RemoverItem" asp-route-id="@item.IdProduto" class="btn btn-outline-danger"> × Remove</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <br />
+    <br />
+
+
+</div>
+
+<div class="container">
+    <br />
+    <br />
+    <div class="row">
+        <div class="col-md-12">
+            Deseja adicionar outro? <a asp-controller="Produto" asp-action="Produto">Clique aqui</a> para continuar a comprar
+        </div>
+        <br />
+        <br />
+        <div class="offset-md-4 col-md-4">
+            <a class="btn btn-outline-primary btn-continuar-comprando" asp-action="SalvarCarrinho" asp-controller="Compra">
+                Finalizar o Empréstimo
+            </a>            
+        </div>
+        <div class="offset-md-4 col-md-4">
+            <a class="btn btn-outline-primary btn-continuar-comprando" asp-action="Produto" asp-controller="Produto">
+                Voltar para o Produto
+            </a>
+        </div>
+        
+    </div>
+</div>

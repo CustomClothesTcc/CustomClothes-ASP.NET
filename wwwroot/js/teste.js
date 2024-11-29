@@ -1,5 +1,5 @@
-﻿const zoom = document.getElementById("zoom");
-const img = document.querySelector("img")
+﻿/*const zoom = document.getElementById("imgzoom");
+const img = document.querySelector("img-fluid")
 
 zoom.addEventListener("mousemove", (e) => {
     const x = e.clientX - e.target.offsetLeft;
@@ -16,5 +16,5 @@ zoom.addEventListener("mousemove", (e) => {
 zoom.addEventListener("mouseleave", () => {
     img.style.transformOrigin = "center center";
     img.style.transform = "scale(1)";
-})
+})*/
 

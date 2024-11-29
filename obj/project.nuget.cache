@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tL/EmtV5eVhfuSK4sC3Ysk57D5bZSxyEfmmUwgwo7Kxm+OGuoO1MsphUvGwRl59ILQnCcNBk9mIPg3vbgNuLWQ==",
+  "dgSpecHash": "9fs/5H3n8X6VimJAx9+kC0evB2HMI1W1KXye08puyO2jADNTMvbkIyhvET4oAKs6xBAL4T0ybDMxZxDtlyOCQg==",
   "success": true,
-  "projectFilePath": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\CustomClothing.csproj",
+  "projectFilePath": "D:\\Users\\Miguel\\Desktop\\TCC\\CustomClothes-ASP.NET\\CustomClothing.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gih\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\Gih\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",

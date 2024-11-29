@@ -88,12 +88,12 @@ namespace CustomClothing.Repositorio
                         new Personalizar
                         {
                             IdProduto = Convert.ToInt32(dr["IdProduto"]),
-                            Tecido = (string)(dr["Tecido"]),
-                            Descricao = (string)(dr["Descricao"]),
-                            Cor = (string)(dr["Cor"]),
-                            Estampa = (string)(dr["Estampa"]),
+                            Tecido = Convert.ToString(dr["Tecido"]),
+                            Descricao = Convert.ToString(dr["Descricao"]),
+                            Cor = Convert.ToString(dr["Cor"]),
+                            Estampa = Convert.ToString(dr["Estampa"]),
                             Quantidade = Convert.ToInt32(dr["Quantidade"]),
-                            Tamanho = (string)(dr["Tamanho"]),
+                            Tamanho = Convert.ToString(dr["Tamanho"]),
                             Valor = Convert.ToDecimal(dr["Valor"]),
                         });
                 }

@@ -73,9 +73,10 @@
 
             <!-- Botão de Compra -->
             <div class="text-center mt-4">
-                @using (Html.BeginForm("Carrinho", "Compra", FormMethod.Post))
+                @using (Html.BeginForm("AdicionarItem", "Compra", FormMethod.Post))
                 {
                     <input type="hidden" name="id" value=@Model.IdProduto>
+                    <input type="hidden" name="Quantidade" value="1">
                     <button type="submit" style=" background-color:#1C003F; margin-bottom: 10px" class="btn btn-primary bg-custom w-100">Adicionar no Carrinho</button>
                 }
             </div>
