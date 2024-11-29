@@ -19,6 +19,9 @@
     color: #333;
     text-decoration: none;
 }
+.form-control{
+    width: 10vw;
+}
 /* Header */
 .divLogo {
     display: flex;
@@ -207,21 +210,23 @@ a:hover {
 .autocomplete-container {
     display: flex;
     align-items: center;
-    min-width: 65vw;
-    max-width: 80vw;
+    min-width: 45vw;
+    max-width: 50vw;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 25px;
   
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
+.dropdown-menu{
+    z-index: 100;
+    position: absolute;
+}
 .autocomplete-items {
     position: absolute;
     border: 1px solid #ccc;
     z-index: 99;
     top: 100%;
- 
     background-color: #9f9f9f;
     color: #fff;
     max-height: 200px;
