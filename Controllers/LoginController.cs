@@ -39,6 +39,11 @@ namespace CustomClothing.Controllers
         }
         public IActionResult PerfilCliente()
         {
+            ViewBag.Nome = _logincliente.GetCliente().Nome;
+            ViewBag.CPF = _logincliente.GetCliente().CPF; 
+            ViewBag.RG = _logincliente.GetCliente().RG;
+            ViewBag.Celular = _logincliente.GetCliente().Celular;
+            ViewBag.Email = _logincliente.GetCliente().Email;
             return View();
         }
 
