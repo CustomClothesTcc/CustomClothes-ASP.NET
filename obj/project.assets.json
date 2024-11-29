@@ -6566,23 +6566,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gih\\.nuget\\packages\\": {},
+    "C:\\Users\\3mod\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\CustomClothing.csproj",
+      "projectUniqueName": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\CustomClothing.csproj",
       "projectName": "CustomClothing",
-      "projectPath": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\CustomClothing.csproj",
-      "packagesPath": "C:\\Users\\Gih\\.nuget\\packages\\",
-      "outputPath": "D:\\Usuário\\Miguel\\Music\\CustomClothes-ASP.NET\\CustomClothes-ASP.NET\\obj\\",
+      "projectPath": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\CustomClothing.csproj",
+      "packagesPath": "C:\\Users\\3mod\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\3mod\\Desktop\\CustomClothes-ASP.NET\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Gih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\3mod\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6647,7 +6647,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
