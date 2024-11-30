@@ -4,8 +4,10 @@
 }
 
 <div class="container py-5">
+    <link href="~/css/AlertCad.css" />
+
     <!-- Título Principal -->
-    <h1 class="text-center mb-4">Personalizar a sua aqui:</h1>
+    <h1 class="text-center mb-4" style="padding: 0.5vh;">Personalizar a sua aqui:</h1>
 
     <!-- Formulário Responsivo -->
     <div class="row justify-content-center">
@@ -15,25 +17,25 @@
                     <!-- Estampa -->
                     <div class="col-md-6">
                         <label asp-for="Estampa" class="form-label">Estampa:</label>
-                        <input asp-for="Estampa" type="file" class="form-control" id="file" name="file" required />
+                        <input asp-for="Estampa" required type="file" class="form-control" id="file" name="file" required />
                     </div>
 
                     <!-- Descrição da Roupa -->
                     <div class="col-md-6">
                         <label asp-for="Descricao" class="form-label">Descrição da Roupa:</label>
-                        <input asp-for="Descricao" class="form-control" type="text" id="descricao" required />
+                        <input required asp-for="Descricao" class="form-control" type="text" id="descricao" required />
                     </div>
 
                     <!-- Tamanho da Imagem -->
                     <div class="col-md-6">
                         <label asp-for="DescImg" class="form-label">Tamanho da Imagem:</label>
-                        <input asp-for="DescImg" class="form-control" type="text" id="Tamanho-1" required />
+                        <input required asp-for="DescImg" class="form-control" type="text" id="Tamanho-1" required />
                     </div>
 
                     <!-- Tamanho -->
                     <div class="col-md-6">
                         <label asp-for="Tamanho" class="form-label">Tamanho:</label>
-                        <input asp-for="Tamanho" class="form-control" type="text" id="tamanho" required />
+                        <input required asp-for="Tamanho" class="form-control" type="text" id="tamanho" required />
                     </div>
 
                     <!-- Tecido -->
@@ -51,19 +53,19 @@
                     <!-- Cor -->
                     <div class="col-md-6">
                         <label asp-for="Cor" class="form-label">Cor:</label>
-                        <input asp-for="Cor" class="form-control" type="text" id="tamanho" required />
+                        <input required asp-for="Cor" class="form-control" type="text" id="tamanho" required />
                     </div>
 
                     <!-- Quantidade -->
                     <div class="col-md-6">
-                        <label asp-for="Quantidade" class="form-label">Quantidade:</label>
-                        <input asp-for="Quantidade" class="form-control" type="text" id="tamanho" required />
+                        <label  asp-for="Quantidade" class="form-label">Quantidade:</label>
+                        <input required asp-for="Quantidade" class="form-control" type="text" id="tamanho" required />
                     </div>
 
                     <!-- Valor -->
                     <div class="col-md-6">
                         <label asp-for="Valor" class="form-label">Total:</label>
-                        <input asp-for="Valor" class="form-control" type="text" id="Txtotal" required />
+                        <input required asp-for="Valor" placeholder="R$" class="form-control" type="text" id="Txtotal" required />
                     </div>
                 </div>
 
@@ -76,3 +78,5 @@
     </div>
 </div>
 <script src="~/js/personalizar.js"></script>
+
+<script src="~/js/AlertCad.js"></script>
