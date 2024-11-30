@@ -45,7 +45,11 @@ namespace CustomClothing.Controllers
         {
             return View(_cookiesCarrinhoCompra.Consultar());
         }
-
+        public IActionResult LimparCarrinho()
+        {
+            _cookiesCarrinhoCompra.Removertodos();
+            return RedirectToAction("Index", "Home");
+        }
         public IActionResult RemoverItem(int id)
         {
             _cookiesCarrinhoCompra.Remover(new Produto() { IdProduto = id });
@@ -62,7 +66,7 @@ namespace CustomClothing.Controllers
         }
         public IActionResult SalvarCarrinho()
         {
-            return RedirectToAction(nameof(Finalizada));  ;
+            return RedirectToAction(nameof(Finalizada)); 
         }
     }
 }

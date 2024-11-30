@@ -4,13 +4,10 @@
     ViewData["Title"] = "Carrinho de Compras";
     decimal Subtotal = Model.Sum(item => item.Quantidade * item.Valor); // Cálculo do subtotal
 }
-<<<<<<< HEAD
 <div class="container">
-=======
 
 <div class="container py-5">
     <!-- Cabeçalho -->
->>>>>>> c2633059a086c52ff8fcb1984920b1346276d6e7
     <section id="order">
         <h2 class="text-center mb-4">Carrinho de Compras</h2>
 
@@ -47,6 +44,7 @@
                             <td>
                                 <input type="hidden" class="inputProdutoId" value="@item.IdProduto" />
                                 <input type="hidden" class="inputQuantidadeEstoque" value="@item.Quantidade" />
+                                <input type="hidden" class="inputQuantidadeEstoque" value="@item.Quantidade" />
                                 <input type="hidden" class="inputValorUnitario" value="@item.Valor" />
                                 <input type="text" style="width: 60px; text-align: center;" readonly class="form-control inputQuantidadeProdutoCarrinho" value="@item.Quantidade" />
                             </td>
@@ -74,13 +72,15 @@
         </div>
         <div class="row mt-3">
             <div class="col-md-6 text-center">
-                <a class="btn btn-outline-primary w-100" asp-action="SalvarCarrinho" asp-controller="Compra">
-                    Finalizar o Empréstimo
+                    <a style=" background-color:#1C003F; margin-bottom: 100px" class="btn btn-primary bg-custom w-80"
+                    class="btn btn-outline-primary w-100" asp-action="SalvarCarrinho" asp-controller="Compra">
+                    Finalizar Compra
                 </a>
             </div>
             <div class="col-md-6 text-center">
-                <a class="btn btn-outline-secondary w-100" asp-action="Produto" asp-controller="Produto">
-                    Voltar para o Produto
+                    <a style=" background-color:#1C003F; margin-bottom: 70px" class="btn btn-primary bg-custom w-80"
+                    class="btn btn-outline-secondary w-100" asp-action="Produto" asp-controller="Produto">
+                    Ver mais Produtos
                 </a>
             </div>
         </div>
