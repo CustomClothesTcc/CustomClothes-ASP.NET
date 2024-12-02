@@ -28,7 +28,7 @@ builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
     //Definir um tempo para duração.
-    options.IdleTimeout = TimeSpan.FromSeconds(60);
+    options.IdleTimeout = TimeSpan.FromSeconds(900);
     options.Cookie.HttpOnly = true;
     //Mostrar para o navegador que o cookie é essencial
     options.Cookie.IsEssential = true;
