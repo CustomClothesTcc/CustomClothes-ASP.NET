@@ -43,41 +43,49 @@
                 </button>
             </div>
             <div class="divGuia">
-                <li class="nav-item dropdown" style="list-style: none">
+                <ul class="list-unstyled text-center">
                     @if (_loginCliente.GetCliente() != null)
                     {
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">@_loginCliente.GetCliente().Nome</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/Login/PerfilCliente">Meus Perfil</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="/Login/LogoutCliente">Sair</a></li>
-                        </ul>
+                        <li>
+                            <a class="nav-link fw-bold small text-primary" href="#">
+                                @_loginCliente.GetCliente().Nome
+                            </a>
+                        </li>
+                        <li><hr class="my-1"></li>
+                        <li>
+                            <a class="nav-link small text-secondary" href="/Login/PerfilCliente">
+                                Meus Perfil
+                            </a>
+                        </li>
+                        <li><hr class="my-1"></li>
+                        <li>
+                            <a class="nav-link small text-danger" href="/Login/LogoutCliente">
+                                Sair
+                            </a>
+                        </li>
                     }
                     else
                     {
-                        <div class="menu-hamburguer" id="menuHamburguer">
-                            <a class="nav-link" href="/Login/Login">
-                                <i class="fas fa-user-alt"></i>
-                                Login
+                        <li>
+                            <a class="nav-link text-center small" href="/Login/Login">
+                                <i class="bi bi-person-fill"></i> Login
                             </a>
-                        </div>
-
+                        </li>
                     }
-                </li>
-
+                </ul>
                 <!-- Menu Hambúrguer -->
                 <button class="menu-btn" onclick="toggleMenu()">
                     <i class="bi bi-list"></i>
-
                 </button>
                 <div class="menu-hamburguer" id="menuHamburguer">
                     <a asp-area="" asp-controller="Compra" asp-action="Carrinho">
                         <i class="bi bi-cart3"></i>
                     </a>
                 </div>
-
-
             </div>
+            </div>
+
+
         </div>
         <nav>
             <a asp-area="" asp-controller="Home" asp-action="Index">INÍCIO</a>
